@@ -1,13 +1,14 @@
 /* Code for customization for KEFA ONLY */
 
+section {
+    background: #122742;
+    color: antiquewhite;
+}
+
 nav {
     background: #122742;
     border-bottom: antiquewhite;
     justify-content: space-around;
-}
-
-nav a {
-    color: antiquewhite;
 }
 
 nav ul li a {
@@ -15,37 +16,75 @@ nav ul li a {
 }
 
 nav ul li {
-    padding: .9em;
+    padding-left: .9em;
+    padding-right: .9em;
     font-weight: 600;
+    font-size: 18px;
 }
 
 #ForeContent {
     background: #122742;
     height: 40vh;
     color:white;
-}
-
-/* #ForeImg {
-    background-image: url(../../img/Hero-Shot.jpg);
-    height:50vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    max-width: 100%;
     
-} */
+}
 
 #ForeImg {
-    height:40vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-#ForeHeading {
-    font-weight: bold;
+#HeadingFore {
+    font-weight: bolder;
+    font-size: 42px;
 }
 
+#Heading5 {
+    font-size: 25px ;
+    line-height: 1.35;
+    letter-spacing: -.7px;
+}
+
+#Heading2 {
+    font-weight: bolder;
+}
+
+#subheading2 {
+    font-size: 22px;
+}
+
+#about {
+    height: auto;
+}
+
+.card {
+    background-color: #122742;
+    border: none;
+}
+
+.card-text {
+    font-size: 19px;
+}
+
+.card-footer a {
+    font-size: 19px;
+    color:#f54b4b;
+}
+
+
+@media only screen and (max-width: 600px) {
+    h2 {
+        font-size: 28px;
+        text-align: left;
+    }
+
+    #Heading5 {
+        font-size: 20px;
+        line-height: 1.2;
+
+    }
+  }
 
 
 
