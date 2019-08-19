@@ -42,12 +42,11 @@ nav ul li {
 
 #Heading5 {
     font-size: 25px ;
-    line-height: 1.35;
-    letter-spacing: -.7px;
 }
 
 #Heading2 {
     font-weight: bolder;
+    font-size: 38px;
 }
 
 #subheading2 {
@@ -56,11 +55,14 @@ nav ul li {
 
 #about {
     height: auto;
+    padding-top: 128px;
+    padding-bottom: 70px;
 }
 
 .card {
     background-color: #122742;
     border: none;
+    padding: 32px
 }
 
 .card-text {
@@ -70,6 +72,12 @@ nav ul li {
 .card-footer a {
     font-size: 19px;
     color:#f54b4b;
+}
+
+
+.card-img-top {
+    width: 50px;
+    height: 50px;
 }
 
 
