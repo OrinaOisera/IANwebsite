@@ -14,10 +14,39 @@ nav ul li a {
     color: antiquewhite;
 }
 
+nav ul li {
+    padding: .9em;
+    font-weight: 600;
+}
+
 #ForeContent {
     background: #122742;
     height: 40vh;
     color:white;
 }
+
+/* #ForeImg {
+    background-image: url(../../img/Hero-Shot.jpg);
+    height:50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    
+} */
+
+#ForeImg {
+    height:40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#ForeHeading {
+    font-weight: bold;
+}
+
+
+
 
 
