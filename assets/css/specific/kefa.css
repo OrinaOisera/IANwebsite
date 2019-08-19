@@ -2,6 +2,8 @@
 
 nav {
     background: #122742;
+    border-bottom: antiquewhite;
+    justify-content: space-around;
 }
 
 nav a {
@@ -10,6 +12,12 @@ nav a {
 
 nav ul li a {
     color: antiquewhite;
+}
+
+#ForeContent {
+    background: #122742;
+    height: 40vh;
+    color:white;
 }
 
 

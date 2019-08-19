@@ -12,7 +12,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="assets/css/specific/kefa.css">
     <link rel="stylesheet" href="assets/css/specific/hosea.css">
 
@@ -22,7 +23,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg static-top">
+    <nav class="navbar navbar-expand-lg static-top shadow-sm">
         <div class="container">
             <a class="navbar-brand" href="#">Impact Africa</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -30,7 +31,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto" style="color: white">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home
                             <span class="sr-only">(current)</span>
@@ -50,19 +51,26 @@
         </div>
     </nav>
 
-    <!-- Page Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1 class="mt-5">A Bootstrap 4 Starter Template</h1>
-                <p class="lead">Complete with pre-defined file paths and responsive navigation!</p>
-                <ul class="list-unstyled">
-                    <li>Bootstrap 4.3.1</li>
-                    <li>jQuery 3.4.1</li>
-                </ul>
+    <!--Fore Content -->
+    <section class="d-flex align-items-center" id="ForeContent">
+        <div class="container">
+            <div class=" row justify-content-center">  
+                <h2 class="col-md-4 pr-5">Changing the <br> African narrative</h2>
+                <h5 class="col-md-8 pr-5">We’re a startup studio on a mission to ensure that <br> 
+                    local talent has a chance at participating in the digital <br> 
+                    transfomation of Africa as creators and owners, <br> not just consumers</h5>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!--Fore Image-->
+    <section style="background:blueviolet; height: 50vh;">
+        
+        <!-- <div id="#homepage" class="img-fluid" style=" background:linear-gradient(rgba(102, 51, 153, 0.9), rgba(22, 160, 133,0.9))"></div> -->
+
+    </section>
+
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
