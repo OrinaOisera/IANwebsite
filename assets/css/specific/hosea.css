@@ -1,4 +1,27 @@
 /* Code for customization for Hosea ONLY */
-.jaribu{
-    color: aliceblue;
+.why-africa-bigpicture-section{
+    padding: 35px 5px 35px 5px;
+}
+.why-africa-bigpicture-div1{
+    margin-bottom:35px;
+}
+.why-africa-mambo{
+    margin-top:10px;
+    font-size:2.5vh;
+    font-family: 'Lato', sans-serif;
+    color:black;
+    padding:0px
+  }
+.why-africa-bigpicture-div2{
+    margin-bottom:25px;
+}
+.why-africa-bigpicture-div3{
+    opacity:0.8;
+}
+.why-africa-bigpicture-img1div{
+    overflow: unset;
+}
+.why-africa-bigpicture-bigpicture-icon{
+    height:110px;width:110px;opacity:0.8;
+
 }
