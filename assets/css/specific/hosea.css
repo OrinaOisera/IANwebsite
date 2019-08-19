@@ -2,6 +2,9 @@
 .why-africa-bigpicture-section{
     padding: 35px 5px 35px 5px;
 }
+.why-africa-bigpicture-section-2{
+    background:#f7f7f7;
+}
 .why-africa-bigpicture-div1{
     margin-bottom:35px;
 }
@@ -21,8 +24,11 @@
 .why-africa-bigpicture-img1div{
     overflow: unset;
 }
-.why-africa-bigpicture-bigpicture-icon{
-    height:110px;width:110px;opacity:0.8;
+.why-africa-bigpicture-icon{
+    height:110px;
+    width:110px;
+    opacity:0.8;
+    border:blue; 
 
 }
 .why-africa-98percent{
@@ -31,9 +37,120 @@
 }
 .why-africa-highrate{
     margin-top:10px;
-    opacity:0.5 
+    /* opacity:0.5  */
 }
 .why-africa-19{
     font-weight:700;
     font-size:9.5vh
 }
+.eco{
+    font-weight:lighter;
+    border:3px solid #fff;
+    border-right:transparent;
+    padding:10px;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+    color:#00ff00bb
+}
+
+.gapp{
+    font-weight:bold;
+    border:3px solid #00ff00bb;
+    border-left:transparent;
+    padding:10px;
+    border-bottom-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:5px
+}
+.fa-exclamation-triangle-style{
+    color:red;
+    opacity:0.5;
+    font-size:12px
+}
+.solutionicon{
+    width:16vh;
+    margin:10px 0px 10px 0px;
+}
+.objectiveicon{
+    height:15vh;
+    width:15vh;
+}
+#objectiverow{
+    padding:40px 0px 0px 0px;
+}
+.extra-bolder{
+    font-weight:700;
+  }
+  p{
+    font-weight:lighter;
+  }
+  #ecosystemgap{
+    padding-top:40px;
+    text-align:left;
+    font-size:35px;
+    margin-bottom:40px
+  }
+  #solutionrow{
+    padding-top:40px;
+  }
+  @media only screen and (max-width: 600px) {
+    h2 {
+      text-align: center;
+    }
+    h3 {
+        text-align: center;
+      }
+    
+  }
+  .ourwork-descriptor{
+    font-weight:lighter;
+    margin-top:0px;
+    padding-bottom:15px;
+    opacity:0.55;
+    padding-bottom:35px;
+  }
+  .our-workheader{
+    padding-top:35px;
+  }
+  .image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .image-text-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Lato', sans-serif;
+    border-top:3px solid white;
+    font-size:2.5vh;
+    padding:5px;
+    border-bottom:3px solid white;
+    transform: translate(-50%, -50%);
+    transition: ease-in-out 0.2s;
+    color:white;
+    font-weight:bold
+  }
+  
+  .image-text-centered:hover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Lato', sans-serif;
+    border-left:3px solid white;
+    font-size:2.5vh;
+    padding:5px;
+    transition: ease-in-out 0.2s;
+    border-right:3px solid white;
+    transform: translate(-50%, -50%);
+  }
+  .our-work-image{
+    height:35vh;
+    border-radius:3px;
+    width:100%;
+  }
+  .ourworklink{
+    text-decoration:none;
+    color:#666666;
+  }
