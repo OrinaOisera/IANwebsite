@@ -3,3 +3,22 @@
 @import 'specific/kepha.css';
 @import 'specific/hosea.css';
 @import '';
+
+body {
+    font-family: 'Lato', 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 1.62em;
+}
+
+.team-profile {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 280px;
+}
