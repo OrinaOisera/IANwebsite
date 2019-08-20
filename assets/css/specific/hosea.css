@@ -154,3 +154,30 @@
     text-decoration:none;
     color:#666666;
   }
+  .image-text-bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  .image-text-top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    padding: 5px ;
+    color: white;
+  }
+  .image-text-top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color:white;
+  }
+  
+  .image-text-bottom-right {
+    position: absolute;
+      bottom: 8px;
+      right: 16px;
+      font-size:2vh;
+      padding:0px;
+  }
