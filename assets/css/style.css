@@ -22,3 +22,26 @@ body {
 .logo {
     width: 280px;
 }
+
+
+section {
+    background: #122742;
+    color: antiquewhite;
+}
+
+nav {
+    background: #122742;
+    border-bottom: antiquewhite;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: antiquewhite;
+}
+
+nav ul li {
+    padding-left: .9em;
+    padding-right: .9em;
+    font-weight: 600;
+    font-size: 18px;
+}
