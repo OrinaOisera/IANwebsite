@@ -2,9 +2,6 @@
 .why-africa-bigpicture-section{
     padding: 35px 5px 35px 5px;
 }
-.why-africa-bigpicture-section-2{
-    background:#f7f7f7;
-}
 .why-africa-bigpicture-div1{
     margin-bottom:35px;
 }
@@ -12,7 +9,7 @@
     margin-top:10px;
     font-size:2.5vh;
     font-family: 'Lato', sans-serif;
-    color:black;
+    color:white;
     padding:0px
   }
 .why-africa-bigpicture-div2{
@@ -82,36 +79,36 @@
 .extra-bolder{
     font-weight:700;
   }
-  p{
-    font-weight:lighter;
-  }
-  #ecosystemgap{
-    padding-top:40px;
-    text-align:left;
-    font-size:35px;
-    margin-bottom:40px
-  }
-  #solutionrow{
-    padding-top:40px;
-  }
-  @media only screen and (max-width: 600px) {
-    h2 {
-      text-align: center;
+p{
+font-weight:lighter;
+}
+#ecosystemgap{
+padding-top:40px;
+text-align:left;
+font-size:35px;
+margin-bottom:40px
+}
+#solutionrow{
+padding-top:40px;
+}
+@media only screen and (max-width: 600px) {
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
     }
-    h3 {
-        text-align: center;
-      }
-    
-  }
+
+}
   .ourwork-descriptor{
     font-weight:lighter;
     margin-top:0px;
-    padding-bottom:15px;
+    padding-bottom:40px;
     opacity:0.55;
     padding-bottom:35px;
   }
   .our-workheader{
-    padding-top:35px;
+    padding-top:40px;
   }
   .image-container {
     position: relative;
@@ -181,3 +178,18 @@
       font-size:2vh;
       padding:0px;
   }
+  .image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+@media only screen and (max-width: 600px) {
+    .image-container {
+        position: relative;
+        text-align: center;
+        color: white;
+        padding-bottom: 10px;
+      }
+}
+    
+  
