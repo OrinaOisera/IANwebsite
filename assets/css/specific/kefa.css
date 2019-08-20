@@ -94,6 +94,35 @@ nav ul li {
     }
   }
 
+  #teamNames {
+    font-size: 14px; 
+    font-weight: 400;
+    margin-bottom: 0px;
+  }
 
+  #teamRole {
+      opacity: .5;
+      font-size: 14px;
+  }
 
+.line {
+    height: 1px;
+    clear: both;
+    border-top: 1px solid hsla(0,0%,100%,.15);
+    border-radius: 0;
+    opacity: 1;
+    padding: 48px 64px;
+    background-color: transparent;
+}
+
+.team-board {
+    width: 80%;
+    margin-bottom: 10px;
+    height: 60%;
+}
+
+.img-placeholder {
+    background: rgb(97, 121, 128); 
+    border: none;
+}
 
