@@ -22,6 +22,17 @@ nav ul li {
     font-size: 18px;
 }
 
+.support-btn {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.subscribe-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: antiquewhite
+}
+
 #ForeContent {
     background: #122742;
     height: 40vh;
@@ -122,10 +133,20 @@ nav ul li {
     background-color: transparent;
 }
 
+.line-between {
+    height: 1px;
+    clear: both;
+    border-top: 1px solid hsla(0,0%,100%,.15);
+    border-radius: 0;
+    opacity: 1;
+    padding: 26px 64px;
+    background-color: transparent; 
+}
+
 .team-board {
     width: 80%;
     margin-bottom: 10px;
-    height: fit-content;
+    height: auto;
 }
 
 .card-work {
@@ -137,3 +158,18 @@ nav ul li {
     opacity: .8; 
     color:#f7a66e;
 }
+
+.work-tag {
+    color: #30a953;
+    font-weight: bold
+}
+
+.sub_footer {
+    background: #010911;
+}
+
+.footer {
+    background: #0a0b0c;
+}
+
+
