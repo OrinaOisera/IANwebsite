@@ -322,4 +322,15 @@ h3 {
     padding:56.25% 0 0 0;
     position:relative;
   }
-  
+  .cause-div-4{
+    background:#c4f09b!important;
+  }
+  .cause-card{
+    height:300px;
+    max-width: 18rem;
+  }
+  .cause-testimonial-img{
+    border-radius: 50%;
+    height: auto;
+    max-width: 200px;
+  }
