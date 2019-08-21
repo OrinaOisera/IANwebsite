@@ -283,9 +283,9 @@ h3 {
   .descriptor-div{
       padding-bottom:0px;
   }
-  section{
+  /* section{
     background-color: white !important;
-  }
+  } */
   .p-cause{
     color:black !important;
   }
