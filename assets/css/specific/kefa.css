@@ -50,7 +50,8 @@ nav ul li {
 }
 
 #subheading2 {
-    font-size: 22px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 #about {
@@ -62,7 +63,8 @@ nav ul li {
 .card {
     background-color: #122742;
     border: none;
-    padding: 32px
+    /* padding: 32px */
+    padding: 25px;
 }
 
 .card-text {

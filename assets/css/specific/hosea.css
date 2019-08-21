@@ -283,18 +283,30 @@ h3 {
   .descriptor-div{
       padding-bottom:0px;
   }
-  /* section{
-    background-color: white !important;
-  } */
-  .p-cause{
-    color:black !important;
+
+
+  /* This code overides the section color every where. Assign that section an id and add a color. */
+  .section_cause{
+    background-color: white ;
   }
+
+
+  .p-cause{
+    color:rgb(49, 47, 47) !important;
+  }
+  
+  .p-cause-header {
+    font-weight: 700;
+  }
+
   /* .cause-div{
     padding-top:150px;
-  } */
-  /* .collage-div{
+  }
+  .collage-div{
     padding-top:10px;
   } */
+
+
   .cause-div-2{
     background: #eff3f9 !important;
     padding-bottom:10px;
