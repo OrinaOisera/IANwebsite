@@ -30,7 +30,11 @@ nav ul li {
 .subscribe-btn {
     font-weight: 600;
     font-size: 20px;
-    color: antiquewhite
+    color: antiquewhite;
+    border-radius: 50px;
+    background: #f54b4b;
+    border: #f7a66e;
+    text-transform: uppercase;
 }
 
 #ForeContent {
@@ -165,11 +169,11 @@ nav ul li {
 }
 
 .sub_footer {
-    background: #010911;
+    background: #010c16;
 }
 
 .footer {
-    background: #0a0b0c;
+    background: #00070e;
 }
 
 
