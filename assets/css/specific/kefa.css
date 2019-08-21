@@ -125,10 +125,15 @@ nav ul li {
 .team-board {
     width: 80%;
     margin-bottom: 10px;
-    height: 60%;
+    height: fit-content;
 }
 
 .card-work {
     opacity: .5;
     font-size: 1em;
+}
+
+#See_latest {
+    opacity: .8; 
+    color:#f7a66e;
 }
