@@ -159,7 +159,10 @@ nav ul li {
 }
 
 .card-hover:hover {
-    box-shadow: rgb(102, 101, 101, 0.5);
+    background: #051524;
+}
+
+.card-medium {
     background: #051524;
 }
 
