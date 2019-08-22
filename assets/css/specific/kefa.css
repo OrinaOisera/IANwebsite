@@ -178,6 +178,29 @@ nav ul li {
     background: rgba(245, 75, 75, .2);
 }
 
+.img-hover:hover .image {
+    opacity: 1;
+    
+}
+
+.image {
+    opacity: .8;
+    position: relative;
+}
+
+.btn-people {
+    position: absolute;
+    top: 8%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    background-color: lightcoral;
+    font-size: .95em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
 
 #See_latest {
     opacity: .8; 
