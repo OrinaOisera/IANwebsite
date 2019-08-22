@@ -316,10 +316,10 @@ h3 {
     height:auto;
     max-width:70%
   }
-  .cause-div-3{
+  /* .cause-div-3{
     padding-bottom:100px;
     padding-top:20px;
-  }
+  } */
   #video-div{
     padding-top:40px;
   }
@@ -470,5 +470,59 @@ h3 {
   }
   .card-hover:hover {
 }
-  
-  
+.Founder-title{
+  font-family: Playfair Display;
+  font-style: italic;
+  color: #856001;
+
+}
+.Founder-title-2{
+  font-family: Playfair Display;
+  font-style: italic;
+  color:#fde39f;
+
+}
+.founderpage-section{
+  background: white;
+  color: black;
+}
+#ForeImg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  width:100%;
+}
+.image-container{
+  position: relative;
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.signup-button{
+ background:  #fcd15b;
+ color:white;
+ border-radius: 25px;
+}
+.Founder-title-3{
+  font-family: Playfair Display;
+  font-style: italic;
+  color:black;
+}
+.founderpage-section-2{
+  background: #ffffff;
+  color: black;
+}
+.founderpage-section-3{
+  background: #f8f8f8;
+  color: black;
+ 
+}
+.card-img-2{
+ width: 180px;
+ height: auto;
+}
