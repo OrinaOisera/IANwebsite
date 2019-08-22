@@ -153,9 +153,14 @@ nav ul li {
     height: auto;
 }
 
-.card-work {
+.text-work {
     opacity: .5;
     font-size: 1em;
+}
+
+.card-hover:hover {
+    box-shadow: rgb(102, 101, 101, 0.5);
+    background: #051524;
 }
 
 #See_latest {
