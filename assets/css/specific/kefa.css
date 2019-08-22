@@ -162,9 +162,22 @@ nav ul li {
     background: #051524;
 }
 
-.card-medium {
-    background: #051524;
+.card-medium:hover {
+    background: rgba(38, 94, 66, .5);
 }
+
+.card-twitter:hover {
+    background: rgba(83, 83, 161, .5) 
+}
+
+.card-linkedin:hover {
+    background: rgba(15, 6, 66, .5)
+}
+
+.card-youtube:hover {
+    background: rgba(245, 75, 75, .2);
+}
+
 
 #See_latest {
     opacity: .8; 
