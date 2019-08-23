@@ -190,16 +190,19 @@ nav ul li {
 
 .btn-people {
     position: absolute;
-    top: 8%;
+    top: 10%;
     left: 75%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    color: white;
-    background-color: lightcoral;
     font-size: .95em;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    height: 30px;
+    width: 40px;
+}
+
+.modal {
+    color: rgb(25, 27, 29, .8);
 }
 
 #See_latest {
