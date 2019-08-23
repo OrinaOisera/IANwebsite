@@ -184,7 +184,7 @@ nav ul li {
 }
 
 .image {
-    opacity: .8;
+    opacity: .9;
     position: relative;
 }
 
@@ -203,6 +203,46 @@ nav ul li {
 
 .modal {
     color: rgb(25, 27, 29, .8);
+}
+
+.list-footer {
+    list-style-type: none;
+}
+
+.list-footer li {
+    color: #8e8e8e;
+}
+
+.list-footer a{
+    text-decoration: none;
+}
+
+.list-footer li:hover {
+    color:orange;
+}
+
+.heading-footer {
+    font-size: 1.1em;
+    margin-bottom: .9em;
+    text-align: left;
+    font-weight: 600;
+}
+
+.sub_footer-col {
+    border-right: #3a3a3a dotted 2px;
+}
+
+.footer-location {
+    border-top: #3a3a3a dotted 2px;
+}
+
+#maps {
+    color: #8e8e8e;
+    text-decoration: none;
+}
+
+#maps:hover {
+    color: orange;
 }
 
 #See_latest {
