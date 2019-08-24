@@ -75,32 +75,37 @@
     height:15vh;
     width:15vh;
 }
-#objectiverow{
+#objectiverow {
     padding:40px 0px 0px 0px;
 }
-.extra-bolder{
+.extra-bolder {
     font-weight:700;
   }
-p{
-font-weight:lighter;
-color:white;
+
+p {
+  font-weight:lighter;
+  color:white;
 }
-#ecosystemgap{
-padding-top:40px;
-text-align:left;
-font-size:35px;
-margin-bottom:40px
+
+#ecosystemgap {
+  padding-top:40px;
+  text-align:left;
+  font-size:35px;
+  margin-bottom:40px
 }
-#solutionrow{
-padding-top:40px;
+
+#solutionrow {
+  padding-top:40px;
 }
+
 @media only screen and (max-width: 600px) {
 h2 {
     text-align: center;
 }
+
 h3 {
-    text-align: center;
-    }
+  text-align: center;
+}
 
 }
   .ourwork-descriptor{

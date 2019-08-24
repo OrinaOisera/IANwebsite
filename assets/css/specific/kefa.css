@@ -184,7 +184,7 @@ nav ul li {
 }
 
 .image {
-    opacity: .9;
+    opacity: .8;
     position: relative;
 }
 
@@ -250,6 +250,10 @@ nav ul li {
     color:#f7a66e;
 }
 
+#See_latest:hover {
+    color:orange;
+}
+
 .work-tag {
     color: #30a953;
     font-weight: bold
@@ -264,3 +268,24 @@ nav ul li {
 }
 
 
+/* css for intern program */
+
+.section-intern-fore {
+    background: #eff3f9;
+    color: rgb(49, 47, 47);
+    height: 80vh;
+}
+
+.section-intern-about {
+    background: white;
+    color: rgb(49, 47, 47);
+    height: 20vh;
+}
+
+.img-intern {
+    box-shadow: rgb(135, 147, 153) 10px 10px 40px 20px;
+}
+
+.btn-apply {
+    border-radius: 50px;
+}
