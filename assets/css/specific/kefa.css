@@ -25,6 +25,7 @@ nav ul li {
 .support-btn {
     font-weight: 600;
     font-size: 18px;
+    border-radius: 50px;
 }
 
 .subscribe-btn {
@@ -116,7 +117,11 @@ nav ul li {
         line-height: 1.2;
 
     }
-  }
+
+    .img-benefits {
+        height:auto;
+    }
+}
 
   #teamNames {
     font-weight: 400;
@@ -130,7 +135,7 @@ nav ul li {
 .line {
     height: 1px;
     clear: both;
-    border-top: 1px solid hsla(0,0%,100%,.15);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 0;
     opacity: 1;
     padding: 48px 64px;
@@ -140,7 +145,7 @@ nav ul li {
 .line-between {
     height: 1px;
     clear: both;
-    border-top: 1px solid hsla(0,0%,100%,.15);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 0;
     opacity: 1;
     padding: 26px 64px;
@@ -279,7 +284,7 @@ nav ul li {
 .section-intern-about {
     background: white;
     color: rgb(49, 47, 47);
-    height: 20vh;
+    height: auto;
 }
 
 .img-intern {
@@ -288,4 +293,57 @@ nav ul li {
 
 .btn-apply {
     border-radius: 50px;
+    background: #e9443c;
+    border: none;
+}
+
+.card-intern {
+    background: whitesmoke ;
+    color: #010c16;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.card-intern h5 {
+    font-weight: bold; 
+    font-size: 1.2em;
+    color: rgb(49, 47, 47);
+}
+
+.card-intern p {
+    font-size: 1.1em;
+}
+
+.section-intern-card {
+    padding: 30px;
+}
+
+.card-img-intern {
+    width: 80px;
+    height: 80px;
+}
+
+.section-intern-benefits {
+    background: rgb(250, 254, 255);
+    color: rgb(49, 47, 47);
+}
+
+.section-intern-benefits .container h5 {
+    font-weight: bold;
+    font-size: 1em;
+    color: rgb(49, 47, 47);
+}
+
+.img-benefits {
+    height: 300px;
+}
+
+.line-benefits {
+    height: 1px;
+    clear: both;
+    border-top: 1px dotted rgba(8, 8, 8, 0.15);
+    border-radius: 0;
+    opacity: 1;
+    padding: 20px 30px;
+    background-color: transparent; 
 }
