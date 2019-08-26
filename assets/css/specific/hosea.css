@@ -113,10 +113,11 @@ h3 {
     margin-top:0px;
     padding-bottom:60px;
     opacity:0.55;
+    color:black;
 
   }
   .our-workheader{
-    padding-top:60px;
+    
   }
   .image-container {
     position: relative;
@@ -530,4 +531,30 @@ h3 {
 .card-img-2{
  width: 180px;
  height: auto;
+}
+.foundersicon{
+  width:80px;
+  height: auto;
+}
+.alignicon-right{
+  padding-left: 150px;
+}
+.alignicon-left{
+  padding-left: 250px;
+}
+.foundercardimgbg{
+  background: #fcd670;
+  color:white;
+}
+.card-name{
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+.cardimg-3{
+  width:150px;
+  height:auto;
+}
+.overlaydiv{
+  z-index: 0;
+  position:relative;
 }
