@@ -280,6 +280,18 @@ nav ul li {
     color: orange;
 }
 
+.support-btn-footer {
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 50px;
+    color: white;
+}
+
+.email-links {
+    color: azure;
+}
+
+
 
 /* css for intern program */
 
@@ -303,6 +315,10 @@ nav ul li {
     border-radius: 50px;
     background: #e9443c;
     border: none;
+}
+
+.btn-apply-secondary {
+    border-radius: 50px;
 }
 
 .card-intern {
@@ -399,7 +415,7 @@ nav ul li {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #e9443c;
+    background-color: rgba(233, 68, 60, 0.6);
 }
 
 .sm-icons {
@@ -416,6 +432,7 @@ nav ul li {
   }
 
 .img-interns:hover .imghvr{
-    opacity: .5;
+    opacity: 1;
 }
+
 
