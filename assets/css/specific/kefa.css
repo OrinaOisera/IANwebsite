@@ -310,7 +310,7 @@ nav ul li {
     left: 50%;
     font-family: 'Lato', sans-serif;
     border-top: 3px solid white;
-    font-size: ;
+    
     padding: 5px;
     border-bottom: 3px solid white;
     transform: translate(-50%, -50%);
@@ -335,7 +335,7 @@ nav ul li {
 }
 
 .img-intern {
-    box-shadow: rgb(135, 147, 153) 10px 10px 40px 20px;
+    box-shadow:rgb(175, 191, 199) 3px 3px 5px 4px
 }
 
 .btn-apply {
@@ -462,4 +462,65 @@ nav ul li {
     opacity: 1;
 }
 
+
+
+/* css for power speaker series */
+
+.bg-image-fore {
+    background: linear-gradient(rgba(0, 113, 165,0.5), rgba(216, 37, 94,0.75)),url("../../img/sideview.jpeg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 65vh;
+    width: 100%
+}
+
+.icon-mic {
+    font-size: xx-large;
+}
+
+.power-event1 {
+    background: #fff;
+    color: rgb(49, 47, 47);
+}
+
+.btn-power {
+    border-radius: 50px;
+}
+
+.btn-power span {
+    font-weight: 500;
+    color: #3a3a3a;
+}
+
+.text-scott {
+    font-size: .85em;
+}
+
+.gallery{
+    background: #122742;
+    height: auto;
+}
+
+.img-chacon {
+    height: 180px;
+    width: 302px;
+    object-fit: contain;
+    
+}
+
+.row-gallery{
+    display: none;
+}
+
+#load {
+    color: white;
+    border-radius: 0;
+    border-color: #eff3f9;
+}
+
+.power-event2 {
+    background: #eff3f9;
+    color: rgb(49, 47, 47);
+}
 
