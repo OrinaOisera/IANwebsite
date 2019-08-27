@@ -388,6 +388,7 @@ nav ul li {
 
 .img-benefits {
     height: 300px;
+    object-fit: contain;
 }
 
 .line-benefits {
@@ -480,12 +481,13 @@ nav ul li {
 }
 
 .power-event1 {
-    background: #fff;
+    background: #eff3f9;
     color: rgb(49, 47, 47);
 }
 
 .btn-power {
     border-radius: 50px;
+    font-size: 18px;
 }
 
 .btn-power span {
@@ -503,7 +505,7 @@ nav ul li {
 }
 
 .img-chacon {
-    height: 180px;
+    height: 160px;
     width: 302px;
     object-fit: contain;
     
@@ -524,3 +526,28 @@ nav ul li {
     color: rgb(49, 47, 47);
 }
 
+.img-sameer-evt{
+    height: 306px;
+    object-fit: contain;
+}
+
+.row-gallery2{
+    display: none;
+}
+
+#load2 {
+    color: white;
+    border-radius: 0;
+    border-color: #eff3f9;
+}
+
+.img-sameer {
+    height: 170px;
+    object-fit: contain;
+}
+
+.power-subscribe {
+    background: #eff3f9;
+    color: rgb(49, 47, 47); 
+    height: 40vh;
+}

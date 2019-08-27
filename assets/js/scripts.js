@@ -10,14 +10,27 @@ $(".card-hover").click(function() {
     return false;
   });
 
+//Load more fxn for chacon gallery
+$(function(){
+  $(".row-gallery").slice(0, 2).show(); // select the first two divs
+  $("#load").click(function(e){ // click event for load more
+      e.preventDefault();
+      $(".row-gallery:hidden").slice(0, 1).show(); // select next 2 hidden divs and show them
+      if($(".row-gallery:hidden").length == 0){ // check if any hidden divs still exist
+        $("#load").hide() //hide button
+      }
+  });
+});
 
-  $(function(){
-    $(".row-gallery").slice(0, 2).show(); // select the first two divs
-    $("#load").click(function(e){ // click event for load more
-        e.preventDefault();
-        $(".row-gallery:hidden").slice(0, 1).show(); // select next 2 hidden divs and show them
-        if($(".row-gallery:hidden").length == 0){ // check if any hidden divs still exist
-          $("#load").hide() //hide button
-        }
-    });
+
+//Load more fxn for Sameer gallery
+$(function(){
+  $(".row-gallery2").slice(0, 2).show(); // select the first two divs
+  $("#load2").click(function(e){ // click event for load more
+      e.preventDefault();
+      $(".row-gallery2:hidden").slice(0, 1).show(); // select next 2 hidden divs and show them
+      if($(".row-gallery2:hidden").length == 0){ // check if any hidden divs still exist
+        $("#load2").hide() //hide button
+      }
+  });
 });
