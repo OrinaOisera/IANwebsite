@@ -569,10 +569,6 @@ nav ul li {
 }
 
 .projects-lifecycle {
-    height: auto;
-}
-
-.projects-lifecycle {
     background: #eff3f9;
     color: #3a3a3a;
     height: 100%;
@@ -642,4 +638,43 @@ nav ul li {
 
 .projects-text {
     font-weight: 500;
+}
+
+.product-video {
+    display: none;
+
+}
+
+
+/* css for future page */
+
+.bg-future-fore {
+    /* background: linear-gradient(rgba(0, 113, 165,0.5), rgba(216, 37, 94,0.75)),url("../../img/ProductDev.jpg"); */
+    /* background: linear-gradient(rgba(0, 113, 165,0.5), rgba(216, 37, 94,0.75)), url("../../img/Nairobi2.jpg"); */
+    background: linear-gradient(rgba(243, 144, 79, .7), rgba(12, 12, 14, 0.8)), url("../../img/Nairobi-savannah.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+    object-fit: contain;
+}
+
+.icon-rocket {
+    font-size: xx-large;
+    opacity: .5;
+}
+
+.future-section {
+    background: #eff3f9;
+    color: #3a3a3a;
+    height: 100%;
+}
+
+.vision2030 {
+    color: #1c913b;
+}
+
+.vision3 {
+    border: 1px dashed grey;
 }

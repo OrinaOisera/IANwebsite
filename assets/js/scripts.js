@@ -34,3 +34,16 @@ $(function(){
       }
   });
 });
+
+
+//Load more fxn for product videos
+$(function(){
+  $(".product-video").slice(0, 2).show(); // select the first two divs
+  $("#loadvideo").click(function(e){ // click event for load more
+      e.preventDefault();
+      $(".product-video:hidden").slice(0, 1).show(); // select next 2 hidden divs and show them
+      if($(".product-video:hidden").length == 0){ // check if any hidden divs still exist
+        $("#loadvideo").hide() //hide button
+      }
+  });
+});
