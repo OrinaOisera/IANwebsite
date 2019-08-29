@@ -58,6 +58,7 @@ nav ul li {
 
 #Heading5 {
     font-size: 24px ;
+    color: hsla(0,0%,100%,.75);
 }
 
 #Heading2 {
@@ -84,7 +85,8 @@ nav ul li {
 }
 
 .card-text {
-    font-size: 19px;
+    font-size: 17px;
+    color: hsla(0,0%,100%,.75);
 }
 
 .card-footer a {
@@ -126,10 +128,12 @@ nav ul li {
 #teamNames {
     font-weight: 400;
     margin-bottom: 0px;
+    font-size: 16px;
 }
 
 #teamRole {
     opacity: .5;
+    font-size: 14px;
 }
 
 .line {
@@ -163,9 +167,9 @@ nav ul li {
     font-size: 1em;
 }
 
-.card-hover:hover {
+/* .card-hover:hover {
     background: #051524;
-}
+} */
 
 .card-medium:hover {
     background: rgba(38, 94, 66, .5);
@@ -277,7 +281,7 @@ nav ul li {
 }
 
 .sub_footer {
-    background: #010c16;
+    background: hsl(208.6, 100%, 6.5%);
 }
 
 .footer {
