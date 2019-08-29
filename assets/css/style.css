@@ -59,3 +59,18 @@ nav ul li {
 .team-profile {
     width: 100%;
 }
+
+.text-scott {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.text-scott span {
+    margin-right: 15px;
+}
+
+.text-scott span:last-child {
+    margin-right: 0;
+}
