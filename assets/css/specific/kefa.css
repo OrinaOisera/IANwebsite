@@ -161,7 +161,7 @@ nav ul li {
     border-top: 1px dotted rgba(255, 255, 255, 0.15);
     border-radius: 0;
     opacity: 1;
-    padding: 48px 64px;
+    padding: 40px;
     background-color: transparent;
 }
 
@@ -186,10 +186,43 @@ nav ul li {
     font-size: 1em;
 }
 
+.card-future {
+    -webkit-filter: grayscale(90%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(90%);  
+    width: 90%;
+}
+
+.card-future:hover {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);  
+    border-color: #1c913b;
+}
+
 .card-hover-approach:hover {
-    background: #051524;
+    background: rgba(5, 21, 36, 0.2);
     border-color: #1c913b;
 
+}
+
+.card-bg-vision {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/Earth-From-Space.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.card-bg-plan {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/lion_sunset.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.card-bg-launchpad {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/event-space.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 .ext-link:hover {
@@ -271,15 +304,12 @@ nav ul li {
     list-style-type: none;
 }
 
-.list-footer li {
+.list-footer a {
     color: #8e8e8e;
-}
-
-.list-footer a{
     text-decoration: none;
 }
 
-.list-footer li:hover {
+.list-footer a:hover {
     color:orange;
 }
 
@@ -354,7 +384,6 @@ nav ul li {
     left: 50%;
     font-family: 'Lato', sans-serif;
     border-top: 3px solid white;
-    
     padding: 5px;
     border-bottom: 3px solid white;
     transform: translate(-50%, -50%);
@@ -501,6 +530,10 @@ nav ul li {
 
 .img-interns:hover .imghvr{
     opacity: 1;
+}
+
+#p-cycle {
+    font-size: 17px;
 }
 
 
@@ -687,31 +720,33 @@ nav ul li {
 
 .product-video {
     display: none;
-
 }
 
 
-/* css for future page */
+/* css for vision page */
 
-.bg-future-fore {
-    /* background: linear-gradient(rgba(0, 113, 165,0.5), rgba(216, 37, 94,0.75)),url("../../img/ProductDev.jpg"); */
-    /* background: linear-gradient(rgba(0, 113, 165,0.5), rgba(216, 37, 94,0.75)), url("../../img/Nairobi2.jpg"); */
-    background: linear-gradient(rgba(243, 144, 79, .7), rgba(12, 12, 14, 0.8)), url("../../img/Nairobi-savannah.jpg");
+.bg-vision-fore {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/Earth-From-Space.jpg");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 60vh;
     width: 100%;
     object-fit: contain;
 }
 
 .icon-rocket {
     font-size: xx-large;
-    opacity: .5;
+    opacity: 1;
 }
 
 .future-section {
-    background: #eff3f9;
+    /* background: #eff3f9; */
+    background:  linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    object-fit: contain;
     color: #3a3a3a;
     height: 100%;
 }
@@ -722,4 +757,41 @@ nav ul li {
 
 .vision3 {
     border: 1px dashed grey;
+}
+
+.p-vision-2030 {
+    color: rgb(190, 184, 184);
+}
+
+
+/* five year plan css */
+.bg-plan-fore {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/lion_sunset.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+    object-fit: contain;
+}
+
+.icon-pen {
+    font-size: x-large;
+}
+
+.plan-section {
+    background: white;
+    color: rgb(36, 34, 34);
+}
+
+
+/* launchpad css */
+.bg-launchpad-fore {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/bck.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+    object-fit: contain;
 }
