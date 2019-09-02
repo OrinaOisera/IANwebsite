@@ -83,10 +83,10 @@
     font-weight:700;
   }
 
-p {
+/* p {
   font-weight:lighter;
   color:white;
-}
+} */
 
 #ecosystemgap {
   padding-top:40px;
@@ -583,7 +583,7 @@ h3 {
   background:#fcd670; 
   height:40vh;
   width: 46vw;
-  left: 15vw;
+  left: 17vw;
   top:5vh;
   box-shadow: 0 0 10px rgba(0,0,0,0.6);
   -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
@@ -594,7 +594,7 @@ h3 {
 .overlaydiv-2{
   z-index: 2;
   position:absolute;
-  left: 18vw;
+  left: 20vw;
   top: 0px;
   background:#ffffff; 
   height: 50vh;
@@ -614,33 +614,89 @@ h3 {
   position:relative;
   height:52vh;
   top:0px;
+}  
+.commitments{
+  font-family: Playfair Display;
+  font-style: italic;
+  color:black;
+  font-weight: 10px;
 }
+.champions-desccriptor{
+  color:black !important;
+}
+.champions-card-body{
+  background: #ddeeddbb;
+}
+
+/* Mobile view CSS for 100 founders */
 
 @media only screen and (max-width: 600px) {
-  .overlaydiv-2{
-    justify-content: center !important;
-    padding-top: 15px !important;
-    height:60vh;
-    width: 75vw;
-    left: 5vw;
-    top:0;
-    overflow: hidden;
+    #ForeImg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width:100%;
+    }
+    .Foreimgheader{
+    font-family: Playfair Display;
+    font-style: italic;
+    color:#fcd670;
+    font-weight: 300;
+    font-size: 18px !important;
+    }
+    .alignicon-right{
+      text-transform: capitalize;
+      padding: unset;
+    }   
+    .alignicon-left{
+      padding: unset;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .p-foundermob{
+      padding-left:0px;
+    }
+    .h3Founders{
+      text-align: left;
+    }
+    .overlaydiv-2{
+      justify-content: center !important;
+      padding-top: 15px !important;
+      height:35vh;
+      width: 75vw;
+      left: 5vw;
+      top:0;
+      overflow: hidden;
+      padding-top:300px;
+    }
+    .overlaydiv{
+      height:25vh;
+      width: 85vw;
+      left: 0;
+      top:5vh;
+    }
+  .testimonialcardimg{
+    width:250px;
+    height: auto;
   }
-  .overlaydiv{
-    height:50vh;
-    width: 85vw;
-    left: 0;
-    top:5vh;
+  .p-founders{
+    color:black !important;
+    font-weight: 500;
+    font-size: 16px;
+    opacity: 0.5;
   }
+  .commitments{
+    font-size: 22px !important;
+    font-family: Playfair Display;
+    color:black;
+    font-weight: 10px;
+  }
+  .main-div{
+    z-index: 0;
+    position:relative;
+    height:40vh;
+    top:0px;
+  }  
 }
-.testimonialcardimg{
-  width:250px;
-  height: auto;
-}
-.p-founders{
-  color:rgb(49, 47, 47) !important;
-  font-weight: 500;
-  font-size: 16px;
-}
-
-/* Slide CSS */
