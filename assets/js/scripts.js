@@ -10,6 +10,7 @@ $(".card-clickable").click(function() {
     return false;
   });
 
+
 //Load more fxn for chacon gallery
 $(function(){
   $(".row-gallery").slice(0, 2).show(); // select the first two divs

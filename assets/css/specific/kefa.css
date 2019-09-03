@@ -212,7 +212,7 @@ nav ul li {
 }
 
 .card-bg-plan {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/lion_sunset.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/five.jpg");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -740,6 +740,15 @@ nav ul li {
     opacity: 1;
 }
 
+.icon-arrow {
+    font-size: larger;
+}
+
+.icon-arrow:hover {
+    color: orangered;
+}
+
+
 .future-section {
     /* background: #eff3f9; */
     background:  linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%);
@@ -766,7 +775,7 @@ nav ul li {
 
 /* five year plan css */
 .bg-plan-fore {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/lion_sunset.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/five.jpg");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -792,6 +801,18 @@ nav ul li {
     background-position: center; 
     background-repeat: no-repeat;
     height: 70vh;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/* Ecosystem catalyst css */
+.bg-catalyst-fore {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/lion_sunset.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 50vh;
     width: 100%;
     object-fit: contain;
 }
