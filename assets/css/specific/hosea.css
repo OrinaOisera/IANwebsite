@@ -303,6 +303,10 @@ h3 {
     font-weight: 300;
     /* font-size: 16px; */
   }
+
+  .p-smaller {
+    font-size: 16px;
+  }
   
   .p-cause-header {
     font-weight: 700;
@@ -318,8 +322,6 @@ h3 {
 
   .cause-div-2{
     background: #eff3f9 !important;
-    padding-bottom:10px;
-    padding-top:10px;
   }
   .collage-img{
     height:auto;
@@ -514,7 +516,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  height: 80vh;
   width:100%;
 }
 .image-container{
@@ -523,14 +525,14 @@ h3 {
 }
 .centered {
   position: absolute;
-  top: 65%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .signup-button{
- background:  #fcd15b;
- color:white;
- border-radius: 25px;
+ background: #fcd15b;
+ border-radius: 50px;
+ border: #fcd15b;
 }
 .Founder-title-3{
   font-family: Playfair Display;
