@@ -84,6 +84,10 @@ nav ul li {
     padding: 25px;
 }
 
+.card-cost{
+    background: #afcffa;
+}
+
 .card-text {
     font-size: 17px;
     color: hsla(0,0%,100%,.75);
@@ -116,6 +120,11 @@ nav ul li {
 .ext-link {
     font-size: smaller;
     color: #dd874a;
+}
+
+.ext-link-cost {
+    font-size: smaller;
+    color: green; 
 }
 
 .heading-metric {
@@ -824,11 +833,46 @@ nav ul li {
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     object-fit: contain;
 }
 
 .icon-donation {
     font-size: 45px;
+}
+
+.donate-btn{
+    background: #fcd15b;
+    border-radius: 50px;
+    border: #fcd15b;
+    font-size: large;
+}
+
+.bg-cost-breakdown {
+    background: whitesmoke;
+    color: #3a3a3a;
+}
+
+.span-cost {
+    font-size: 20px;
+}
+
+.p-cost {
+    font-size: 16px;
+}
+
+.donate-testimonial {
+    background: #d9dee6;
+    color: #3a3a3a;
+}
+
+.img-testimonial {
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+
+.heading-color {
+    color: #1b2f49;
 }
