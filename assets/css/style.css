@@ -20,9 +20,12 @@ body {
 }
 
 .logo {
-    width: 280px;
+    width: 200px;
 }
 
+.menubar {
+    color: antiquewhite;
+}
 
 /* section {
     background: #122742;
