@@ -829,7 +829,7 @@ nav ul li {
 
 /* Donation page css */
 .bg-donation-fore {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/interns-roundtable.JPG");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(12, 12, 12, 0.9)), url("../../img/interns-roundtable.JPG");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -876,3 +876,16 @@ nav ul li {
 .heading-color {
     color: #1b2f49;
 }
+
+.heading-donation {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.span-donate {
+    font-size: medium;
+    color: #d5cd8e;
+    font-weight: bold;
+}
+
+

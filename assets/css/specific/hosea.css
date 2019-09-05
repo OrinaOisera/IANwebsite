@@ -475,8 +475,7 @@ h3 {
     width: 120px;
     height:120px;
   }
-  .card-hover:hover {
-}
+ 
 .Founder-title{
   font-family: Playfair Display;
   font-style: italic;
@@ -493,7 +492,7 @@ h3 {
 .Founder-title-3{
   font-family: Playfair Display;
   font-style: italic;
-  color:black;
+  color:#645f71;
   font-weight: 10px;
 
 }
@@ -533,7 +532,7 @@ h3 {
 .Founder-title-3{
   font-family: Playfair Display;
   font-style: italic;
-  color:black;
+  color:#645f71;
 }
 .founderpage-section-2{
   background: #ffffff;
@@ -541,7 +540,7 @@ h3 {
 }
 .founderpage-section-3{
   background: #f8f8f8;
-  color: black; 
+  color: #333232; 
 }
 .founderpage-section-4{
   background: #f8f8f8;
@@ -706,4 +705,27 @@ h3 {
   background-position: center;
   height: 85vh;
   width:100%;
+}
+
+
+
+
+/* Kefa's custom code for 100 founders page */
+.card-title-give {
+  font-weight: 600;
+  font-size: 17px;
+  color: #333232;
+}
+
+.cta-give {
+  font-size: 16px;
+  color: #b98708;;
+}
+
+.p-account {
+  font-size: 16px;
+}
+
+.img-online-transfer {
+  width: 20%;
 }
