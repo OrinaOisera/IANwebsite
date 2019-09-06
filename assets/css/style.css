@@ -77,3 +77,60 @@ nav ul li {
 .text-scott span:last-child {
     margin-right: 0;
 }
+
+
+/* footer css */
+.list-footer {
+    list-style-type: none;
+}
+
+.list-footer a {
+    color: #8e8e8e;
+    text-decoration: none;
+}
+
+.list-footer a:hover {
+    color:orange;
+}
+
+.heading-footer {
+    font-size: 1.1em;
+    margin-bottom: .9em;
+    text-align: left;
+    font-weight: 600;
+}
+
+.sub_footer-col {
+    border-right: #3a3a3a dotted 2px;
+}
+
+.footer-location {
+    border-top: #3a3a3a dotted 2px;
+}
+
+.sub_footer {
+    background: hsl(208.6, 100%, 6.5%);
+}
+
+.footer {
+    background: #00070e;
+}
+
+.icons {
+    color: whitesmoke;
+}
+
+.icons:hover {
+    color: orange;
+}
+
+.support-btn-footer {
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 50px;
+    color: white;
+}
+
+.email-links {
+    color: azure;
+}
