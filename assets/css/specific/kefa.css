@@ -92,9 +92,30 @@ nav ul li {
     color: hsla(0,0%,100%,.75);
 }
 
+.card-text-future {
+    font-size: 15px;
+    color: hsla(0,0%,100%,.75);
+    padding: 0;
+}
+
 .card-footer a {
     font-size: 19px;
     color:#f54b4b;
+}
+
+.card-footer-future {
+    font-size: 16px;
+}
+
+.card-footer-future a {
+    font-size: 16px;
+    color: #FCBC12;
+    text-decoration: none;
+    text-align: center
+}
+
+.card-footer-future a:hover {
+    color: orangered; 
 }
 
 
@@ -116,6 +137,16 @@ nav ul li {
     object-fit: cover;
 }
 
+.image-future {
+    min-height: 145px;
+    object-fit: cover;
+}
+
+.image-accountability {
+    max-width: 30%;
+    object-fit: contain
+}
+
 .ext-link {
     font-size: smaller;
     color: #dd874a;
@@ -127,7 +158,8 @@ nav ul li {
 }
 
 .heading-metric {
-    color: #dd874a;
+    /* color: #dd874a; */
+    color:  #FCBC12;
 }
 
 .p-metric {
