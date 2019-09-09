@@ -706,7 +706,8 @@ h3 {
   height: 85vh;
   width:100%;
 }
-
+/* Smooth scroll css*/
+html { scroll-behavior: smooth; } 
 
 
 
