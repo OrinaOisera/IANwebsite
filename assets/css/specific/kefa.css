@@ -422,10 +422,10 @@ nav ul li {
 
 /* css for intern program */
 
-.section-intern-fore {
+#section-intern-fore {
     background: #eff3f9;
     color: rgb(49, 47, 47);
-    height: 80vh;
+    height: 100vh;
 }
 
 .section-intern-about {
