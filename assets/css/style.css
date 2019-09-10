@@ -141,3 +141,7 @@ nav ul li {
 /* Smooth scroll css*/
 html { scroll-behavior: smooth; } 
 /* Side Title CSS */
+/* Background color on scrolling up for nav bar */
+.upscroll{
+    background-color: antiquewhite;
+}
