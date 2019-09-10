@@ -894,5 +894,21 @@ nav ul li {
     color: #d5cd8e;
     font-weight: bold;
 }
+/* ticky Left headings css */
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding-top:50px;
+}
+@media only screen and (max-width: 600px) {
+    .sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding-top:0 !important;
+    }
+}
+
 
 

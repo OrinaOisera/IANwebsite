@@ -98,6 +98,10 @@ nav ul li {
     margin-bottom: .9em;
     text-align: left;
     font-weight: 600;
+    color: antiquewhite;
+}
+.footerdescript{
+    color: antiquewhite; 
 }
 
 .sub_footer-col {
@@ -137,9 +141,3 @@ nav ul li {
 /* Smooth scroll css*/
 html { scroll-behavior: smooth; } 
 /* Side Title CSS */
-.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    padding-top:100px;
-}
