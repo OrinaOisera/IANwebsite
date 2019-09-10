@@ -739,3 +739,164 @@ html { scroll-behavior: smooth; }
   width: 40%;
 
 }
+
+/* In kind CSS */
+.conte{
+  border:none;
+  border-radius:10px;
+  margin:10px;
+  padding:10px;
+}
+
+.laini{
+  border-bottom:1px solid lightgrey;
+  margin:10px
+}
+
+.thank-you{
+  font-family:'Raleway', sans-serif ;
+  font-size:4.2vh;
+  margin:15px;
+  text-align: center
+}
+
+.request{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3.0vh;
+  
+}
+
+
+.shipping{
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.click-hapa{
+  font-size: 14px;
+  opacity:0.6;  
+}
+
+
+.wozap{
+  padding-right:18px 
+}
+
+.pepe{
+  padding-left: 5px;
+}
+
+.contact-container{
+  background:transparent;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  padding:5px;
+}
+
+.received{
+    color:limegreen;
+}
+
+
+.mailing{
+    color:maroon;
+}
+
+.whatsapping{
+    color:limegreen;
+}
+
+.inquire{
+  font-family: 'Comfortaa', sans-serif;
+  opacity:0.5;
+  font-size:14px;
+  
+}
+
+.boda-botom{
+  border-bottom: 1px solid grey;
+}
+
+.name-tagg{
+  margin-bottom:10px;
+}
+
+.background-rangi{
+  background-color:#122742;
+  margin-bottom: 10px
+}
+
+.our-fellows{
+  color:#fdc313;
+  font-family: 'Lato', sans-serif;
+  font-weight:bold;
+  font-size:5.5vh;
+  margin-top:10px;
+}
+
+.mradi{
+  font-size:5.5vh; 
+  font-weight:bold;
+  font-family:'Montserrat', sans-serif
+}
+
+.fellow-info{
+  opacity: 0.9;
+  color: black;
+}
+
+.bottom-space{
+  margin-bottom:15px
+}
+
+.what-impact{
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  font-size:4.2vh;
+}
+.net-name{
+  font-weight:900;
+  font-size:20px;
+}
+
+
+.rolessh{
+  
+}
+
+
+@media screen and (min-width: 300px) {
+  .pdf-holder{
+      width:320px;
+      height:450px;  
+      margin-left:-50px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .pdf-holder{
+      width:350px;
+      height:350px;  
+  }
+}
+@media screen and (min-width:800px){
+  .pdf-holder{
+      width:650px;
+      height:700px;
+      color:rgb(18, 39, 66);
+  }
+}
+
+@media screen and (min-width:1500px){
+  .pdf-holder{
+      width:850px;
+      height:900px;
+  }
+}
+@media screen and (min-width:1800px){
+  .pdf-holder{
+      width:850px;
+      height:800px;
+  }
+}
+.mySlidess {display:none;}

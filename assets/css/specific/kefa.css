@@ -37,6 +37,10 @@ nav ul li {
     border: #f7a66e;
     text-transform: uppercase;
 }
+/* Align Suppport the cause button to the right */
+/* .supportcausebtnright{
+    padding-left: 20vw;
+} */
 
 #ForeContent {
     background: #122742;
