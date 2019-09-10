@@ -103,7 +103,7 @@ nav ul li {
 }
 
 .card-footer a {
-    font-size: 19px;
+    font-size: 17px;
     color:#f54b4b;
 }
 
@@ -168,24 +168,6 @@ nav ul li {
 
 .p-metric {
     font-size: 16px;
-}
-
-
-@media only screen and (max-width: 600px) {
-    h2 {
-        font-size: 28px;
-        text-align: left;
-    }
-
-    #Heading5 {
-        font-size: 20px;
-        line-height: 1.2;
-
-    }
-
-    .img-benefits {
-        height:auto;
-    }
 }
 
 #teamNames {
@@ -314,7 +296,7 @@ nav ul li {
     color: rgb(219, 197, 197);
     width: 50px;
     height: 50px;
-    font-size: x-large;
+    font-size: large;
 }
 
 #link-products {
@@ -329,8 +311,8 @@ nav ul li {
 
 .btn-people {
     position: absolute;
-    top: 10%;
-    left: 75%;
+    top: 8%;
+    left: 85%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     font-size: .95em;
@@ -935,13 +917,71 @@ nav ul li {
     color: #d5cd8e;
     font-weight: bold;
 }
-/* ticky Left headings css */
+
+
+/* sticky Left headings css */
 .sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     padding-top:50px;
 }
+
+
+
+/* media query css */
+
+@media only screen and (max-width: 600px) {
+    h2 {
+        font-size: 28px;
+        text-align: left;
+    }
+
+    #Heading5 {
+        font-size: 20px;
+        line-height: 1.2;
+
+    }
+
+    #HeadingFore {
+        font-size: 30px;
+    }
+
+    #Heading2 {
+        font-size: 27px;
+
+    }
+
+    #subheading2 {
+        font-size: 21px;
+    }
+
+    #subheading3 {
+        font-size: 21px;
+    }
+
+    .heading-metric {
+        font-size: 23px;
+    }
+
+    .card-text-future1 {
+        font-size: 12px;
+    }
+
+    .img-benefits {
+        height:auto;
+    }
+
+    #teamNames {
+        font-size: 10px;
+    }
+
+    #teamRole {
+        font-size: 10px;
+    }
+}
+
+
 @media only screen and (max-width: 600px) {
     .sticky {
         position: -webkit-sticky;
