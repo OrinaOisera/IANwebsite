@@ -145,3 +145,12 @@ html { scroll-behavior: smooth; }
 .upscroll{
     background-color: antiquewhite;
 }
+#navbars {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 999;
+  }
+  

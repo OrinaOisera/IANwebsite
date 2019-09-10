@@ -29,50 +29,23 @@
         Stickyfill.add(elements);
     </script>
 
-    <script>
-    // Snapped or sticky navigation when scroll down
-    var didScroll;
-        var lastScrollTop = 0;
-        var delta = 5;
-        var navbarHeight = $(".navbars").outerHeight();
-
-         $(document).scroll(function () {
-            var y = $(document).scrollTop(),
-                header = $(".navbars");
-        
-            if (y >= 160) {
-                var st = $(this).scrollTop();
-
-            // Make sure they scroll more than delta
-            if(Math.abs(lastScrollTop - st) <= delta)
-            return;
-                                                
-            // If they scrolled down and are past the navbar, add class .nav-up.
-            // This is necessary so you never see what is "behind" the navbar.
-            if (st > lastScrollTop && st > navbarHeight){
-                // Scroll Down                
-                header.removeClass('fixed-top');
-            } else {
-                // Scroll Up                
-                if(st + $(window).height() < $(document).height() && y > 142) {
-                    header.addClass('fixed-top'); 
-                                       
-                }else if(y <= 142){
-                    header.removeClass('fixed-top');
-                }
-            }
-
-            lastScrollTop = st; 
-            } else {
-                header.removeClass('fixed-top');
-            }
-        });
-    </script>
+<script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbars").style.top = "0";
+        } else {
+        document.getElementById("navbars").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+    }
+</script>
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg static-top shadow-sm justify-content-right navbars">
+    <nav class="navbar navbar-expand-lg static-top shadow-sm justify-content-right navbars" id="navbars">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="assets/img/site-logo.png" alt="Impact Africa" class="d-inline-block align-top logo">
@@ -111,7 +84,7 @@
     <!--Fore Content -->
     <section class="d-flex align-items-left pt-5 pb-4" id="ForeContent">
         <div class="container">
-            <div class="col-md-12">
+            <div class="col-md-12 pt-3">
                 <h2 id="HeadingFore">Changing the <br> African narrative</h2>
             </div>
             <div class="col-md-9">
