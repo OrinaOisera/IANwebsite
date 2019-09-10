@@ -631,6 +631,26 @@ h3 {
   background: #ddeeddbb;
 }
 
+.founderssec1{
+  background-color: #fde39f;
+}
+.founders-heading1{
+  color:#856001;
+}
+.foundersdescript{
+  font-size:20px;
+   line-height: 40px;
+   font-weight: 500
+}
+.whyfounders{
+  font-size: 50px;
+  font-weight:300;
+}
+.whybenefits{
+  background-color:#ffffff;
+}
+
+
 /* Mobile view CSS for 100 founders */
 
 @media only screen and (max-width: 600px) {
