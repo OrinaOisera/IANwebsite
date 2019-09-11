@@ -9,17 +9,20 @@
     <meta name="author" content="">
 
     <title> Support the Cause | Impact Africa </title>
-
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <!-- Bootstrap core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link href="assets/dist/css/bootstrap4.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="assets/css/specific/hosea.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://player.vimeo.com/api/player.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Remove link underline -->
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <!-- Font Awesome cdn link-->
+    <script src="https://kit.fontawesome.com/08d34252a8.js"></script>
     <style>
         a:link {
             text-decoration: none;
@@ -31,42 +34,46 @@
 <body>
    
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg static-top shadow-sm justify-content-right ">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/img/site-logo.png" alt="Impact Africa" class="d-inline-block align-top logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="why-africa.html">Why Africa</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#impact">Make an Impact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="100founders.html">100 Founders Challenge</a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#">Our work</a>
-                        </li> -->
-                        
-                        <!-- <li class="nav-item">
-                            <a class="nav-link btn btn-success support-btn" href="#">Support the cause</a>
-                        </li> -->
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-lg static-top shadow-sm justify-content-right navbars" id="navbars">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/site-logo.png" alt="Impact Africa" class="d-inline-block align-top logo">
+            </a>
+            <a class="btn btn-outline-success btn-sm donate-button" href="cause.html" target="_blank" >Donate</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="menubar"><i class="fas fa-bars"></i></span>    
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#people">People</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Our work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="why-africa.html">Why Africa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-success btn-sm bigscreen" href="cause.html" target="_blank">Donate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-success support-btn" href="cause.html" target="_blank">Support the cause</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
     <!-- Page Content -->
 
     <!-- Introductory Text -->
@@ -220,15 +227,15 @@
                         
                         <div class="list-footer">
                             <a href="#"><li>Home</li></a> 
-                            <a href="#"><li>About</li></a>
-                            <a href="#"><li>People</li></a>
-                            <a href="#"><li>Our work</li></a>
+                            <a href="#"><li>Get Involved</li></a>
+                            <a href="#"><li>The Future</li></a>
+                            <a href="#"><li>100 Founders Challenge</li></a>
                             <a href="#"><li>Why Africa</li></a>
                         </div>
 
-                        <!-- <div class="mt-5">
-                            <a href="#" class="btn btn-success support-btn-footer p-3">Support the cause</a>
-                        </div> -->
+                        <div class="mt-5">
+                                <a class="nav-link btn btn-outline-success btn-sm donate-button" href="cause.html" target="_blank">Donate</a>
+                        </div>
 
                     </div>
                     <div class="col-md-4 p-3 sub_footer-col pl-5">
@@ -296,9 +303,22 @@
         </footer>
 
     </section>
+        <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbars").style.top = "0";
+                } else {
+                document.getElementById("navbars").style.top = "-52px";
+                }
+                prevScrollpos = currentScrollPos;
+            }
+        </script>
     <!-- Bootstrap core JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
     <script src="assets/js/scripts.js"></script>
     </body>
     </html>
