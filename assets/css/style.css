@@ -179,7 +179,8 @@ html { scroll-behavior: smooth; }
     }
     .donate-button{
         border-radius: 50px;
-        position: relative;
+        /* position: relative; */
+        border: darkgreen;
     }
     .bigscreen{
         visibility: hidden;
