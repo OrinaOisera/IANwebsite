@@ -170,6 +170,11 @@ html { scroll-behavior: smooth; }
 .bigscreen{
     border-radius: 25px;
 }
+.donate-button{
+    border-radius: 50px;
+    /* position: relative; */
+    visibility: hidden;
+}
 @media only screen and (max-width: 600px){
     .mobiledonate{
         visibility: visible;
@@ -180,7 +185,7 @@ html { scroll-behavior: smooth; }
     .donate-button{
         border-radius: 50px;
         /* position: relative; */
-        border: darkgreen;
+        visibility: visible;
     }
     .bigscreen{
         visibility: hidden;
