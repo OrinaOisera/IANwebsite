@@ -9,7 +9,8 @@
     <meta name="author" content="">
 
     <title>Impact Africa</title>
-
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -28,14 +29,19 @@
         Stickyfill.add(elements);
     </script>
 
+
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg shadow-sm justify-content-right ">
+    <nav class="navbar navbar-expand-lg static-top shadow-sm justify-content-right navbars" id="navbars">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="assets/img/site-logo.png" alt="Impact Africa" class="d-inline-block align-top logo">
             </a>
+            <li class="nav-item mobiledonate">
+                <a class="nav-link btn btn-outline-success btn-sm donate-button" href="cause.html" target="_blank">Donate</a>
+            </li>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="menubar"><i class="fas fa-bars"></i></span>    
@@ -60,6 +66,9 @@
                         <a class="nav-link" href="why-africa.html">Why Africa</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link btn btn-outline-success btn-sm bigscreen" href="cause.html" target="_blank">Donate</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link btn btn-success support-btn" href="cause.html" target="_blank">Support the cause</a>
                     </li>
                 </ul>
@@ -70,13 +79,13 @@
     <!--Fore Content -->
     <section class="d-flex align-items-left pt-5 pb-4" id="ForeContent">
         <div class="container">
-            <div class="col-md-12">
+            <div class="col-md-12 pt-3 smallscreen">
                 <h2 id="HeadingFore">Changing the <br> African narrative</h2>
             </div>
             <div class="col-md-9">
-                <h5 id="Heading5" class="justify-content-cente lead">Startup studio focused on ensuring 
-                    young innovators can access Africa's digital transformation opportunity. 
-                </h5>
+                <h2 id="Heading5" class="justify-content-cente lead">Startup studio focused on ensuring young innovators can access Africa's digital transformation opportunity.
+                    
+                </h2>
 
                 <!-- <p id="See_latest" class="pt-3">See latest » </p> -->
 
@@ -95,8 +104,8 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-3 pt-2">
-                    <h2 id="Heading2" class="sticky">About</h2>
+                <div class="col-md-3 pt-1">
+                    <h2 id="Heading2"class="sticky">About</h2>
                 </div>
 
                 <div class="col-md-9">
@@ -255,53 +264,53 @@
                     </div>
 
                     <div class="row pb-5">
-                        <div class="col-md-4 col-4">
+                        <div class="col-md-4 col-sm-4">
                             <div class="container row"> 
-                                <div class="col-md-3 col-12">
+                                <div class="col-md-3">
                                     <h2 class="heading-metric"> 2 </h2>
                                 </div>
-                                <div class="col-md-9 col-12">
-                                    <p class="card-text-future1">Interns</p>
+                                <div class="col-md-9">
+                                    <p class="card-text-future">Interns</p>
                                 </div>
-                                <div class="col-md-3 col-12">
+                                <div class="col-md-3">
                                     <h2 class="heading-metric"> 12 </h2>
                                 </div>
-                                <div class="col-md-9 col-12">
-                                    <p class="card-text-future1">fellows</p>
+                                <div class="col-md-9">
+                                    <p class="card-text-future">fellows</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-4">
+                        <div class="col-md-4 col-sm-4">
                             <div class="container row"> 
-                                <div class="col-md-5 col-12">
+                                <div class="col-md-5">
                                     <h2 class="heading-metric"> 28 </h2>
                                 </div>
-                                <div class="col-md-7 col-12">
-                                    <p class="card-text-future1"> Podcasts </p>
+                                <div class="col-md-7">
+                                    <p class="card-text-future"> Podcasts </p>
                                 </div>
-                                <div class="col-md-5 col-12">
+                                <div class="col-md-5">
                                     <h2 class="heading-metric"> 5,676 </h2>
                                 </div>
-                                <div class="col-md-7 col-12">
-                                    <p class="card-text-future1">Listeners</p>
+                                <div class="col-md-7">
+                                    <p class="card-text-future">Listeners</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-4">
+                        <div class="col-md-4 col-sm-4">
                             <div class="container row"> 
-                                <div class="col-md-3 col-12">
+                                <div class="col-md-3">
                                     <h2 class="heading-metric"> 2 </h2>
                                 </div>
-                                <div class="col-md-9 col-12">
-                                    <p class="card-text-future1">Events</p>
+                                <div class="col-md-9">
+                                    <p class="card-text-future">Ecosystem events</p>
                                 </div>
-                                <div class="col-md-4 col-12">
+                                <div class="col-md-4">
                                     <h2 class="heading-metric"> 450 </h2>
                                 </div>
-                                <div class="col-md-8 col-12">
-                                    <p class="card-text-future1">Attendance</p>
+                                <div class="col-md-8">
+                                    <p class="card-text-future">Attendance</p>
                                 </div>
                             </div>
                         </div>
@@ -328,7 +337,7 @@
                                     <img class="img-fluid rounded" src="assets/img/event-space.jpg">
                                 </div>
                                 <div class="card-body p-0 pt-3 justify-content-left">
-                                    <h5 class="card-title"> Launchpad </h5>
+                                    <h5 class="card-title"> The Launchpad </h5>
                                     <p class="card-text-future text-left">A world class space to inspire world class performance  </p>
                                 </div>
                                 <div class="card-footer-future pt-2 mt-2">
@@ -381,7 +390,7 @@
                     </div>
     
                     <div class="row pb-5">
-                        <div class="col-md-4 col-6">
+                        <div class="col-md-4">
                             <div class="card card-hover text-left">
                                 <img class="rounded image-accountability" src="assets/img/budget.svg">
 
@@ -394,7 +403,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-6">
+                        <div class="col-md-4">
                             <div class="card card-hover text-left">
                                 <img class="rounded image-accountability" src="assets/img/justice.svg">
                                 
@@ -407,7 +416,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-6">
+                        <div class="col-md-4">
                             <div class="card card-hover text-left">
                                 <img class="rounded image-accountability" src="assets/img/rising.svg">
                                 
@@ -452,16 +461,16 @@
 
                     <div class="row title">
                         <div class="col-md-12">
-                            <h2 id="subheading3" class="text-center">Team</h2>
+                            <h2 class="text-center">Team</h2>
                         </div>
                     </div>
                     
-                    <div class="row text-center team-images p-4">
-                        <div class=" col-sm-2 col-4 img-hover team-image-home">
+                    <div class="row text-center">
+                        <div class="col-md-2 col-sm-2 img-hover team-image-home">
                                 <img class="image team-profile img-fluid rounded mb-2 img-responsive" src="assets/img/team-andrew.JPG">
 
                                     <!-- More info for Andy -->
-                                    <span class="btn-people info-span" data-toggle="modal" data-target="#modalandy"><i class="fas fa-info-circle"></i></span>
+                                    <span class="btn-people info-span" data-toggle="modal" data-target="#modalandy" style="font-size:x-large"><i class="fas fa-info-circle"></i></span>
 
                                     <!-- <input type="image" src="assets/img/right-arrow.svg" class="btn-people" data-toggle="modal" data-target="#modalandy"/> -->
 
@@ -480,7 +489,7 @@
                                                 <div class="modal-body">
                                                     <div class="row">
                                                         <div class="col-md-6">
-                                                            <img class="img-fluid" src="assets/img/andy.jpeg">
+                                                            <img class="img-fluid" src="assets/img/team-andrew.JPG">
                                                         </div>
                                                         <div class="col-md-6 text-left">
                                                             <h5 id="subheading2">I'm a visual story teller ..</h5>
@@ -510,11 +519,11 @@
 
                         </div>
 
-                        <div class=" col-sm-2 col-4 img-hover team-image-home">
+                        <div class="col-md-2 col-sm-2 img-hover team-image-home">
                             <img class="image team-profile img-fluid rounded mb-2" src="assets/img/team-pauline.JPG">
 
                             <!-- More info for Pauline -->
-                            <span class="btn-people info-span" data-toggle="modal" data-target="#modalpauline"><i class="fas fa-info-circle"></i></span>
+                            <span class="btn-people info-span" data-toggle="modal" data-target="#modalpauline" style="font-size:x-large"><i class="fas fa-info-circle"></i></span>
 
                             <!-- <input type="image" src="assets/img/right-arrow.svg" class="btn-people" data-toggle="modal" data-target="#modalpauline"/> -->
 
@@ -533,7 +542,7 @@
                                         <div class="modal-body">
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <img class="img-fluid" src="assets/img/pops.jpeg">
+                                                    <img class="img-fluid" src="assets/img/team-pauline.JPG">
                                                 </div>
                                                 <div class="col-md-6 text-left">
                                                     <h5 id="subheading2">I'm a Financial analyst ..</h5>
@@ -562,11 +571,11 @@
                             <p id="teamRole">Finance analyst</p>
                         </div>
 
-                        <div class="col-sm-2 col-4 img-hover team-image-home">
+                        <div class="col-md-2 col-sm-2 img-hover team-image-home">
                             <img class="image team-profile img-fluid rounded mb-2" src="assets/img/team-ciuti.JPG">
 
                             <!-- More info for hosea -->
-                            <span class="btn-people info-span" data-toggle="modal" data-target="#modalhosea"><i class="fas fa-info-circle"></i></span>
+                            <span class="btn-people info-span" data-toggle="modal" data-target="#modalhosea" style="font-size:x-large"><i class="fas fa-info-circle"></i></span>
 
                             <!-- <input type="image" src="assets/img/right-arrow.svg" class="btn-people" data-toggle="modal" data-target="#modalhosea"/> -->
 
@@ -585,10 +594,10 @@
                                         <div class="modal-body">
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <img class="img-fluid" src="assets/img/hosea.jpeg">
+                                                    <img class="img-fluid" src="assets/img/team-ciuti.JPG">
                                                 </div>
                                                 <div class="col-md-6 text-left">
-                                                    <h5 id="subheading2">I'm a software product developer ..</h5>
+                                                    <h5 id="subheading2">I'm a developer ..</h5>
                                                     <p>I have a BSc degree in Computer Science from the University of Nairobi. I am aspiring to be a full stack developer and  
                                                         I enjoy working in teams creating solutions right from ideation through harnesing the potential of tech. 
                                                         In my free time, I enjoy hiking, expeditions and playing football.   
@@ -615,11 +624,11 @@
                             <p id="teamRole">Developer</p>
                         </div>
 
-                        <div class="col-sm-2 col-4 img-hover team-image-home">
-                            <img class="image team-profile img-fluid rounded mb-2" src="assets/images/sample-orina.jpg">
+                        <div class="col-md-2 col-sm-2 img-hover team-image-home">
+                            <img class="image team-profile img-fluid rounded mb-2" src="assets/img/team-orina.JPG">
 
                             <!-- More info for Orina -->
-                            <span class="btn-people info-span" data-toggle="modal" data-target="#modalorina"><i class="fas fa-info-circle"></i></span>
+                            <span class="btn-people info-span" data-toggle="modal" data-target="#modalorina" style="font-size:x-large"><i class="fas fa-info-circle"></i></span>
 
                             <!-- <input type="image" src="assets/img/right-arrow.svg" class="btn-people" data-toggle="modal" data-target="#modalorina"/> -->
 
@@ -638,7 +647,7 @@
                                         <div class="modal-body">
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <img class="img-fluid" src="assets/img/orina.jpeg">
+                                                    <img class="img-fluid" src="assets/img/team-orina.JPG">
                                                 </div>
                                                 <div class="col-md-6 text-left">
                                                     <h5 id="subheading2">I'm a software product developer ..</h5>
@@ -668,11 +677,11 @@
                             <p id="teamRole">Product development</p>
                         </div>
                         
-                        <div class=" col-sm-2 col-4 img-hover team-image-home">
+                        <div class="col-md-2 col-sm-2 img-hover team-image-home">
                             <img class="image team-profile img-fluid rounded mb-2" src="assets/img/team-daisy.JPG">
 
                             <!-- More info on Daisy Langat-->
-                            <span class="btn-people info-span" data-toggle="modal" data-target="#modalDaisy"><i class="fas fa-info-circle"></i></span>
+                            <span class="btn-people info-span" data-toggle="modal" data-target="#modalDaisy" style="font-size:x-large"><i class="fas fa-info-circle"></i></span>
 
                             <!-- <input type="image" src="assets/img/right-arrow.svg" class="btn-people" data-toggle="modal" data-target="#modalDaisy"/> -->
 
@@ -691,12 +700,12 @@
                                         <div class="modal-body">
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <img class="img-fluid" src="assets/img/daisy.jpeg">
+                                                    <img class="img-fluid" src="assets/img/team-daisy.JPG">
                                                 </div>
                                                 <div class="col-md-6 text-left">
                                                     <h5 id="subheading2">I'm a communications and PR specialist..</h5>
-                                                    <p>I pursued a career in Communication and Public Relations at Moi University class of 2019. 
-                                                        I am also volunteer at AIESEC kenya where I have acquired skills such as Marketing, Branding and Customer Relations. 
+                                                    <p>I pursued a career in Communication and Public Relations at Moi University and
+                                                        I am also a volunteer at AIESEC kenya where I have acquired skills such as Marketing, Branding and Customer Relations. 
                                                         I am  passionate about technology and believes that technology is the future.    
                                                     </p>
 
@@ -721,11 +730,11 @@
                             <p id="teamRole">Communications and PR</p>
                         </div>
 
-                        <div class="col-sm-2 col-4 img-hover team-image-home">
+                        <div class="col-md-2 col-sm-2 img-hover team-image-home">
                             <img class="image team-profile img-fluid rounded mb-2 img-hover" src="assets/img/team-brandon.JPG">
 
                             <!-- More info for Brandon Ruoro-->
-                            <span class="btn-people info-span" data-toggle="modal" data-target="#modalbrandon"><i class="fas fa-info-circle"></i></span>
+                            <span class="btn-people info-span" data-toggle="modal" data-target="#modalbrandon" style="font-size:x-large"><i class="fas fa-info-circle"></i></span>
 
                             <!-- <input type="image" src="assets/img/right-arrow.svg" class="btn-people" data-toggle="modal" data-target="#modalbrandon"/> -->
 
@@ -744,7 +753,7 @@
                                         <div class="modal-body">
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <img class="img-fluid" src="assets/img/brandon.jpeg">
+                                                    <img class="img-fluid" src="assets/img/team-brandon.JPG">
                                                 </div>
                                                 <div class="col-md-6 text-left">
                                                     <h5 id="subheading2">I'm a Digital creative ..</h5>
@@ -774,11 +783,11 @@
                             <p id="teamRole">Digital creative lead</p>
                         </div>
 
-                        <div class=" col-sm-2 col-4 img-hover team-image-home">
+                        <div class="col-md-2 col-sm-2 img-hover team-image-home">
                             <img class="image team-profile img-fluid rounded mb-2" src="assets/img/team-mungai.JPG">
 
                             <!-- More info for James Mungai -->
-                            <span class="btn-people info-span" data-toggle="modal" data-target="#modaljames"><i class="fas fa-info-circle"></i></span>
+                            <span class="btn-people info-span" data-toggle="modal" data-target="#modaljames" style="font-size:x-large"><i class="fas fa-info-circle"></i></span>
 
                             <!-- <input type="image" src="assets/img/right-arrow.svg" class="btn-people" data-toggle="modal" data-target="#modaljames"/> -->
 
@@ -797,7 +806,7 @@
                                         <div class="modal-body">
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <img class="img-fluid" src="assets/img/mungaii.jpeg">
+                                                    <img class="img-fluid" src="assets/img/team-mungai.JPG">
                                                 </div>
                                                 <div class="col-md-6 text-left">
                                                     <h5 id="subheading2">I'm a Marketer researcher ...</h5>
@@ -828,22 +837,22 @@
                             <p id="teamRole">Market research</p>
                         </div>
 
-                        <div class="col-sm-2 col-4 img-hover team-image-home">
+                        <div class="col-md-2 col-sm-2 img-hover team-image-home">
                             <img class="image team-profile img-fluid rounded mb-2 " src="assets/img/team-kepha.JPG">
 
-                            <!-- More info for Kefa Mutuma-->
-                            <span class="btn-people info-span" data-toggle="modal" data-target="#modalkefa"><i class="fas fa-info-circle"></i></span>
+                            <!-- More info for Evelyn Musembi-->
+                            <span class="btn-people info-span" data-toggle="modal" data-target="#modalevelyn" style="font-size:x-large"><i class="fas fa-info-circle"></i></span>
 
                             <!-- <input type="image" src="assets/img/right-arrow.svg" class="btn-people" data-toggle="modal" data-target="#modalevelyn"/> -->
 
                             <!-- The Modal -->
-                            <div class="modal fade" id="modalkefa">
+                            <div class="modal fade" id="modalevelyn">
                                 <div class="modal-dialog modal-lg">
                                     <div class="modal-content">
                                 
                                         <!-- Modal Header -->
                                         <div class="modal-header">
-                                        <h4 class="modal-title">Kefa Mutuma</h4>
+                                        <h4 class="modal-title">Evelyn Musembi</h4>
                                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
                                 
@@ -851,11 +860,12 @@
                                         <div class="modal-body">
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <img class="img-fluid" src="assets/img/Kepha.JPG">
+                                                    <img class="img-fluid" src="assets/img/team-kepha.JPG">
                                                 </div>
                                                 <div class="col-md-6 text-left">
-                                                    <h5 id="subheading2">I'm a Software product developer ..</h5>
-                                                    <p>Passionate in solving problems through the power of software to reach mass markets.. Everyday is a chance to develop my craft.    
+                                                    <h5 id="subheading2">I'm a Marketer ..</h5>
+                                                    <p>I studied Urban and Regional Planning at the University of Nairobi. 
+                                                        I am passionate about marketing and has had experience in the field through various student organisations such as Kenya MUN, Rotaract, President's Award and AIESEC.    
                                                     </p>
 
                                                 </div>
@@ -875,15 +885,15 @@
 
                             <!-- End of more team info -->
 
-                            <p id="teamNames">Kefa mutuma </p>
-                            <p id="teamRole">Software Developer</p>
+                            <p id="teamNames">Evelyn Musembi </p>
+                            <p id="teamRole">Communications and PR</p>
                         </div>
 
-                        <div class="col-sm-2 col-4 img-hover team-image-home">
+                        <div class="col-md-2 col-sm-2 img-hover team-image-home">
                             <img class="image team-profile img-fluid rounded mb-2" src="assets/img/team-sydney.JPG">
 
                             <!-- More info for Sidney Miheso-->
-                            <span class="btn-people info-span" data-toggle="modal" data-target="#modalsidney"><i class="fas fa-info-circle"></i></span>
+                            <span class="btn-people info-span" data-toggle="modal" data-target="#modalsidney" style="font-size:x-large"><i class="fas fa-info-circle"></i></span>
 
                             <!-- <input type="image" src="assets/img/right-arrow.svg" class="btn-people" data-toggle="modal" data-target="#modalsidney"/> -->
 
@@ -902,7 +912,7 @@
                                         <div class="modal-body">
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <img class="img-fluid" src="assets/img/sid.jpeg">
+                                                    <img class="img-fluid" src="assets/img/team-sydney.JPG">
                                                 </div>
                                                 <div class="col-md-6 text-left">
                                                     <h5 id="subheading2">I'm the communications and PR lead..</h5>
@@ -930,11 +940,11 @@
                             <P id="teamRole">Communications and PR</P>
                         </div>
 
-                        <div class="col-sm-2 col-4 img-hover text team-image-home">
+                        <div class="col-md-2 col-sm-2 img-hover text team-image-home">
                             <img class="image team-profile img-fluid rounded mb-2" src="assets/img/team-karake.JPG">
 
                             <!-- More info on Mark Karake -->
-                            <span class="btn-people info-span" data-toggle="modal" data-target="#modalmark"><i class="fas fa-info-circle"></i></span>
+                            <span class="btn-people info-span" data-toggle="modal" data-target="#modalmark" style="font-size:x-large"><i class="fas fa-info-circle"></i></span>
 
                             <!-- <input type="image" src="assets/img/right-arrow.svg" class="btn-people" data-toggle="modal" data-target="#modalmark"/> -->
 
@@ -953,12 +963,12 @@
                                         <div class="modal-body">
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <img class="img-fluid" src="assets/img/karake.jpeg">
+                                                    <img class="img-fluid" src="assets/img/team-karake.JPG">
                                                 </div>
                                                 <div class="col-md-6 text-left">
                                                     <h5 id="subheading2">Founder - CEO</h5>
-                                                    <p>Mark spent 15 years working with startups in Silicon Valley and brings a wealth of practical startup operational expertise. 
-                                                        He is passionate about changing the African narrative by building great African companies and helping to establish a culture of high performance, high integrity and high collaboration </p>
+                                                    <p>I spent 15 years working with startups in Silicon Valley and brings a wealth of practical startup operational expertise. 
+                                                        I am passionate about changing the African narrative by building great African companies and helping to establish a culture of high performance, high integrity and high collaboration </p>
 
                                                 </div>
 
@@ -981,11 +991,11 @@
                             <p id="teamRole">Founder - CEO</p>
                         </div>
 
-                        <div class="col-sm-2 col-4 img-hover team-image-home">
+                        <div class="col-md-2 col-sm-2 img-hover team-image-home">
                             <img class="image team-profile img-fluid rounded mb-2" src="assets/img/team-phylis.JPG">
 
                             <!-- More info for phyllis mburu-->
-                            <span class="btn-people info-span" data-toggle="modal" data-target="#modalphyllis"><i class="fas fa-info-circle"></i></span>
+                            <span class="btn-people info-span" data-toggle="modal" data-target="#modalphyllis" style="font-size:x-large"><i class="fas fa-info-circle"></i></span>
 
                             <!-- <input type="image" src="assets/img/right-arrow.svg" class="btn-people" data-toggle="modal" data-target="#modalphyllis"/> -->
 
@@ -1004,14 +1014,14 @@
                                         <div class="modal-body">
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <img class="img-fluid" src="assets/img/phyllis.jpeg">
+                                                    <img class="img-fluid" src="assets/img/team-phylis.JPG">
                                                 </div>
                                                 <div class="col-md-6 text-left">
                                                     <h5 id="subheading2">I'm the Donor relations lead</h5>
-                                                    <p> Phyllis has 5 years experience working in non-profits, specifically in project management and fundraising. 
-                                                        Her background is in Communication and P.R with certification in project management. 
-                                                        Being a young person herself, she is passionate about young people accessing opportunities and consequentially build strong institutions. 
-                                                        She also enjoys reading and travelling. </p>
+                                                    <p> I have 5 years experience working in non-profits, specifically in project management and fundraising. 
+                                                        My background is in Communication and P.R with certification in project management. 
+                                                        Being a young person, I am passionate about young people accessing opportunities and consequentially building strong institutions. 
+                                                        I also enjoy reading and travelling. </p>
 
                                                 </div>
 
@@ -1047,32 +1057,32 @@
 
                     <div class="row title">
                         <div class="col-md-12">
-                            <h2 id="subheading3" class="text-center">Board</h2>
+                            <h2 class="text-center">Board</h2>
                         </div>
                     </div>
 
                     <div class="row text-center ">
-                        <div class="col-6 col-sm-2 mb-2 img-hover team-image-home">
+                        <div class="col-md-2 col-sm-2 mb-2 img-hover team-image-home">
                             <img class="image team-board img-fluid rounded mb-2" src="assets/img/ella2.jpg">
                             <p id="teamNames">Ella Peinovich </p>
                             <p id="teamRole">Co-founder <br> Powered-by-People <br> Serial Entrepreneur</p>
                         </div>
-                        <div class="col-6  col-sm-2 mb-2 img-hover team-image-home">
+                        <div class="col-md-2  col-sm-2 mb-2 img-hover team-image-home">
                             <img class="image team-board img-fluid rounded mb-2" src="assets/img/ngigi-2.jpeg">
                             <p id="teamNames">Ngigi Waithaka </p>
                             <p id="teamRole">Founder, Kionjo. <br>Serial Entrepreneur </p>
                         </div>
-                        <div class="col-6 col-sm-2 mb-2 img-hover team-image-home">
+                        <div class="col-md-2 col-sm-2 mb-2 img-hover team-image-home">
                             <img class="image team-board img-fluid rounded mb-2" src="assets/img/agatha.jpg">
                             <p id="teamNames">Agatha Gikunda  </p>
                             <p id="teamRole">Head of Developer Relations, Intel</p>
                         </div>
-                        <div class="col-6 col-sm-2 mb-2 img-hover team-image-home">
+                        <div class="col-md-2 col-sm-2 mb-2 img-hover team-image-home">
                             <img class="image team-board img-fluid rounded mb-2" src="assets/img/caine.jpg">
                             <p id="teamNames">Caine Wanjau</p>
                             <p id="teamRole">CTO at Twiga Foods </p>
                         </div>
-                        <div class="col-6 col-sm-2 mb-2 img-hover team-image-home">
+                        <div class="col-md-2 col-sm-2 mb-2 img-hover team-image-home">
                             <img class="image team-board img-fluid rounded mb-2" src="assets/img/bitange.jpg">
                             <p id="teamNames"> Bitange Ndemo </p>
                             <p id="teamRole"> Prof. ICT UoN, Former permanent secretary I.C.T GoK </p>
@@ -1099,106 +1109,105 @@
     <section>
         <div class="container">
             <div class="row">
-
                 <div class="col-md-3">
                     <h2 id="Heading2" class="sticky">Platform</h2>
                 </div>
-
-                <div class="col-md-9 justify-content-center">
-                    <div class="container text-left pt-0" style="padding:25px">
-                        <p class="work-tag">Highlights</p>
-                    </div>
-            
-                    <div class="row justify-content-left">
-                        <div class="col-md-4 mb-4">
-                            <div class="card card-hover">
-                                <img id="img_work" class="card-img-top img-fluid img-responsive" src="assets/img/Jenga_blue.png">
-                                <div class="card-body p-0 mt-4">
-                                    <h5 class="card-title">Jenga School</h5>
-                                    <!-- <p class="card-text text-work">An interactive Artificial Intelligence (AI/ML) micro-degree program in Nairobi.</p> -->
-                                    <a id="link-products"  href="https://www.jengaschool.com/" target="_blank">Learn more »</a>
-                                </div>
+                
+                <div class="col-md-9">
+                        <div class="container text-left pt-0" style="padding:25px">
+                                <p class="work-tag">Highlights</p>
                             </div>
-                        </div>
             
-                        <div class="col-md-4 mb-4">
-                            <div class="card card-hover">
-                                <img id="img_work" class="card-img-top img-fluid img-responsive"  src="assets/img/chini_ya_maji.jpg" >
-                                <div class="card-body p-0 mt-4">
-                                    <h5 class="card-title">Chini ya maji podcast</h5>
-                                    <!-- <p class="card-text text-work">Some quick example text to build on the card title.</p> -->
-                                    <a href="https://anchor.fm/ianetwork" id="link-products" target="_blank">Listen here »</a>
+                            <div class="row justify-content-left">
+                                <div class="col-md-4 mb-4">
+                                    <div class="card card-hover">
+                                        <img id="img_work" class="card-img-top img-fluid img-responsive" src="assets/img/Jenga_blue.png">
+                                        <div class="card-body p-0 mt-4">
+                                            <h5 class="card-title">Jenga School</h5>
+                                            <!-- <p class="card-text text-work">An interactive Artificial Intelligence (AI/ML) micro-degree program in Nairobi.</p> -->
+                                            <a id="link-products"  href="https://www.jengaschool.com/" target="_blank">Learn more »</a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
             
-                        <div class="col-md-4 mb-4">
-                            <div class="card card-hover">
-                                <img id="img_work" class="card-img-top img-fluid img-responsive"  src="assets/img/chaco.jpeg" >
-                                <div class="card-body p-0 mt-4">
-                                    <h5 class="card-title">Power speaker series</h5>
-                                    <!-- <p class="card-text text-work">Some quick example text to build on the card title.</p> -->
-                                    <a href="power-speakers.html" id="link-products" target="_blank">Discover more »</a>
+                                <div class="col-md-4 mb-4">
+                                    <div class="card card-hover">
+                                        <img id="img_work" class="card-img-top img-fluid img-responsive"  src="assets/img/chini_ya_maji.jpg" >
+                                        <div class="card-body p-0 mt-4">
+                                            <h5 class="card-title">Chini ya maji podcast</h5>
+                                            <!-- <p class="card-text text-work">Some quick example text to build on the card title.</p> -->
+                                            <a href="https://anchor.fm/ianetwork" id="link-products" target="_blank">Listen here »</a>
+                                        </div>
+                                    </div>
                                 </div>
+            
+                                <div class="col-md-4 mb-4">
+                                    <div class="card card-hover">
+                                        <img id="img_work" class="card-img-top img-fluid img-responsive"  src="assets/img/chaco.jpeg" >
+                                        <div class="card-body p-0 mt-4">
+                                            <h5 class="card-title">Power speaker series</h5>
+                                            <!-- <p class="card-text text-work">Some quick example text to build on the card title.</p> -->
+                                            <a href="power-speakers.html" id="link-products" target="_blank">Discover more »</a>
+                                        </div>
+                                    </div>
+                                </div>
+            
                             </div>
-                        </div>
-    
-                    </div>
 
                             <!-- Divider -->
                     <div class="container ">
-                        <div class="line line-between">
-            
-                        </div>
-                    </div>
-    
-                    <div class="container text-left pt-0" style="padding:25px">
-                        <p class="work-tag">Content</p>
-                    </div>
-    
-                    <div class="row">
-
-                        <div class="col-md-3 col-6"> 
-                            <div class="card card-medium card-clickable">
-                                <img class="card-img-top img-fluid img-responsive"  src="assets/img/medium.svg" >
-                                <div class="card-body p-0 mt-5">
-                                    <h5 class="card-title">Blog</h5>
-                                    <a id="link-products" href="https://medium.com/impact-africa-network" target="_blank" >Read »</a>
-                                </div>
-                            </div>    
-                        </div>
-    
-                        <div class="col-md-3 col-6"> 
-                            <div class="card card-youtube card-clickable">
-                                <img  class="card-img-top img-fluid img-responsive"  src="assets/img/youtube.svg" >
-                                <div class="card-body p-0 mt-5">
-                                    <h5 class="card-title">video</h5>
-                                    <a id="link-products" href="https://www.youtube.com/channel/UCeJrd62vEdc4XvlTOMBs6Rw" target="_blank" >Watch »</a>
-                                </div>
+                            <div class="line line-between">
+                
                             </div>
                         </div>
-
-                        <div class="col-md-3 col-6"> 
-                            <div class="card card-twitter card-clickable">
-                                <img class="card-img-top img-fluid img-responsive"  src="assets/img/twitter.svg" >
-                                <div class="card-body p-0 mt-5">
-                                    <h5 class="card-title">tweet us</h5>
-                                    <a id="link-products" href="https://twitter.com/ianetworktweets" target="_blank">Follow »</a>
-                                </div>
-                            </div>      
+    
+                        <div class="container text-left pt-0" style="padding:25px">
+                            <p class="work-tag">Content</p>
                         </div>
     
-                        <div class="col-md-3 col-6"> 
-                            <div class="card card-linkedin card-clickable">
-                                <img class="card-img-top img-fluid img-responsive"  src="assets/img/linkedin.svg" >
-                                <div class="card-body p-0 mt-5">
-                                    <h5 class="card-title">linkedin</h5>
-                                    <a id="link-products" href="https://www.linkedin.com/company/impactafrica-network/" target="_blank">Connect »</a>
+                        <div class="row">
+    
+                            <div class="col-md-3 col-sm-6"> 
+                                <div class="card card-medium card-clickable">
+                                    <img class="card-img-top img-fluid img-responsive"  src="assets/img/medium.svg" >
+                                    <div class="card-body p-0 mt-5">
+                                        <h5 class="card-title">Blog</h5>
+                                        <a id="link-products" href="https://medium.com/impact-africa-network" target="_blank" >Read »</a>
+                                    </div>
+                                </div>    
+                            </div>
+    
+                            <div class="col-md-3 col-sm-6"> 
+                                <div class="card card-youtube card-clickable">
+                                    <img  class="card-img-top img-fluid img-responsive"  src="assets/img/youtube.svg" >
+                                    <div class="card-body p-0 mt-5">
+                                        <h5 class="card-title">video</h5>
+                                        <a id="link-products" href="https://www.youtube.com/channel/UCeJrd62vEdc4XvlTOMBs6Rw" target="_blank" >Watch »</a>
+                                    </div>
                                 </div>
-                            </div>      
+                            </div>
+    
+                            <div class="col-md-3 col-sm-6"> 
+                                <div class="card card-twitter card-clickable">
+                                    <img class="card-img-top img-fluid img-responsive"  src="assets/img/twitter.svg" >
+                                    <div class="card-body p-0 mt-5">
+                                        <h5 class="card-title">tweet us</h5>
+                                        <a id="link-products" href="https://twitter.com/ianetworktweets" target="_blank">Follow »</a>
+                                    </div>
+                                </div>      
+                            </div>
+    
+                            <div class="col-md-3 col-sm-6"> 
+                                <div class="card card-linkedin card-clickable">
+                                    <img class="card-img-top img-fluid img-responsive"  src="assets/img/linkedin.svg" >
+                                    <div class="card-body p-0 mt-5">
+                                        <h5 class="card-title">linkedin</h5>
+                                        <a id="link-products" href="https://www.linkedin.com/company/impactafrica-network/" target="_blank">Connect »</a>
+                                    </div>
+                                </div>      
+                            </div>
+    
                         </div>
-
-                    </div>
 
                 </div>
             </div>
@@ -1269,7 +1278,7 @@
                         <div class="list-footer">
                             <li>
                                 <p>
-                                    <span>
+                                    <span class="footerdescript">
                                         General:
                                         <a href="mailto:info@impactafrica.network" class="email-links">info@impactafrica.network</a>
                                     </span>
@@ -1277,7 +1286,7 @@
                             </li>
                             <li>
                                 <p>
-                                    <span>
+                                    <span class="footerdescript">
                                         CEO:
                                         <a href="mailto:mark@impactafrica.network" class="email-links">mark@impactafrica.network</a>
                                     </span>
@@ -1320,6 +1329,18 @@
         </footer>
 
     </section>
+    <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+                if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbars").style.top = "0";
+                } else {
+                document.getElementById("navbars").style.top = "-50px";
+                }
+                prevScrollpos = currentScrollPos;
+            }
+        </script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

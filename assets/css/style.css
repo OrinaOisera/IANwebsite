@@ -163,4 +163,33 @@ html { scroll-behavior: smooth; }
     z-index: 999;
     }
 }
-  
+.mobiledonate{
+    visibility: hidden;
+    border-radius: 50px;
+}
+.bigscreen{
+    border-radius: 25px;
+}
+@media only screen and (max-width: 600px){
+    .mobiledonate{
+        visibility: visible;
+        padding-left:0px;
+        border-radius: 50px;
+        
+    }
+    .donate-button{
+        border-radius: 50px;
+    }
+    .bigscreen{
+        visibility: hidden;
+        border-radius: 50px;
+    }
+    .smallscreen{
+        padding-top:50px;
+    }
+    .menubar{
+        padding-left:75vw;
+        /* float: right; */
+    }
+}
+
