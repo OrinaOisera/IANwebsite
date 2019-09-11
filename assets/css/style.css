@@ -20,7 +20,7 @@ body {
 }
 
 .logo {
-    width: 200px;
+    width: 150px;
 }
 
 .menubar {
@@ -187,9 +187,9 @@ html { scroll-behavior: smooth; }
     .smallscreen{
         padding-top:50px;
     }
-    .menubar{
+    /* .menubar{
         padding-left:75vw;
-        /* float: right; */
-    }
+        float: right;
+    } */
 }
 
