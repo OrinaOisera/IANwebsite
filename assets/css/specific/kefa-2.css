@@ -57,6 +57,7 @@ nav ul li {
 #HeadingFore {
     font-weight: bolder;
     font-size: 42px;
+    padding-top:20px;
 }
 
 #Heading5 {
@@ -79,21 +80,13 @@ nav ul li {
     padding-top: 80px;
     padding-bottom: 35px;
 }
-#about-text{
-    padding-top: 65px; 
+.iconcentered-ourwork{
+    align-self: center;
 }
-.about-icon{
-    width:100px;
-    height:auto;
-}
-/* Some CSS for Welcome Page mobile view- Hosea*/
 @media only screen and (max-width: 600px) {
     #about{
         padding-top: 30px;
         padding-bottom: 10px;
-    }
-    #about-text{
-        padding-top: 2px; 
     }
     .textcentered{
         text-align: center !important;
@@ -101,14 +94,14 @@ nav ul li {
     .iconcentered{
         align-self: center;
     }
-    /* /* .textjustified{
+    .textjustified{
         text-align: justify;
-    } */
+    }
     .line{
         padding-top:20px !important;
         padding-bottom:20px !important;
     }
-    /* .rowcontentscenter{
+    .rowcontentscenter{
         margin: auto;
     }
     .img-fluid-team{
@@ -116,15 +109,9 @@ nav ul li {
     }
     .card{
         padding-top:5px !important;
-    } */
-     
+    }
+    
 }
-/* Welcome Page Hosea CSS */
-.iconcentered-ourwork{
-    align-self: center;
-}
-
-
 .card {
     background-color: #122742;
     border: none;
@@ -149,7 +136,7 @@ nav ul li {
 
 .card-footer a {
     font-size: 17px;
-    color: #FCBC12;
+    color:#f54b4b;
 }
 
 .card-footer-future {
@@ -171,6 +158,10 @@ nav ul li {
 .card-img-top {
     width: 50px;
     height: 50px;
+}
+.about-icon{
+    width:100px;
+    height:auto;
 }
 
 #img_work {
@@ -233,6 +224,8 @@ nav ul li {
     border-radius: 0;
     opacity: 1;
     padding: 40px;
+    padding-top:20px;
+    padding-bottom: 20px;
     background-color: transparent;
 }
 
