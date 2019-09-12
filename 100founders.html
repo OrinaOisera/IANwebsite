@@ -30,50 +30,55 @@
 
      <!-- Font Awesome cdn link-->
      <script src="https://kit.fontawesome.com/08d34252a8.js"></script>
+     <style>
+            a:link {
+                text-decoration: none;
+            }
+        </style>
      
 </head>
 
 <body>
-        <nav class="navbar navbar-expand-lg static-top shadow-sm justify-content-right navbars" id="navbars">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/img/site-logo.png" alt="Impact Africa" class="d-inline-block align-top logo">
-                </a>
-                <a class="btn btn-outline-success btn-sm donate-button" href="cause.html" target="_blank" >Donate</a>
-    
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="menubar"><i class="fas fa-bars"></i></span>    
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#people">People</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#work">Our work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="why-africa.html">Why Africa</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn btn-outline-success btn-sm bigscreen" href="cause.html" target="_blank">Donate</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn btn-success support-btn" href="cause.html" target="_blank">Support the cause</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-lg static-top shadow-sm justify-content-right navbars" id="navbars">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/site-logo.png" alt="Impact Africa" class="d-inline-block align-top logo">
+            </a>
+            <a class="btn btn-outline-success btn-sm donate-button" href="cause.html" target="_blank" >Donate</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="menubar"><i class="fas fa-bars"></i></span>    
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#people">People</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Our work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="why-africa.html">Why Africa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-success btn-sm bigscreen" href="cause.html" target="_blank">Donate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-success support-btn" href="cause.html" target="_blank">Support the cause</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
 
     <!-- Fore Image -->
     <section>
@@ -89,8 +94,7 @@
                     </h5>
                 </a>
             </div>
-        </div>
-        
+        </div>        
     </section>
 
     <section class="founderssec1 pt-5">
@@ -117,46 +121,455 @@
                         </p>
                 </div>
             </div>
-            <div class="col-12">
+            <div class="col-12 pb-2">
                     <p> <i>Impact Africa Network, Inc., a US 501 (c)(3) public charity, EIN 83-2020331 </i> </p>   
             </div>
-            <div class="col-12">
-                <p class="whyfounders pt-5 pb-2">
-                    Why Founders?
-                </p>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonial-sec pb-3">
+        <div class="container pt-3">
+            <h1>Testimonials</h1>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card mb-3 card-testimonial">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 text-center pt-4 pb-4 foundercardimgbg">
+                                    <img src="assets/img/craig.png" class="card-img cardimg-3 pb-3"alt="...">
+                                    <p class="card-name pr-2 pl-2">
+                                        Craig McLuckie
+                                    </p>
+                                    <p class="pr-2 pl-2">
+                                        <b> Founder of Heptio</b> <br>
+                                        (acquired  by VMware)
+                                    </p>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <p class="card-text p-founders pr-2 pl-2 pt-3">
+                                                Impact Africa Network represents an amazing opportunity to broaden the base of entrepreneurial talent in the world.
+                                                Mark's vision to create a sustainable organization empowering young African startup founders will benefit the African economy, and create much needed high paying jobs.
+                                                It will also generate interesting investment opportunities in a highly under-served segment of the world for those interested in angel investing. I am proud to support his efforts.
+                                        </p>
+                                        <!-- <small class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card mb-3 card-testimonial">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 text-center pt-4 pb-4 foundercardimgbg">
+                                    <img src="assets/img/team-orina.JPG" class="card-img cardimg-3 pb-3"alt="...">
+                                    <p class="card-name pr-2 pl-2">
+                                        Mark Orina
+                                    </p>
+                                    <p class="pr-2 pl-2">
+                                        <b> Entrepreneur in Residence</b>
+
+                                    </p>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <p class="card-text p-founders pr-2 pl-2 pt-5">
+                                                My time at Impact Africa Network has been one of the most eye-opening and transformative experience for me.With Mark  Karake's  profound experience & skill set , I've been able leverage his invaluable insight  to not only optimize available resources but to have a mindset of building and  continuous  improvement 
+
+                                        </p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card mb-3 card-testimonial">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 text-center pt-4 pb-4 foundercardimgbg">
+                                    <img src="assets/img/team-daisy.JPG" class="card-img cardimg-3 pb-3"alt="...">
+                                    <p class="card-name pr-2 pl-2">
+                                        Daisy Lang'at
+                                    </p>
+                                    <p class="pr-2 pl-2">
+                                        <b> Market Research</b>
+                                    </p>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <p class="card-text p-founders pr-2 pl-2 pt-5">
+                                            Joining Impact Africa Network  was one of my proudest moments. My time with these great minds  has improved my research skills and the team spirit has allowed me to learn and grow as an individual. I am much more confident about my career prospects.
+                                        </p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
             <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-12 whybenefits">
-                        <img src="assets/img/help.png" class="foundersicon" alt="">
-                        <p class="p-founders text-center">
-                            Power of shared <br> experience
-                        </p>
+                    <div class="col-lg-3 col-md-3 col-sm-3 pb-3"> 
+                        <div class="col-12 whyfounders-card card-hover">
+                            <div class="row justify-content-center" >                  
+                                <h3 class="col-12 text-center" >
+                                    Why Founders
+                                </h3>                                                
+                                <!-- <img src="assets/img/inkinddonations.png" class=" impact-icon">             -->
+                                <div class="col-12 text-center pt-3" >
+                                        <a class="lm" href="#" data-toggle="modal" data-target="#whyfounders"> 
+                                        Why Founders                                    
+                                        <span >
+                                            <i class="fas fa-chevron-right" ></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>                
+                        </div>    
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 whybenefits">
-                        <img src="assets/img/inkinddonations.png" class="foundersicon" alt="">
-                        <p class="p-founders text-center">
-                            Personally meaningful way to pay <br> it forward</p> 
-                        </p>
+                    <div class="col-lg-3 col-md-3 col-sm-3 pb-3">
+                        <div class="col-12 impact-card card-hover">
+                            <div class="row justify-content-center" >           
+                                <h3 class="col-12 text-center" >
+                                    Impact
+                                </h3>                                                  
+                                <!-- <img src="assets/img/cashdonations.png" class=" impact-icon">             -->
+                                <div class="col-12 text-center pt-3" >
+                                    <a class="lm" href="#" data-toggle="modal" data-target="#impact"> 
+                                        Our Wheel of Value                                     
+                                        <span >
+                                            <i class="fas fa-chevron-right" ></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>                
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 whybenefits">
-                        <img src="assets/img/work.png" class="foundersicon" alt="">
-                        <p class="p-founders text-center">
-                            Relevent practical <br> <span class="pl-4">knowledge </span> 
-                        </p>
+                    <div class="col-lg-3 col-md-3 col-sm-3 pb-3">
+                        <div class="col-12 legal-card card-hover">
+                            <div class="row justify-content-center" >
+    
+                                <h3 class="col-12 text-center" >
+                                    Legal 
+                                </h3>             
+                                <div class="col-12 text-center pt-3" > 
+                                    <a class="lm" href="#" data-toggle="modal" data-target="#modal-agreement"> 
+                                        Legal Docs                                     
+                                        <span >
+                                            <i class="fas fa-chevron-right" ></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>                
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 whybenefits">
-                        <img src="assets/img/money.png" class="foundersicon" alt="">
-                        <p class="p-founders">
-                            Angel investment <br> <span class="pl-4">pipeline</span> 
-                        </p>   
+                    <div class="col-lg-3 col-md-3 col-sm-3 pb-3">
+                        <div class="col-12 budget-card card-hover">
+                            <div class="row justify-content-center" >
+    
+                                <h3 class="col-12 text-center" >
+                                    Budget 
+                                </h3>             
+                                <div class="col-12 text-center pt-3" > 
+                                    <a class="lm" href="#" data-toggle="modal" data-target="#budget-file"> 
+                                        Financial Plan                                     
+                                        <span >
+                                            <i class="fas fa-chevron-right" ></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>                
+                        </div>
                     </div>
-            </div>
-             
+                </div>
+                <!-- Impact Modal -->
+                <div class="modal fade" id="impact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-center" id="exampleModalLabel">....</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <section class="bg-cost-breakdown">
+                                    <div class="text-center p-5">
+                                        <h1 class="heading-color">Cost breakdown</h1>
+                                    </div>
+                            
+                                    <div class="container">                                
+                                        <div class=".col-md-6 .ml-auto pb-2">
+                                            <div>
+                                                <img src="./assets/img/wheelofvalue.png" class="img-fluid">
+                                            </div>
+                                        </div>                           
+                                        <div class=".col-md-6 .ml-auto">
+                                            <div class="card card-founders-2 card-border text-center mb-4 card-cost">
+                                                <div class="card-body p-0 mt-3">
+                                                    <h5 class="card-title">$ <span class="span-cost">315 </span> </h5>
+                                                    <p class="p-cost">1 intern for 1 month</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                
+                                        <div class=".col-md-6 .ml-auto">
+                                            <div class="card card-founders-2 card-border text-center mb-4 card-cost">
+                                                <div class="card-body p-0 mt-3">
+                                                    <h5 class="card-title"> $ <span class="span-cost">1875</span> </h5>
+                                                    <p class="p-cost">1 intern for 6 months</p>
+                                                </div>
+                                            </div>         
+                                        </div>
+                                
+                                        <div class=".col-md-6 .ml-auto">
+                                            <div class="card card-founders-2 card-border text-center mb-4 card-cost">
+                                                <div class="card-body p-0 mt-3">
+                                                    <h5 class="card-title">$ <span class="span-cost">3750</span> </h5>
+                                                    <p class="p-cost">1 intern for 12 months</p>
+                                                </div>
+                                            </div>         
+                                        </div>                                               
+    
+                            
+                                        <div class="text-center pb-2 pt-2">
+                                            
+                                            <a href="#" class="btn btn-warning signup-button p-2 pl-4 pr-4 pt-3">
+                                                <h5>
+                                                    Donate
+                                                </h5>
+                                            </a>
+                            
+                                        </div>
+                                        
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             
+                <!-- Why Founders Modal -->
+                <div class="modal fade" id="whyfounders" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-center" id="exampleModalLabel">....</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <section class="bg-cost-breakdown">
+                                    <div class="text-center p-5">
+                                        <h1 class="heading-color">Why Founders</h1>
+                                    </div>                     
+                                    <div class="container text-center">
+                                        <div class=".col-md-6 .ml-auto whybenefits">
+                                            <img src="assets/img/help.png" class="foundersicon" alt="">
+                                            <p class="p-founders text-center">
+                                                Power of shared <br> experience
+                                            </p>
+                                        </div>
+                                        <div class=".col-md-6 .ml-auto whybenefits">
+                                            <img src="assets/img/inkinddonations.png" class="foundersicon" alt="">
+                                            <p class="p-founders text-center">
+                                                Personally meaningful way to pay <br> it forward</p> 
+                                            </p>
+                                        </div>
+                                        <div class=".col-md-6 .ml-auto whybenefits">
+                                            <img src="assets/img/work.png" class="foundersicon" alt="">
+                                            <p class="p-founders text-center">
+                                                Relevent practical <br> <span class="pl-4">knowledge </span> 
+                                            </p>
+                                        </div>
+                                        <div class=".col-md-6 .ml-auto whybenefits">
+                                            <img src="assets/img/money.png" class="foundersicon" alt="">
+                                            <p class="p-founders">
+                                                Angel investment <br> <span class="pl-4">pipeline</span> 
+                                            </p>   
+                                        </div>
+                                    </div>                                           
+                                    <div class="text-center pb-2 pt-2">
+                                        
+                                            <a href="#" class="btn btn-warning signup-button p-2 pl-4 pr-4 pt-3">
+                                                <h5>
+                                                    Donate
+                                                </h5>
+                                            </a>
+                                    </div>                                                              
+                                </section>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- legal Modal -->       
+                <div class="modal fade" id="modal-agreement">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <object type="application/pdf" data="assets/docs/IRS_Determination.pdf" width="100%" height="500" style="height: 85vh;">No Support</object>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+                
+                <!-- Budget Modal -->
+                <div class="modal fade" id="budget-file">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <object type="application/pdf" data="assets/docs/IAN-FinancialPlan - Budget.pdf" width="100%" height="500" style="height: 85vh;">No Support</object>
+                            </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+        </div>
+        
+    </section>
+    <section class="founderssec3 pb-3" >
+        <div class="container">
+            <h1 class="pt-5 pb-2">
+                How to participate
+            </h1>
+            <h2 class="pb-2">
+                    The 100 Founders Challenge is a three -
+                    year partnership. Lasting support 
+                    empowers us to plan for our future and move forward with confidence
+            </h2>
+            <div class="text-center overlaydiv-2 pt-2 pb-5">
+                <h3 class="Founder-title-2">
+                    <i><span style="color:#fcd670"></span> Methods of giving</i>
+                </h3>
+                <h3 class="Founder-title-3">
+                    <i>$15,000 <br> (total 3 year commitment $45,000) <br></i>
+                    <i>$30,000 <br> (total 3 year commitment $90,000) <br></i>
+                    <i>$50,000 <br> (total 3 year commitment $150,000) <br></i>
+                </h3>
+            </div>
+            <div class="pb-3">
+
+            </div>
+            <div class="text-center participarte-div row pt-5 pb-5"> 
+                    <h2 class="text-center col-12">
+                            How to give
+                    </h2> 
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img src="assets/img/cash.png" class="participateicon" alt="">
+                    <p class="participarte">
+                        Online or Wire transfer
+                    </p>
+                    <a href="" style="color:#fde39f">
+                        Donate »
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img src="assets/img/check.png"  class="participateicon" alt="">
+                    <p class="participarte">
+                        Cheque
+                    </p>
+                    <a href="" style="color:#fde39f" data-toggle="modal" data-target="#viewdetails">
+                        View Details »
+                    </a>
+                </div>
+            </div>
+
+            <!-- Button trigger modal -->
+      
+        <!-- Modal -->
+        <div class="modal fade" id="viewdetails" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Cheque Posting  address</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                ...
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
         </div>
 
+        </div>
+    </section>
+
+    <!-- Our Champions -->
+    <section class="testimonial-sec pt-4">
+        <div class="container" >
+            <h1 class="pt-3 pb-3">
+                Our Champions
+            </h1>
+            <div class="row pb-5">
+                <div class=" col-sm-2 col-4 pb-2">
+                    <img src="assets/img/user.png" class="participateicons" alt="">
+                </div>
+                <div class=" col-sm-2 col-4  pb-2">
+                    <img src="assets/img/user.png" class="participateicons" alt="">
+                </div>
+                <div class=" col-sm-2 col-4  pb-2">
+                    <img src="assets/img/user.png" class="participateicons" alt="">
+                </div>
+                <div class=" col-sm-2 col-4  pb-2">
+                    <img src="assets/img/user.png" class="participateicons" alt="">
+                </div>
+                <div class=" col-sm-2 col-4  pb-2">
+                    <img src="assets/img/user.png" class="participateicons" alt="">
+                </div>
+                <div class=" col-sm-2 col-4  pb-2">
+                    <img src="assets/img/user.png" class="participateicons" alt="">
+                </div>
+                <div class=" col-sm-2 col-4  pb-2">
+                    <img src="assets/img/user.png" class="participateicons" alt="">
+                </div>
+                <div class=" col-sm-2 col-4  pb-2">
+                    <img src="assets/img/user.png" class="participateicons" alt="">
+                </div>
+                <div class=" col-sm-2 col-4  pb-2">
+                    <img src="assets/img/user.png" class="participateicons" alt="">
+                </div>
+                <div class=" col-sm-2 col-4  pb-2">
+                    <img src="assets/img/user.png" class="participateicons" alt="">
+                </div>
+                <div class=" col-sm-2 col-4  pb-2">
+                    <img src="assets/img/user.png" class="participateicons" alt="">
+                </div>
+                <div class=" col-sm-2 col-4  pb-2">
+                    <img src="assets/img/user.png" class="participateicons" alt="">
+                </div>
+            </div>
+               
+        </div>
     </section>
     
+
 
   <!-- Footer section -->
   <section>

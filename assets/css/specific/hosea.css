@@ -411,6 +411,16 @@ h3 {
     color:white;
   
   }
+  .budget:hover{
+    box-shadow: 0 0px 0px rgba(0,0,0,0.16), 0 0px 0px rgba(0,0,0,0.23);
+    background:#d87a0e9a; 
+    font-size:3.2vh;
+    
+    padding-top: 36px;
+    transition: all 300ms ease-out;
+    color:white;
+  
+  }
   @media only screen and (max-width: 600px) {
     .inkind{
     background:#1d8b4b9a; 
@@ -567,8 +577,8 @@ h3 {
   padding-left: 250px;
 }
 .foundercardimgbg{
-  background: #fcd670;
-  color:white;
+  background: white;
+  color:black;
 }
 .card-name{
   font-weight: bolder;
@@ -577,6 +587,60 @@ h3 {
 .cardimg-3{
   width:150px;
   height:auto;
+}
+.participateicon{
+  width: 150px;
+  height: auto;
+}
+.participateicons{
+  width: 100px;
+  height: auto;
+}
+/* .card-img{
+  border-radius: 0px !important;
+} */
+.participarte{
+  color: black !important;
+}
+.participarte-div{
+  background:#ffffff; 
+  width:800px;
+  height:auto;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  color:#fcd670;
+  font-weight: 900;
+}
+@media only screen and (max-width: 600px) {
+  .participarte-div{
+    background:#ffffff; 
+    width:300px;
+    height:auto;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    color:#fcd670;
+    font-weight: 900;
+  }
+  .overlaydiv-2{
+    background:#ffffff;
+    width:300px !important;
+    height:auto !important; 
+    /* margin: auto; */
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    color:#fcd670;
+    font-weight: 900;
+    padding-top:30px !important; 
+    
+  }
 }
 .overlaydiv{
   z-index: 1;
@@ -593,22 +657,17 @@ h3 {
   
 }
 .overlaydiv-2{
-  z-index: 2;
-  position:absolute;
-  left: 20vw;
-  top: 0px;
   background:#ffffff; 
-  height: 50vh;
-  width:40vw;
+  width:500px;
+  height:350px;
+  margin: auto;
   box-shadow: 0 0 10px rgba(0,0,0,0.6);
   -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
   -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
-  font-family: Playfair Display;
-  font-style: italic;
   color:#fcd670;
   font-weight: 900;
-  overflow: hidden;   
+  padding-top:30px !important;  
 }
 
 .main-div{
@@ -648,15 +707,161 @@ h3 {
 }
 .whybenefits{
   background-color:#ffffff;
+  margin:auto;  
+}
+/* Card Hover 100 Founders */
 
-
-
-
-
+.whyfounders-card, .impact-card, .legal-card, .budget-card {
+  background:white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);  
+  height:250px;
+  transition: all 300ms ease-out;
+  color:black;
+  font-size:3.2vh;
   
+  padding-top: 36px;
+  border-radius:5px;
+  text-decoration:none;
+}
+.whyfounders-card:hover{
+  background:#1d8b4b9a; 
+  font-size:3.2vh;
+  box-shadow: 0 0px 0px rgba(0,0,0,0.16), 0 0px 0px rgba(0,0,0,0.23);  
+  
+  padding-top: 36px;
+  transition: all 300ms ease-out;
+  color:white;
+  text-decoration: none;
 }
 
 
+
+.impact-card:hover{
+  background:	#800080; 
+  font-size:3.2vh;
+  box-shadow: 0 0px 0px rgba(0,0,0,0.16), 0 0px 0px rgba(0,0,0,0.23);
+  
+  padding-top: 36px;
+  transition: all 300ms ease-out;
+  color:white;
+
+}
+
+.legal-card:hover{
+  box-shadow: 0 0px 0px rgba(0,0,0,0.16), 0 0px 0px rgba(0,0,0,0.23);
+  background:#1430ce9a; 
+  font-size:3.2vh;
+  
+  padding-top: 36px;
+  transition: all 300ms ease-out;
+  color:white;
+
+}
+.budget-card:hover{
+  box-shadow: 0 0px 0px rgba(0,0,0,0.16), 0 0px 0px rgba(0,0,0,0.23);
+  background:#70f05f9a; 
+  font-size:3.2vh;
+  
+  padding-top: 36px;
+  transition: all 300ms ease-out;
+  color:white;
+
+}
+.iconcentered-whyfounders{
+  align-self: center;
+}
+.card-testimonial{
+  /* width: 80vw; */
+  background-color: white;
+  height: 341px ;
+}
+@media only screen and (max-width: 600px){
+  .card-testimonial{
+    width: 80vw;
+    background-color: white;
+    height: 786px;
+  }
+}
+.testimonial-sec{
+  background-color: #fdf1d0;
+  padding-top:0px !important;
+}
+.participate{
+  background: white;
+  width: 600px;
+  height:auto;
+}
+.founderssec3{
+  background-color: #fde39f;
+}
+.testimonials{
+  line-height: 20px;
+  font-size:14px;
+  text-justify: auto;
+}
+
+@media only screen and (max-width: 600px){
+  .whyfounders-card{
+    background:#1d8b4b9a; 
+    font-size:3.2vh;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.16), 0 0px 0px rgba(0,0,0,0.23);  
+    
+    padding-top: 36px;
+    transition: all 300ms ease-out;
+    color:white;
+    text-decoration: none;
+  } 
+  .impact-card{
+    background:	#800080; 
+    font-size:3.2vh;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.16), 0 0px 0px rgba(0,0,0,0.23);
+    
+    padding-top: 36px;
+    transition: all 300ms ease-out;
+    color:white;
+  
+  }
+  
+  .legal-card{
+    box-shadow: 0 0px 0px rgba(0,0,0,0.16), 0 0px 0px rgba(0,0,0,0.23);
+    background:#1430ce9a; 
+    font-size:3.2vh;
+    
+    padding-top: 36px;
+    transition: all 300ms ease-out;
+    color:white;
+  
+  }
+  .budget-card{
+    box-shadow: 0 0px 0px rgba(0,0,0,0.16), 0 0px 0px rgba(0,0,0,0.23);
+    background:#70f05f9a; 
+    font-size:3.2vh;
+    
+    padding-top: 36px;
+    transition: all 300ms ease-out;
+    color:white;
+  }
+
+}
+/* Impact Modal CSS */
+.bg-cost-breakdown {
+  background: white;
+  color: #3a3a3a;
+}
+.card-founders-2 {
+  background-color: #122742;
+  border: none;
+  /* padding: 32px */
+  padding: 25px;
+}
+.card-border {
+  /* box-shadow: 1px 1px 8px #504e4e; */
+  width: 90%;
+  border: 1px dotted rgba(136, 132, 132, 0.5);
+}
+.card-cost{
+  background: #afcffa;
+}
 /* Mobile view CSS for 100 founders */
 
 @media only screen and (max-width: 600px) {
@@ -689,16 +894,6 @@ h3 {
     }
     .h3Founders{
       text-align: left;
-    }
-    .overlaydiv-2{
-      justify-content: center !important;
-      padding-top: 15px !important;
-      height:35vh;
-      width: 75vw;
-      left: 5vw;
-      top:0;
-      overflow: hidden;
-      padding-top:300px;
     }
     .overlaydiv{
       height:25vh;
