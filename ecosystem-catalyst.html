@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Ecosystem Catalyst | Impact Africa Network</title>
-
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -23,14 +24,16 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg static-top shadow-sm justify-content-right ">
+    <nav class="navbar navbar-expand-lg static-top shadow-sm justify-content-right navbars" id="navbars">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="assets/img/site-logo.png" alt="Impact Africa" class="d-inline-block align-top logo">
             </a>
+            <a class="btn btn-outline-success btn-sm donate-button" href="cause.html" target="_blank" >Donate</a>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="menubar"><i class="fas fa-bars"></i></span>    
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav mr-auto">
@@ -40,19 +43,22 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="https://anchor.fm/ianetwork">Podcasts</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">People</a>
+                        <a class="nav-link" href="power-speakers.html">Power-Speakers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="our-work.html">Our work</a>
+                        <a class="nav-link" href="https://link.medium.com/YCN7f63BhV">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="why-africa.html">Why Africa</a>
+                        <a class="nav-link" href="https://www.youtube.com/channel/UCeJrd62vEdc4XvlTOMBs6Rw">Videos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-success support-btn" href="#">Support the cause</a>
+                        <a class="nav-link btn btn-outline-success btn-sm bigscreen" href="https://donorbox.org/changingtheafricannarrative-644" >Donate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-success support-btn" href="cause.html">Support the cause</a>
                     </li>
                 </ul>
             </div>
@@ -70,14 +76,14 @@
                 <h1 class="text-center"><strong>Ecosystem Catalyst</strong></h1>
 
                 <div class="pt-3">
-                    <a href="#" class="btn-down"><i class="fas fa-angle-down"></i></a> 
+                    <a href="#catalyst" class="btn-down"><i class="fas fa-angle-down"></i></a> 
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Five year goal section -->
-    <section class="plan-section p-3 pt-5">
+    <section class="plan-section p-3 pt-5" id="catalyst">
         <div class="container">
             <div>
                 <h5 class="text-center">Our media and events platform is meant to demistify, localize, 
@@ -102,7 +108,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 col-6 activator text-center row" style="">
                     <div class="col-lg-12 w3-animate-opacity" style="padding-bottom:50px">
                         <div class="col-lg-12 service-offered" style="">               
-                            <a href="http://52.186.13.91/gallery" style="text-decoration:none;" class="africa-color">
+                            <a href="power-speakers.html" style="text-decoration:none;" class="africa-color">
                                 <i class="fa fa-calendar-alt fa-4x "></i>
                             </a>
                         </div>
@@ -146,13 +152,110 @@
         </div>
     
     </section>
+    <section>
 
+        <div class="sub_footer p-5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-4 p-3 sub_footer-col pl-5">
+                        <h5 class="heading-footer">quick links</h5>
+                        
+                        <div class="list-footer">
+                            <a href="index.html"><li>Home</li></a> 
+                            <a href="https://changing-the-african-narrative.causevox.com/signup"><li>Get Involved</li></a>
+                            <a href="launchpad.html"><li>The Future</li></a>
+                            <a href="founders.html"><li>100 Founders Challenge</li></a>
+                            <a href="why-africa.html"><li>Why Africa</li></a>
+                        </div>
+
+                        <div class="mt-5">
+                                <a class="nav-link btn btn-outline-success btn-sm donate-button-2" href="https://donorbox.org/changingtheafricannarrative-644" >Donate</a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 p-3 sub_footer-col pl-5">
+                        <h5 class="heading-footer">Our products</h5>
+                        <div class="list-footer">
+                            <a href="https://www.jengaschool.com/"><li>Jenga school</li></a>
+                            <a href="intern-program.html"><li>Intern program</li></a>
+                            <a href="power-speakers.html"><li>Power speakers series</li></a>
+                            <a href="https://anchor.fm/ianetwork"><li>Chini ya maji podcast</li></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 p-3 pl-5">
+                        <h5 class="heading-footer">Let's Talk</h5>
+                        <div class="list-footer">
+                            <li>
+                                <p>
+                                    <span class="footerdescript">
+                                        General:
+                                        <a href="mailto:info@impactafrica.network" class="email-links">info@impactafrica.network</a>
+                                    </span>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <span class="footerdescript">
+                                        CEO:
+                                        <a href="mailto:mark@impactafrica.network" class="email-links">mark@impactafrica.network</a>
+                                    </span>
+                                </p>
+                            </li>
+                            
+                        </div>
+                        <div class=" footer-location">
+                            <h5 class="heading-footer mt-5">Offices</h5>
+                            <a href="https://goo.gl/maps/JeuSXqSsCrR6uRwZA" target="_blank" id="maps">Riara corporate suites, Riara road</a> 
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <footer class="footer d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="pt-5 pb-5">
+                    <div class="text-center" style="color: #909090">
+                        <p><span style="color:#e9443c">impact</span><span style="color:#496ea9">africa</span>.<span style="color:#2da051">network</span> &#169 2019</p>
+
+                        <div class="text-center" style="color: #909090; font-size: .8em">
+                            <!-- <p>Changing the african narrative.</p>   -->
+                            <p>Impact Africa Network, Inc. is a US 501 (c)(3) public charity, EIN 83-2020331</p> 
+                        </div>
+                        
+                    </div>
+
+                    <div class="text-center">
+                        <a href="https://twitter.com/ianetworktweets" class="icons"><i class="fab fa-twitter p-2"></i></a>
+                        <a href="https://medium.com/impact-africa-network" class="icons"><i class="fab fa-medium p-2"></i></a>
+                        <a href="https://www.linkedin.com/company/impactafrica-network/" class="icons"><i class="fab fa-linkedin p-2"></i></a>
+                        <a href="https://www.youtube.com/channel/UCeJrd62vEdc4XvlTOMBs6Rw" class="icons"><i class="fab fa-youtube p-2"></i></a>
+                    </div>
     
+                </div>
+            </div>
+        </footer>
+
+    </section>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbars").style.top = "0";
+            } else {
+            document.getElementById("navbars").style.top = "-50px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
-    <script src="assets/js/scripts.js"></script> 
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>

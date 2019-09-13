@@ -7,6 +7,8 @@
 
     <title>Launchpad | Impact Africa Network</title>
 
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -23,14 +25,16 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg static-top shadow-sm justify-content-right ">
+    <nav class="navbar navbar-expand-lg static-top shadow-sm justify-content-right navbars" id="navbars">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="#">
                 <img src="assets/img/site-logo.png" alt="Impact Africa" class="d-inline-block align-top logo">
             </a>
+            <a class="btn btn-outline-success btn-sm donate-button" href="cause.html" target="_blank" >Donate</a>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="menubar"><i class="fas fa-bars"></i></span>    
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav mr-auto">
@@ -50,6 +54,9 @@
                     </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#vision2030">Vision 2030</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-success btn-sm bigscreen" href="https://donorbox.org/changingtheafricannarrative-644" >Donate</a>
                     </li>
                     <li class="nav-item supportcausebtnright">
                         <a class="nav-link btn btn-success support-btn" href="cause.html">Support the cause</a>
@@ -76,7 +83,7 @@
     </section>
 
     <!-- launchpad content -->
-    <section class="launchpad-content p-3 pt-5 img-fluid">
+    <section class="launchpad-content p-3 pt-5 img-fluid" id="launchpadsec">
         <div class="container">
             <div class="pb-5 pt-5">
                 <h5 class="text-center"> Co-working - Events - Classes - Community </h5>
@@ -88,7 +95,7 @@
             The revenue generated from leases, events, and classes contributes to our sustainability plan 
             </p>
 
-            <div class="row text-center mt-5">
+            <!-- <div class="row text-center mt-5">
                 <div class="col-md-2 col-sm-2 icon-arrow">
                     <i class="fas fa-arrow-circle-left" data-toggle="tooltip" data-html="true" data-placement="right" title="vision 2030"></i>
                 </div>
@@ -96,7 +103,7 @@
                     <i class="fas fa-arrow-circle-right" data-toggle="tooltip" data-html="true" data-placement="left" title="Five year plan"></i>            
                 </div>
     
-            </div>
+            </div> -->
 
         </div>
     </section>
@@ -112,7 +119,7 @@
                 <h1 class="text-center"><strong>Five Year Plan</strong></h1>
 
                 <div class="pt-3">
-                    <i class="fas fa-angle-down"></i> 
+                    <a href="#execute" class="btn-down"><i class="fas fa-angle-down"></i></a> 
                 </div>
             </div>
         </div>
@@ -129,7 +136,7 @@
                 <img src="./assets/img/5YearPlan.png" class="img-fluid">
             </div>
 
-            <div class="row text-center mt-5">
+            <!-- <div class="row text-center mt-5">
                 <div class="col-md-2 col-sm-2 icon-arrow">
                     <i class="fas fa-arrow-circle-left"></i>
                 </div>
@@ -137,7 +144,7 @@
                     <i class="fas fa-arrow-circle-right"></i>            
                 </div>
     
-            </div>
+            </div> -->
             
         </div>
         
@@ -198,21 +205,22 @@
                 </p>
             </div>
 
-            <div class="row text-center mt-5">
+            <!-- <div class="row text-center mt-5">
                 <div class="col-md-2 col-sm-2 icon-arrow">
                     <i class="fas fa-arrow-circle-left"></i>
                 </div>
                 <div class="col-md-2 col-sm-2 offset-8 icon-arrow">
                     <i class="fas fa-arrow-circle-right"></i>            
                 </div>
-            </div>
+            </div> -->
                 
         </div>
     
     </section>
 
 
-    <section>
+    <!-- Footer section -->
+	<section>
 
         <div class="sub_footer p-5">
             <div class="container">
@@ -222,25 +230,25 @@
                         <h5 class="heading-footer">quick links</h5>
                         
                         <div class="list-footer">
-                            <a href="#"><li>Home</li></a> 
-                            <a href="#"><li>About</li></a>
-                            <a href="#"><li>People</li></a>
-                            <a href="#"><li>Our work</li></a>
-                            <a href="#"><li>Why Africa</li></a>
+                            <a href="index.html"><li>Home</li></a> 
+                            <a href="https://changing-the-african-narrative.causevox.com/signup"><li>Get Involved</li></a>
+                            <a href="launchpad.html"><li>The Future</li></a>
+                            <a href="founders.html"><li>100 Founders Challenge</li></a>
+                            <a href="why-africa.html"><li>Why Africa</li></a>
                         </div>
 
                         <div class="mt-5">
-                            <a href="#" class="btn btn-success support-btn-footer p-3">Support the cause</a>
+                                <a class="nav-link btn btn-outline-success btn-sm donate-button-2" href="https://donorbox.org/changingtheafricannarrative-644" >Donate</a>
                         </div>
 
                     </div>
                     <div class="col-md-4 p-3 sub_footer-col pl-5">
                         <h5 class="heading-footer">Our products</h5>
                         <div class="list-footer">
-                            <a href="#"><li>Jenga school</li></a>
-                            <a href="#"><li>Intern program</li></a>
-                            <a href="#"><li>Power speakers series</li></a>
-                            <a href="#"><li>Chini ya maji podcast</li></a>
+                            <a href="https://www.jengaschool.com/"><li>Jenga school</li></a>
+                            <a href="intern-program.html"><li>Intern program</li></a>
+                            <a href="power-speakers.html"><li>Power speakers series</li></a>
+                            <a href="https://anchor.fm/ianetwork"><li>Chini ya maji podcast</li></a>
                         </div>
                     </div>
                     <div class="col-md-4 p-3 pl-5">
@@ -297,14 +305,25 @@
                 </div>
             </div>
         </footer>
-    
+
     </section>
-    
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbars").style.top = "0";
+            } else {
+            document.getElementById("navbars").style.top = "-50px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
-    <script src="assets/js/scripts.js"></script> 
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>

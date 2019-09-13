@@ -877,7 +877,7 @@ nav ul li {
 
 /* launchpad css */
 .bg-launchpad-fore {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/bck.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/launchpad-2.JPG");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -891,15 +891,22 @@ nav ul li {
     background-color:#DADEDF;
     color: rgb(36, 34, 34);
 }
+@media only screen and (max-width: 600px) {
+.launchpad-content {
+    height:auto;
+    background-color:#DADEDF;
+    color: rgb(36, 34, 34);
+}
+}
 
 
 /* Ecosystem catalyst css */
 .bg-catalyst-fore {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/lion_sunset.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/Ecosystem.jpg");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 75vh;
     width: 100%;
     object-fit: contain;
 }
