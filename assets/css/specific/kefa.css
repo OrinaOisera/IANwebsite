@@ -472,6 +472,14 @@ nav ul li {
     color: rgb(49, 47, 47);
     height: 100vh;
 }
+@media only screen and (max-width: 600px) {
+    #section-intern-fore {
+        background: #eff3f9;
+        color: rgb(49, 47, 47);
+        height: 100vh;
+        padding-top: 150px;
+    } 
+}
 
 .section-intern-about {
     background: white;
