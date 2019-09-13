@@ -127,6 +127,22 @@ nav ul li {
 .icons:hover {
     color: orange;
 }
+.support-btn {
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 50px;
+}
+/* Cause btns */
+.btn-founders{
+    color: #fff;
+    background-color: #0000FF;
+    border-color: #0000FF;
+}
+.btn-fundraise{
+    color: #fff;
+    background-color: rgb(153, 153, 15);
+    border-color:  rgb(153, 153, 15);
+}
 
 .support-btn-footer {
     font-weight: 600;
@@ -134,7 +150,6 @@ nav ul li {
     border-radius: 50px;
     color: white;
 }
-
 .email-links {
     color: azure;
 }
