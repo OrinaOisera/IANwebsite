@@ -606,8 +606,8 @@ h3 {
   
 }
 .participateicons{
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
 }
 /* .card-img{
@@ -793,7 +793,7 @@ h3 {
   .card-testimonial{
     width: 80vw;
     background-color: white;
-    height: 786px;
+    height: 879px;
   }
 }
 .testimonial-sec{
