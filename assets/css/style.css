@@ -160,6 +160,7 @@ html { scroll-behavior: smooth; }
 .upscroll{
     background-color: antiquewhite;
 }
+
 #navbars {
     position: fixed;
     top: 0;
@@ -168,6 +169,7 @@ html { scroll-behavior: smooth; }
     transition: top 0.3s;
     z-index: 999;
 }
+
 @media only screen and (max-width: 600px) {
     #navbars {
     position: fixed;
