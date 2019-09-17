@@ -135,13 +135,13 @@ nav ul li {
 /* Cause btns */
 .btn-founders{
     color: #fff;
-    background-color: #0000FF;
-    border-color: #0000FF;
+    background-color:#4b72ad;
+    border-color:#4b72ad;
 }
 .btn-fundraise{
     color: #fff;
-    background-color: rgb(153, 153, 15);
-    border-color:  rgb(153, 153, 15);
+    background-color: #ea443c;
+    border-color:  #ea443c;
 }
 
 .support-btn-footer {
@@ -219,5 +219,10 @@ html { scroll-behavior: smooth; }
     border-radius: 50px;
     /* position: relative; */
     visibility: visible;
+}
+
+/* Class for invisibility -Hosea */
+.invisible{
+    visibility: hidden;
 }
   

@@ -119,7 +119,7 @@ h3 {
   .image-container {
     position: relative;
     text-align: center;
-    color: white;
+    color: #fde39f;
   }
   .image-text-centered {
     position: absolute;
@@ -527,7 +527,7 @@ h3 {
   color: black;
   font-size: 22px !important;
   opacity: 0.8   !important;
-  font-family: 'Courgette';
+  font-family: 'Pathway Gothic One';
 }
 .founderpage-section{
   background: white;
@@ -589,7 +589,7 @@ h3 {
   padding-left: 250px;
 }
 .foundercardimgbg{
-  background: rgb(241, 222, 222);
+  background: #fdf1d0;
   color:black;
 }
 .card-name{
@@ -599,6 +599,7 @@ h3 {
 .cardimg-3{
   width:150px;
   height:auto;
+  border-radius: 50%;
 }
 .participateicon{
   width: 100px;
@@ -782,18 +783,24 @@ h3 {
 
 } */
 .iconcentered-whyfounders{
-  align-self: center;
+  align-self: center !important;
 }
 .card-testimonial{
   /* width: 80vw; */
-  background-color: rgb(241, 222, 222);
-  height: 341px ;
+  background-color: #fdf1d0;
+  height: auto ;
+  margin: auto;
+  border-style: none;
 }
 @media only screen and (max-width: 600px){
   .card-testimonial{
     width: 80vw;
-    background-color: white;
-    height: 879px;
+    /* background-color: white; */
+    height: auto;
+  }
+  .card-text-mobile{
+    padding-left: 0px !important;
+    padding-right:0px !important;
   }
 }
 .testimonial-sec{
@@ -816,7 +823,7 @@ h3 {
   .whyfounders-card{
     /* background-color:rgb(40, 167, 69);  */
     /* font-size:3.2vh; */
-    box-shadow: 0 0px 0px rgba(0,0,0,0.16), 0 0px 0px rgba(0,0,0,0.23);  
+    /* box-shadow: 0 0px 0px rgba(0,0,0,0.16), 0 0px 0px rgba(0,0,0,0.23);   */
     
     padding-top: 36px;
     transition: all 300ms ease-out;
@@ -1150,6 +1157,11 @@ html { scroll-behavior: smooth; }
   /* border: 1px dotted rgba(136, 132, 132, 0.5); */
 
 }
+.card-hover-impact-2:hover {
+  background: rgba(5, 21, 36, 0.2);
+  /* border: 1px dotted rgba(136, 132, 132, 0.5); */
+
+}
 .card-border-3 {
   /* box-shadow: 1px 1px 8px #504e4e; */
   width: 90%;
@@ -1164,4 +1176,18 @@ html { scroll-behavior: smooth; }
   background: rgba(241, 245, 21, 0.2);
   /* border: 1px dotted rgba(136, 132, 132, 0.5); */
 
+}
+@media only screen and (max-width: 600px){
+  .whyfounders-card{
+    background: rgba(5, 21, 36, 0.2);
+  }
+  .impact-card{
+    background: rgba(33, 221, 42, 0.2);
+  }
+  .legal-card{
+    background: rgba(26, 8, 192, 0.2);
+  }
+  .budget-card{
+    background: rgba(241, 245, 21, 0.2);
+  }
 }
