@@ -102,6 +102,10 @@ body {
 
 /* Some CSS for Welcome Page mobile view- Hosea*/
 @media only screen and (max-width: 600px) {
+    body {
+        padding-top: 0;
+
+    }
     #about{
         padding-top: 30px;
         padding-bottom: 10px;
