@@ -859,6 +859,7 @@ body {
 .future-section {
     /* background: #eff3f9; */
     background:  linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%);
+    background: rgb(226, 217, 217);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -902,12 +903,39 @@ body {
 
 
 /* launchpad css */
-.bg-launchpad-fore {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/launchpad-2.JPG");
+.bg-launchpad-fore1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/officeIAN.jpg");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    height: 65vh;
+    height: 45vh;
+    width: 100%;
+    object-fit: contain;
+}
+.bg-launchpad-fore2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/person.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 100%;
+    object-fit: contain;
+}
+.bg-launchpad-fore3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/Office_classes.JPG");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 100%;
+    object-fit: contain;
+}
+.bg-launchpad-fore4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/company-conference-room.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 45vh;
     width: 100%;
     object-fit: contain;
 }
