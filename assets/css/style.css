@@ -137,8 +137,13 @@ nav ul li {
 /* Cause btns */
 .btn-founders{
     color: #fff;
-    background-color:#4b72ad;
-    border-color:#4b72ad;
+    background-color:#fbbc12;
+    border-color:#fbbc12;
+}
+.btn-involved{
+    color: #fff;
+    background-color:#5781c2;
+    border-color:#5781c2;
 }
 .btn-fundraise{
     color: #fff;
@@ -228,5 +233,35 @@ html { scroll-behavior: smooth; }
 /* Class for invisibility -Hosea */
 .invisible{
     visibility: hidden;
+}
+/* Carousel Indicators */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  /* outline: black; */
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+  background-image: none;
+}
+.carousel-control-prev-icon{
+    padding-right:50px;
+}
+.carousel-control-next-icon{
+    padding-left:50px;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color:black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
 }
   

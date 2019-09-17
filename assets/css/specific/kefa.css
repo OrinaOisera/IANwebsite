@@ -99,6 +99,7 @@ body {
     font-size: 15px !important;
     color:whitesmoke!important;
 }
+
 /* Some CSS for Welcome Page mobile view- Hosea*/
 @media only screen and (max-width: 600px) {
     body {
@@ -111,6 +112,9 @@ body {
     }
     #about-text{
         padding-top: 2px; 
+    }
+    .mobile-float{
+        float: left;
     }
     .textcentered{
         text-align: center !important;
@@ -215,7 +219,7 @@ body {
 
 .ext-link {
     font-size: smaller;
-    color: #dd874a;
+    color: #FCBC12;
 }
 
 .ext-link-cost {
@@ -250,6 +254,7 @@ body {
 #teamRole {
     opacity: .4;
     font-size: 10px;
+    line-height: 15px !important;
 }
 
 .line {
