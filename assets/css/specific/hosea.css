@@ -43,6 +43,10 @@
     font-weight:700;
     font-size:9.5vh
 }
+
+#why-africa {
+  background: #dee2e7;
+}
 .eco{
     font-weight:lighter;
     border:3px solid #fff;
@@ -258,12 +262,15 @@ h3 {
     display: none;
     background: #122742;
   }
+
   .contenttt-2 {
     display: none;
   }
+
   .urefu{
     min-height: 520px
   }
+
   .collapsible {
     /*background: #122742;*/
     color: white;
@@ -320,6 +327,7 @@ h3 {
   .cause-div-2{
     background: #eff3f9 !important;
   }
+
   .collage-img{
     height:auto;
     max-width:70%
