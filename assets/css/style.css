@@ -186,6 +186,10 @@ html { scroll-behavior: smooth; }
     transition: top 0.3s;
     z-index: 999;
     }
+
+    body{
+        padding-top: 0px;
+    }
 }
 
 /* CSS for Donate button */
