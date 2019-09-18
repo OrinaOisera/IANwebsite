@@ -721,8 +721,8 @@ h3 {
   color:#856001;
 }
 .foundersdescript{
-  font-size:20px;
-   line-height: 40px;
+  font-size:25px;
+   line-height: 60px;
    font-weight: 500
 }
 .whyfounders{
@@ -814,6 +814,9 @@ h3 {
     .mobilenopadding{
       padding: 0 !important;
     }
+    .mobilenopadding-2{
+      padding-bottom:10px !important;
+    }
     .carousel-control-prev-icon{
       padding-right:30px !important;
     }
@@ -822,6 +825,24 @@ h3 {
     }
     .mobile-size{
       font-size: 20px !important;
+    }
+    .mobile-size-1{
+      font-size: 12px !important;
+    }
+    .founders-cause-btn{
+      padding: 5px 10px 2px 10px !important;
+    }
+    .founders-sec-1{
+      padding-top:0px !important;
+    }
+    .foundersdescript{
+    font-size:19px;
+    line-height: 40px;
+    font-weight: 500
+    }
+    .foundersdescriptdiv{
+      padding-top:10px !important;
+      padding-bottom:0px !important;
     }
 }
 .testimonial-sec{
