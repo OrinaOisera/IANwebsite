@@ -348,7 +348,9 @@ h3 {
   }
   .cause-vimeo-video-div{
     padding:56.25% 0 0 0;
-    position:relative;
+    /* position:relative; */
+    width:50vw;
+    height:auto;
   }
   .cause-div-4{
     background:#c4f09b!important;
