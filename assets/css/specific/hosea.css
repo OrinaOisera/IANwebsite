@@ -332,6 +332,29 @@ h3 {
     font-family: 'Roboto';
     font-size:40px;
     opacity:0.8;
+    line-height: 50px;
+  }
+  .foundercardimgbg-2{
+    background: #fafafa;
+    color:black;
+  }
+  .cardimg-4{
+    width:150px;
+    height:auto;
+    border-radius: 50%;
+  }
+  .card-testimonial-2{
+    /* width: 80vw; */
+    background-color:#fafafa;
+    height: 310px; ;
+    margin: auto;
+    border-style: none;
+  }
+  .p-diaspora-card{
+    color:black !important;
+    font-weight:bold;
+    font-size: 20px;
+    opacity: 0.7;
   }
   
 
@@ -610,12 +633,12 @@ h3 {
 .contributions{
   color: white;
   opacity: 0.5 !important;
-  font-size: 13px;
+  font-size: 15px;
   /* line-height: 0.05px !important; */
 }
 .contribution{
   color: white;
-  font-size: 22px !important;
+  font-size: 25px !important;
   opacity: 0.8   !important;
   font-family: 'Pathway Gothic One';
 }
@@ -737,10 +760,10 @@ h3 {
     width:300px !important;
     height:auto !important; 
     /* margin: auto; */
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.6);
     -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
     -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
-    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6); */
     color:#fcd670;
     font-weight: 900;
     padding-top:30px !important; 
@@ -763,13 +786,13 @@ h3 {
 }
 .overlaydiv-2{
   background:#9d714b; 
-  width:500px;
+  width:700px;
   height:350px;
   margin: auto;
-  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.6);
   -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
-  -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.6); */
   color:#fcd670;
   font-weight: 900;
   padding-top:30px !important;  
@@ -803,8 +826,8 @@ h3 {
 }
 .foundersdescript{
   font-size:25px;
-   line-height: 60px;
-   font-weight: 500
+   font-weight: 600;
+   color:black;
 }
 .whyfounders{
   font-size: 50px;
