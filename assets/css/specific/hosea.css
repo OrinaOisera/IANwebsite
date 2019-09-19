@@ -826,7 +826,7 @@ h3 {
 }
 .foundersdescript{
   font-size:25px;
-   font-weight: 600;
+   /* font-weight: light; */
    color:black;
 }
 .whyfounders{
