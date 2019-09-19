@@ -294,6 +294,23 @@ h3 {
   .descriptor-div{
       padding-bottom:0px;
   }
+  /* Diaspora CSS */
+  .top-center{
+    position: absolute;
+    top: 60px;    
+  }
+  .diaspora-foreimg-text{
+    font-family: 'Poppins';
+    color:white;
+  }
+  .diasporavideosec{
+    background-color: #f1f1f1;
+  }
+  .diasporaheader{
+    font-family: 'Roboto';
+    font-size: 40px;
+    /* font-weight: lighter; */
+  }
 
 
   /* This code overides the section color every where. Assign that section an id and add a color. by Kefa*/
