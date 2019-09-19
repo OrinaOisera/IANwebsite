@@ -568,13 +568,13 @@ h3 {
 
 }
 .contributions{
-  color: black;
+  color: white;
   opacity: 0.5 !important;
   font-size: 13px;
   /* line-height: 0.05px !important; */
 }
 .contribution{
-  color: black;
+  color: white;
   font-size: 22px !important;
   opacity: 0.8   !important;
   font-family: 'Pathway Gothic One';
@@ -693,7 +693,7 @@ h3 {
     font-weight: 900;
   }
   .overlaydiv-2{
-    background:#ffffff;
+    background:#9d714b;
     width:300px !important;
     height:auto !important; 
     /* margin: auto; */
@@ -722,7 +722,7 @@ h3 {
   
 }
 .overlaydiv-2{
-  background:#ffffff; 
+  background:#9d714b; 
   width:500px;
   height:350px;
   margin: auto;
