@@ -303,6 +303,23 @@ h3 {
     font-family: 'Poppins';
     color:white;
   }
+  .africanprintcontainer{
+     text-align: center;
+     background-image: url("../../img/African\ Print\ 1.png");
+      color: white;
+    /* z-index: 12; */
+  }
+  .africanprintoverlaydiv{
+    position: absolute;
+    top:0px  !important;
+    width:80vw;
+    height:75vh;
+    /* z-index: 10; */
+    background-color:white;
+    align-self: center;
+    margin-left:50px;
+
+  }
   .diasporavideosec{
     background-color: #f1f1f1;
   }
@@ -311,6 +328,12 @@ h3 {
     font-size: 40px;
     /* font-weight: lighter; */
   }
+  .diasporaheader-2{
+    font-family: 'Roboto';
+    font-size:40px;
+    opacity:0.8;
+  }
+  
 
 
   /* This code overides the section color every where. Assign that section an id and add a color. by Kefa*/
