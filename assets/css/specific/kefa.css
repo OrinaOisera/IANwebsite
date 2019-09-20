@@ -918,7 +918,7 @@ body {
     object-fit: contain;
 }
 .bg-launchpad-fore2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/person.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/Events.jpg");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
