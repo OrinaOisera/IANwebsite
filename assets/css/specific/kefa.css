@@ -73,6 +73,7 @@ body {
 #Heading2 {
     font-weight: bolder;
     font-size: 38px;
+    color: white !important;
 }
 
 #subheading2 {
@@ -138,6 +139,9 @@ body {
     .card{
         padding-top:5px !important;
     } */
+    .heading-metric-content{
+        padding-top:0px !important;
+    }
      
 }
 /* Welcome Page Hosea CSS */
@@ -249,6 +253,7 @@ body {
     font-weight: 400;
     margin-bottom: 0px;
     font-size: 16px;
+    color: white !important;
 }
 
 #teamRole {
@@ -1077,6 +1082,7 @@ body {
 
     #subheading3 {
         font-size: 21px;
+        color: white !important;
     }
 
     .heading-metric {
