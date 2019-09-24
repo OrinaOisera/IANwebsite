@@ -36,7 +36,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg static-top shadow-sm justify-content-right navbars" id="navbars">
+    <nav class="navbar navbar-expand-lg static-top shadow-sm justify-content-right navbar-fixed-top" id="navbarss">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/img/site-logo.png" alt="Impact Africa" class="d-inline-block align-top logo">
@@ -61,7 +61,7 @@
                         <a class="nav-link" href="5year.html">5 Year plan</a>
                     </li>
                     <!-- <li class="nav-item">
-                        <a class="nav-link" href="our-work.html">Our work</a>
+                        <a class="nav-link" href="our-work">Our work</a>
                     </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="vision.html">Vision 2030</a>
@@ -160,8 +160,10 @@
                             <a href="founderschallenge.html"><li>100 Founders Challenge</li></a>
                             <a href="why-africa.html"><li>Why Africa</li></a>
                         </div>
-
                         <div class="mt-5">
+                            <a class="nav-link btn btn-success support-btn" href="cause.html" >Get Involved</a>
+                        </div>
+                        <div class="mt-2">
                                 <a class="nav-link btn btn-outline-success btn-sm donate-button-2" href="https://donorbox.org/changingtheafricannarrative-644" >Donate</a>
                         </div>
 
@@ -190,7 +192,7 @@
                                 <p>
                                     <span class="footerdescript">
                                         CEO:
-                                        <a href="mailto:mark@impactafrica.network" class="email-links">mark@impactafrica.network</a>
+                                        <a href="mailto:ceo@impactafrica.network" class="email-links">ceo@impactafrica.network</a>
                                     </span>
                                 </p>
                             </li>
@@ -231,18 +233,7 @@
         </footer>
 
     </section>
-    <script>
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navbars").style.top = "0";
-            } else {
-            document.getElementById("navbars").style.top = "-50px";
-            }
-            prevScrollpos = currentScrollPos;
-        }
-    </script>
+    
 
     <!-- Bootstrap core JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

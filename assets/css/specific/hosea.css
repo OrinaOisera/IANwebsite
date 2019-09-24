@@ -770,9 +770,9 @@ h3 {
   }
   .overlaydiv-2{
     background:#9d714b;
-    width:300px !important;
+    width:auto !important;
     height:auto !important; 
-    /* margin: auto; */
+    margin: auto;
     /* box-shadow: 0 0 10px rgba(0,0,0,0.6);
     -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
     -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);

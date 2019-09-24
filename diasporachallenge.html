@@ -43,7 +43,7 @@
     </head>
     
     <body>
-        <nav class="navbar navbar-expand-lg static-top shadow-sm justify-content-right navbars" id="navbars">
+        <nav class="navbar navbar-expand-lg static-top shadow-sm justify-content-right navbar-fixed-top" id="navbarss">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
                     <img src="assets/img/site-logo.png" alt="Impact Africa" class="d-inline-block align-top logo">
@@ -440,8 +440,10 @@
                                 <a href="founderschallenge.html"><li>100 Founders Challenge</li></a>
                                 <a href="why-africa.html"><li>Why Africa</li></a>
                             </div>
-    
                             <div class="mt-5">
+                                <a class="nav-link btn btn-success support-btn" href="cause.html" >Get Involved</a>
+                            </div>
+                            <div class="mt-2">
                                     <a class="nav-link btn btn-outline-success btn-sm donate-button-2" href="https://donorbox.org/changingtheafricannarrative-644" >Donate</a>
                             </div>
     
@@ -470,7 +472,7 @@
                                     <p>
                                         <span class="footerdescript">
                                             CEO:
-                                            <a href="mailto:mark@impactafrica.network" class="email-links">mark@impactafrica.network</a>
+                                            <a href="mailto:ceo@impactafrica.network" class="email-links">ceo@impactafrica.network</a>
                                         </span>
                                     </p>
                                 </li>
@@ -516,9 +518,9 @@
             window.onscroll = function() {
             var currentScrollPos = window.pageYOffset;
                 if (prevScrollpos > currentScrollPos) {
-                document.getElementById("navbars").style.top = "0";
+                document.getElementById("navbarss").style.top = "0";
                 } else {
-                document.getElementById("navbars").style.top = "-50px";
+                document.getElementById("navbarss").style.top = "-50px";
                 }
                 prevScrollpos = currentScrollPos;
             }
