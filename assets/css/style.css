@@ -168,7 +168,7 @@ html { scroll-behavior: smooth; }
     background-color: antiquewhite;
 }
 
-#navbars {
+#navbarss {
     position: fixed;
     top: 0;
     width: 100%;
@@ -178,7 +178,7 @@ html { scroll-behavior: smooth; }
 }
 
 @media only screen and (max-width: 600px) {
-    #navbars {
+    #navbarss {
     position: fixed;
     top: 0;
     width: 100%;
