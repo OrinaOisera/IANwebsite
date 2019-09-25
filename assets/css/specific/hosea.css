@@ -437,10 +437,7 @@ h3 {
     width:100%;
     height:100%;
   }
-  .cause-vimeo-video-div{
-    padding:56.25% 0 0 0;
-    position:relative;
-  }
+  
  /* Vimeo CSS */
  
 
@@ -560,6 +557,7 @@ h3 {
   
   }
   @media only screen and (max-width: 600px) {
+
     .inkind{
     background:#1d8b4b9a; 
     font-size:3.2vh;
@@ -570,6 +568,7 @@ h3 {
     color:white;
     text-decoration: none;
     }
+
     .founder{
     box-shadow: 0 0px 0px rgba(0,0,0,0.16), 0 0px 0px rgba(0,0,0,0.23);
     background:#8b841d9a; 
@@ -579,6 +578,7 @@ h3 {
     /* transition: all 300ms ease-out; */
     color:white;
     }
+
     .cash{
     background:#8b211d9a; 
     font-size:3.2vh;
@@ -588,6 +588,7 @@ h3 {
     /* transition: all 300ms ease-out; */
     color:white;
     }
+
     .inkind:hover{
       background:#1d8b4b9a !important; 
       font-size:3.2vh;
@@ -597,6 +598,11 @@ h3 {
       /* transition: all 300ms ease-out; */
       color:white;
       text-decoration: none;
+    }
+
+    .p-cause-header {
+      font-size: 1.9rem;
+      padding-top: 3.5rem;
     }
     
     
