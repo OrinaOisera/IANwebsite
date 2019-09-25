@@ -1070,20 +1070,40 @@ h3 {
   background: white;
   color: #3a3a3a;
 }
+
 .card-founders-2 {
   background-color: #122742;
   border: none;
   /* padding: 32px */
   padding: 25px;
 }
+
 .card-border {
   /* box-shadow: 1px 1px 8px #504e4e; */
   width: 90%;
   border: 1px dotted rgba(136, 132, 132, 0.5);
 }
+
 .card-cost{
   background: #afcffa;
 }
+
+.card-title-impact {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2em;
+  line-height: 140%;
+  /* or 50px */
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  position: absolute;
+  top: 53%;
+  left: 10%;
+  color: #c9c5db;
+
+}
+
 /* Mobile view CSS for 100 founders */
 
 @media only screen and (max-width: 600px) {
