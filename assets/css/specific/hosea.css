@@ -338,6 +338,10 @@ h3 {
     background: #fafafa;
     color:black;
   }
+  .foundercardimgbg-1{
+    background: white;
+    color:black;
+  }
   .cardimg-4{
     width:150px;
     height:auto;
@@ -350,6 +354,14 @@ h3 {
     margin: auto;
     border-style: none;
   }
+  .card-testimonial-1{
+    /* width: 80vw; */
+    background-color:white;
+    height: 310px; ;
+    margin: auto;
+    border-style: none;
+  }
+  
   .p-diaspora-card{
     color:black !important;
     font-weight:bold;
@@ -425,10 +437,7 @@ h3 {
     width:100%;
     height:100%;
   }
-  .cause-vimeo-video-div{
-    padding:56.25% 0 0 0;
-    position:relative;
-  }
+  
  /* Vimeo CSS */
  
 
@@ -547,7 +556,26 @@ h3 {
     color:white;
   
   }
+  .championsname{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    /* font-size: 36px;
+    line-height: 43px; */
+    text-align: center;
+    margin-bottom: 0px !important;
+
+    color: #000000;
+    }
+    .flag{
+      width: 40px;
+      height: auto;
+      border-radius: 26.5px;
+  
+  }
+    }
   @media only screen and (max-width: 600px) {
+
     .inkind{
     background:#1d8b4b9a; 
     font-size:3.2vh;
@@ -558,6 +586,7 @@ h3 {
     color:white;
     text-decoration: none;
     }
+
     .founder{
     box-shadow: 0 0px 0px rgba(0,0,0,0.16), 0 0px 0px rgba(0,0,0,0.23);
     background:#8b841d9a; 
@@ -567,6 +596,7 @@ h3 {
     /* transition: all 300ms ease-out; */
     color:white;
     }
+
     .cash{
     background:#8b211d9a; 
     font-size:3.2vh;
@@ -576,6 +606,7 @@ h3 {
     /* transition: all 300ms ease-out; */
     color:white;
     }
+
     .inkind:hover{
       background:#1d8b4b9a !important; 
       font-size:3.2vh;
@@ -585,6 +616,11 @@ h3 {
       /* transition: all 300ms ease-out; */
       color:white;
       text-decoration: none;
+    }
+
+    .p-cause-header {
+      font-size: 1.9rem;
+      padding-top: 3.5rem;
     }
     
     
@@ -609,6 +645,19 @@ h3 {
       /* transition: all 300ms ease-out; */
       color:white;
     
+    }
+    .card-testimonial-1{
+      /* width: 80vw; */
+      background-color:white;
+      height: 455px; ;
+      margin: auto;
+      border-style: none;
+     text-align: center;
+    }
+    .cause-testimonial-img{
+      border-radius: 50%;
+      height: auto;
+      max-width: 150px;
     }
   }
   .impact-icon{
@@ -1060,7 +1109,7 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 40vh;
+    height: auto;
     width:100%;
     }
     .Foreimgheader{
