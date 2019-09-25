@@ -361,6 +361,7 @@ h3 {
     margin: auto;
     border-style: none;
   }
+  
   .p-diaspora-card{
     color:black !important;
     font-weight:bold;
@@ -626,6 +627,19 @@ h3 {
       /* transition: all 300ms ease-out; */
       color:white;
     
+    }
+    .card-testimonial-1{
+      /* width: 80vw; */
+      background-color:white;
+      height: 455px; ;
+      margin: auto;
+      border-style: none;
+     text-align: center;
+    }
+    .cause-testimonial-img{
+      border-radius: 50%;
+      height: auto;
+      max-width: 150px;
     }
   }
   .impact-icon{
