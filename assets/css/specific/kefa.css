@@ -74,6 +74,7 @@ body {
     font-weight: bolder;
     font-size: 38px;
     color: white !important;
+    padding-top:70px!important;
 }
 
 #subheading2 {
@@ -1073,6 +1074,7 @@ body {
 
     #Heading2 {
         font-size: 27px;
+        padding-top:0px !important;
 
     }
 
