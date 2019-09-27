@@ -848,9 +848,13 @@ body {
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    height: 60vh;
+    height: 90vh;
     width: 100%;
     object-fit: contain;
+}
+
+.p-vision {
+    color: #6ef495;
 }
 
 .icon-rocket {
@@ -885,10 +889,11 @@ body {
 
 .vision3 {
     border: 1px dashed grey;
+    top: 80vh;
 }
 
 .p-vision-2030 {
-    color: rgb(190, 184, 184);
+    color: rgb(98, 92, 92);
 }
 
 
