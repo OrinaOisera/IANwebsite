@@ -557,7 +557,7 @@ h3 {
   
   }
   .championsname{
-    font-family: Lato;
+    /* font-family: Lato; */
     font-style: normal;
     font-weight: 300;
     /* font-size: 36px;
@@ -1105,6 +1105,17 @@ h3 {
 .card-cost{
   background: #afcffa;
 }
+.founders-company-name{
+  /* font-family: Lato; */
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 15px;
+  line-height: 10px;
+  text-align: center;
+  color: #BDB4B4;
+  margin-bottom: 3px!important;
+}
+
 
 .card-title-impact {
   font-style: normal;
