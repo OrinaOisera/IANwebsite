@@ -250,10 +250,10 @@ html { scroll-behavior: smooth; }
   background-image: none;
 }
 .carousel-control-prev-icon{
-    padding-right:50px;
+    padding-right:120px;
 }
 .carousel-control-next-icon{
-    padding-left:50px;
+    padding-left:120px;
 }
 
 .carousel-control-next-icon:after
