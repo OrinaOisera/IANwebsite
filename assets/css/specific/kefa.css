@@ -263,6 +263,11 @@ body {
     line-height: 15px !important;
 }
 
+.cohort-social {
+    text-decoration: none;
+    color: white;
+}
+
 .line {
     height: 1px;
     clear: both;
@@ -920,7 +925,7 @@ body {
 
 /* launchpad css */
 .bg-launchpad-fore1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/OfficeIAN-min.JPG");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(12, 12, 12, 0.6)), url("../../img/OfficeIAN-min.JPG");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -929,7 +934,7 @@ body {
     object-fit: contain;
 }
 .bg-launchpad-fore2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/Events.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(12, 12, 12, 0.6)), url("../../img/Events.jpg");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -938,7 +943,7 @@ body {
     object-fit: contain;
 }
 .bg-launchpad-fore3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/company-conference-room.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(12, 12, 12, 0.6)), url("../../img/Office_classes.JPG");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -947,7 +952,7 @@ body {
     object-fit: contain;
 }
 .bg-launchpad-fore4 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/Office_classes.JPG");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(12, 12, 12, 0.6)), url("../../img/beautiful-black.jpg");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
