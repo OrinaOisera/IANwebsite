@@ -297,7 +297,7 @@ h3 {
   /* Diaspora CSS */
   .top-center{
     position: absolute;
-    top: 60px;    
+    top: 40px;    
   }
   .bottom-center{
     position: absolute;
@@ -310,23 +310,76 @@ h3 {
   .diasporahashtag{
     font-family: Arimo;
     font-style: normal;
-    font-weight: normal;
+    /* font-weight: normal;
     font-size: 144px;
     line-height: 166px;
-    text-align: center;
+    text-align: center; */
     color: #FFFFFF;
 
   }
+
+  .mashujaasec{
+    background-color: #5a86c9;
+    color:white;
+  }
+  .mashujaaheading
+  {
+    font-family: Lato;
+  font-style: italic;
+  font-weight: normal;
+  }
   
+  .donatesec{
+    background:url('../../img/care-caregiver-deal-45842.png');
+    background-size: 100%; 
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    height: 338px;
+    /* width: 100%;  */
+    object-fit: contain;
+    padding:10px;
+    padding-top:190px;
+  }
+  .invitefren{
+    background:url('../../img/young-woman-laughing-at-text-message_t20_neyZO6-min.png');
+    background-size: 100%; 
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    height: 338px;
+    /* width: 100%;  */
+    object-fit: contain;
+    padding:10px;
+    padding-top:190px
+  }
+  .selfie{
+    background:url('../../img/buildings-cellphone-cheerful-1586486.png');
+    background-size: 100%; 
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    height: 338px;
+    /* width: 100%;  */
+    object-fit: contain;
+    padding:10px;
+    padding-top:190px
+  }
+  .mashujaapic{
+    background:url('../../img/diversity-friends-happt-1339631.jpg');
+    background-size: 100%; 
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    height: 600px;
+    /* width: 100%;  */
+    object-fit: contain;
+  }
 
   .africanprintcontainer{
-    text-align: center;
+    /* text-align: center; */
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/African\ Print\ 1.png");
-    color: white;
-    box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    /* color: white; */
+    /* box-shadow: 0 0 5px rgba(0,0,0,0.6);
     -moz-box-shadow: 0 0 5px rgba(0,0,0,0.6);
     -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.6);
-    -o-box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 5px rgba(0,0,0,0.6); */
     /* z-index: 12; */
   }
   .africanprintoverlaydiv{
@@ -341,11 +394,16 @@ h3 {
 
   }
   .diasporavideosec{
-    background-color: #f1f1f1;
+    background-color:rgba(245,245,245,.9);
+    box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 5px rgba(0,0,0,0.6);
   }
   .diasporaheader{
     font-family: 'Roboto';
     font-size: 40px;
+    color:black;
     /* font-weight: lighter; */
   }
   .diasporaheader-2{
@@ -355,7 +413,7 @@ h3 {
     line-height: 50px;
   }
   .foundercardimgbg-2{
-    background: #fafafa;
+    background: rgba(245,245,245,.9);
     color:black;
   }
   .foundercardimgbg-1{
@@ -369,8 +427,8 @@ h3 {
   }
   .card-testimonial-2{
     /* width: 80vw; */
-    background-color:#fafafa;
-    height: 310px; ;
+    background-color:rgba(245,245,245,.9);
+    height: 323px; ;
     margin: auto;
     border-style: none;
   }
@@ -380,6 +438,15 @@ h3 {
     height: 310px; ;
     margin: auto;
     border-style: none;
+  }
+  .heading-test{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+  }
+  .getinvolvedsec{
+    background-color:rgba(240,175,2,.8);
+    color:white;
   }
   
   .p-diaspora-card{
@@ -728,11 +795,22 @@ h3 {
   background: white;
   color: black;
 }
+.foreimage-container{
+  /* background:url("../../img/sleepinggiant.jpg"); */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/sleepinggiant.jpg");
+    background-size: 100% 100%; 
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%; 
+    object-fit: contain;
+  
+}
 #ForeImg {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 95vh;
   width:100%;
 }
 .image-container{
@@ -989,6 +1067,11 @@ h3 {
 }
 @media only screen and (max-width: 600px){
     .card-testimonial{
+      width: 80vw;
+      /* background-color: white; */
+      height: 720px;
+    }
+    .card-testimonial-2{
       width: 80vw;
       /* background-color: white; */
       height: 720px;
