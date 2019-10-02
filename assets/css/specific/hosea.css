@@ -299,14 +299,34 @@ h3 {
     position: absolute;
     top: 60px;    
   }
+  .bottom-center{
+    position: absolute;
+    bottom: 60px;    
+  }
   .diaspora-foreimg-text{
     font-family: 'Poppins';
     color:white;
   }
+  .diasporahashtag{
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 144px;
+    line-height: 166px;
+    text-align: center;
+    color: #FFFFFF;
+
+  }
+  
+
   .africanprintcontainer{
-     text-align: center;
-     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/African\ Print\ 1.png");
-      color: white;
+    text-align: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/African\ Print\ 1.png");
+    color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 5px rgba(0,0,0,0.6);
     /* z-index: 12; */
   }
   .africanprintoverlaydiv{
