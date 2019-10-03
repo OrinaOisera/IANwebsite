@@ -319,7 +319,7 @@ h3 {
   }
 
   .mashujaasec{
-    background-color: #5a86c9;
+    background-color: rgba(90,134,201,.9);
     color:white;
   }
   .mashujaaheading
@@ -327,6 +327,10 @@ h3 {
     font-family: Lato;
   font-style: italic;
   font-weight: normal;
+  }
+  .step-1{
+    color:#ffd564;
+    padding-top:30px;
   }
   
   .donatesec{
@@ -362,12 +366,34 @@ h3 {
     padding:10px;
     padding-top:190px
   }
+  .shujaaz-sec{
+    background-color: rgba(255,255,255,.5);
+    color:black;
+    /* margin-top:20px; */
+    box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 5px rgba(0,0,0,0.6);
+  }
+  .heroes-small{
+    font-size: 16px;
+    font-family: Lato;
+    font-style: italic;
+    font-weight: normal;
+  }
+  .shujaaz-header{
+    font-weight: 900;
+    font-size:2.5rem;
+    font-family: Lato;
+    font-style: normal;
+
+  }
   .mashujaapic{
     background:url('../../img/diversity-friends-happt-1339631.jpg');
     background-size: 100%; 
     /* background-position: center;  */
     background-repeat: no-repeat;
-    height: 600px;
+    height: auto;
     /* width: 100%;  */
     object-fit: contain;
   }
