@@ -451,6 +451,7 @@ h3 {
     }
     .africanprintcontainer {
       padding: 1rem!important;
+      background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/African\ Print\ 1.png");
   }
   .founders-heading5 {
     font-size: 40px !important;
@@ -469,6 +470,9 @@ h3 {
      }
      .mashujaacampaign{
        padding-top:10px !important;
+     }
+     .mashujaaheading-1{
+       font-size:2.3rem !important;
      }
   }
 
