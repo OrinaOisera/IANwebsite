@@ -305,7 +305,8 @@ h3 {
   }
   .diaspora-foreimg-text{
     font-family: 'Poppins';
-    color:white;
+    color: #309dc3;
+    font-size: 50px;
   }
   .diasporahashtag{
     font-family: Arimo;
@@ -332,46 +333,80 @@ h3 {
   .mashujaatext{
     color:whitesmoke;
     opacity:.8;
+    font-size:18px;
   }
   .step-1{
     color:#ffd564;
-    padding-top:20px;
+    padding-top:10px;
   }
   
   .donatesec{
-    background:url('../../img/care-caregiver-deal-45842.png');
-    background-size: 100%; 
-    /* background-position: center;  */
-    background-repeat: no-repeat;
-    height: 338px;
-    /* width: 100%;  */
+    background: linear-gradient(rgba(0,0,0,0), rgba(12,12,12,0.4)),url(../../img/care-caregiver-deal-45842.png);
+    /* background-size: 100%; */
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    height: 310px;
+    /* width: 100%; */
     object-fit: contain;
-    padding:10px;
-    padding-top:190px;
+    /* padding: 10px; */
+    padding-top: 190px;
   }
   .invitefren{
-    background:url('../../img/young-woman-laughing-at-text-message_t20_neyZO6-min.png');
-    background-size: 100%; 
-    /* background-position: center;  */
-    background-repeat: no-repeat;
-    height: 338px;
+    background: linear-gradient(rgba(0,0,0,0), rgba(12,12,12,0.4)),url('../../img/young-woman-laughing-at-text-message_t20_neyZO6-min.png');
+    /* background-size: 100%;  */
+    background-position: center; 
+    /* background-repeat: no-repeat; */
+    height: 310px;
     /* width: 100%;  */
     object-fit: contain;
     padding:10px;
     padding-top:190px
   }
   .steps{
-    color:#7cfc00;
+    color: #fff;
+    opacity: .9;
+    font-weight: 600;
+    border-radius: 3px;
+    background: rgba(19, 136, 83, .6);
+    display: inline-block;
+    letter-spacing: .075em;
+    margin-bottom: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    line-height: 32px;
+    font-size: 15px;
+    
+  }
+  .stepss{
+    border-radius: 3px;
+    background: rgba(0,0,0,.2);
+    display: inline-block;
+    letter-spacing: .075em;
+    margin-bottom: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    line-height: 32px;
+    font-size: 15px;
+
+  }
+  .steps-2{
+    opacity:.7;
   }
   .hashtagFFA{
     color: #1654c7;
   }
   .selfie{
-    background:url('../../img/buildings-cellphone-cheerful-1586486.png');
-    background-size: 100%; 
-    /* background-position: center;  */
+    background: linear-gradient(rgba(0,0,0,0), rgba(12,12,12,0.4)),url('../../img/buildings-cellphone-cheerful-1586486.png');
+    /* background-size: 100%;  */
+    background-position: center; 
     background-repeat: no-repeat;
-    height: 338px;
+    height: 310px;
     /* width: 100%;  */
     object-fit: contain;
     padding:10px;
@@ -475,7 +510,7 @@ h3 {
   border-color: #fcbc12;
 }
   .mashujaapic{
-    background:url('../../img/diversity-friends-happt-1339631.jpg');
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.5)),url('../../img/diversity-friends-happt-1339631.jpg');
     background-size: 100%; 
     /* background-position: center;  */
     background-repeat: no-repeat;
@@ -557,7 +592,7 @@ h3 {
     font-weight: 300;
   }
   .getinvolvedsec{
-    background-color:rgba(240,175,2,.8);
+    background-color:rgba(247,205,56,.9);
     color:white;
   }
   
@@ -909,7 +944,7 @@ h3 {
 }
 .foreimage-container{
   /* background:url("../../img/sleepinggiant.jpg"); */
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/sleepinggiant.jpg");
+  background: linear-gradient(rgba(71, 67, 67, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/sleepinggiant.jpg");
     background-size: 100% 100%; 
     /* background-position: center;  */
     background-repeat: no-repeat;
@@ -1094,7 +1129,9 @@ h3 {
   background-color: #fde39f;
 }
 .founders-heading1{
-  color:#856001;
+  color: #484741;
+  font-weight: 600;
+  font-size: 45px;
 }
 .foundersdescript{
   font-size:25px;
