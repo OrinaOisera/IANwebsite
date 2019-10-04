@@ -449,10 +449,10 @@ h3 {
       padding: 1rem!important;
   }
   .founders-heading5 {
-    font-size: 40px;
+    font-size: 40px !important;
 }
   .diaspora-2{
-    font-size: 29px;
+    font-size: 29px !important;
   }
   .line-between-diaspora {
     border-top: 3px dotted rgba(102, 99, 99, 0.5);
@@ -461,7 +461,10 @@ h3 {
       padding:10px !important;
     }
     .mashujaapic {
-      height: 213px;
+      height: 190px !important;
+     }
+     .mashujaacampaign{
+       padding-top:10px !important;
      }
   }
 
