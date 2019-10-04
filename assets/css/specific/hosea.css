@@ -509,6 +509,19 @@ h3 {
   background-color: #fcbc12;
   border-color: #fcbc12;
 }
+
+.line-between-diaspora{
+  height: 1px;
+  clear: both;
+  border-top: 1px dotted rgba(102, 99, 99, 0.5);
+  border-radius: 0;
+  opacity: 1;
+  padding: 30px;
+  padding-bottom:10px!important;
+  background-color: transparent; 
+}
+
+
   .mashujaapic{
     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.5)),url('../../img/diversity-friends-happt-1339631.jpg');
     background-size: 100%; 
