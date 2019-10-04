@@ -419,6 +419,56 @@ h3 {
     padding:10px;
     padding-top:190px
   }
+  .diasporahashtag-div{
+    position: absolute;
+    top:70vh;
+  }
+  .diaspora-foreimg-div{
+    position: absolute;
+    top:10vh;
+  }
+  /* Diaspora mobile view */
+  @media only screen and (max-width: 600px) {
+    .foreimage-container {
+      height: 60vh !important;
+    }
+    .diasporahashtag-div{
+      position: absolute;
+      top:50vh;
+    }
+    .diaspora-foreimg-div{
+      position: absolute;
+      top:5vh;
+    }
+    .diaspora-foreimg-text{
+      font-family: 'Poppins';
+      color: #309dc3;
+      font-size: 40px;
+    }
+    .africanprintcontainer {
+      padding: 1rem!important;
+  }
+  .founders-heading5 {
+    font-size: 40px;
+}
+  .diaspora-2{
+    font-size: 29px;
+  }
+  .line-between-diaspora {
+    border-top: 3px dotted rgba(102, 99, 99, 0.5);
+    }
+    .diasporafriends{
+      padding:10px !important;
+    }
+    .mashujaapic {
+      height: 213px;
+     }
+  }
+
+
+
+
+
   /* Ballons */
   .balloon {
     display:inline-block;
@@ -1149,6 +1199,11 @@ h3 {
   background-color: #fde39f;
 }
 .founders-heading1{
+  color: #484741;
+  font-weight: 600;
+  font-size: 45px;
+}
+.founders-heading5{
   color: #484741;
   font-weight: 600;
   font-size: 45px;
