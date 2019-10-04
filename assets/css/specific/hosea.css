@@ -317,6 +317,10 @@ h3 {
     text-align: center; */
     color: #FFFFFF;
 
+
+  }
+  .ffa{
+    font-size: 22px;
   }
 
   .mashujaasec{
@@ -452,7 +456,7 @@ h3 {
     font-size: 40px !important;
 }
   .diaspora-2{
-    font-size: 29px !important;
+    font-size: 22px !important;
   }
   .line-between-diaspora {
     border-top: 3px dotted rgba(102, 99, 99, 0.5);
