@@ -445,6 +445,8 @@ h3 {
       position: absolute;
       top:50vh;
     }
+    .diasporahashtag{
+      font-size: 50px;}
     .diaspora-foreimg-div{
       position: absolute;
       top:5vh;
@@ -1305,6 +1307,15 @@ h3 {
   margin: auto;
   border-style: none;
 }
+.diasporadescript{
+  font-size:30px;
+  line-height: 40px;
+  font-weight: 500
+  }
+  .diasporavideo{
+    width:1000;
+    height:400;
+  }
 @media only screen and (max-width: 600px){
     .card-testimonial{
       width: 80vw;
