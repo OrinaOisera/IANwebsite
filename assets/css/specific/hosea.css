@@ -660,6 +660,8 @@ h3 {
     height:auto;
     border-radius: 50%;
   }
+  .videowrapperdiapora{
+    position:absolute;top:0;left: 15%;width:70%;height:70%;}
   .card-testimonial-2{
     /* width: 80vw; */
     background-color:rgba(245,245,245,.9);
@@ -908,6 +910,16 @@ h3 {
     color:white;
     text-decoration: none;
     }
+    .diasporadescript{
+      font-size: 25px !important;
+    }
+    .videowrapperdiapora {
+      position: absolute;
+      top: 0;
+      left: 5%;
+      width: 90%;
+      height: 90%;
+  }
 
     .founder{
     box-shadow: 0 0px 0px rgba(0,0,0,0.16), 0 0px 0px rgba(0,0,0,0.23);
