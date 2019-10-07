@@ -315,7 +315,11 @@ h3 {
     font-size: 144px;
     line-height: 166px;
     text-align: center; */
-    color: #FFFFFF;
+    color: #bab8bd;
+    /* color: white;  Fallback: assume this color ON TOP of image */
+   /* background: url(../../img/adventure-africa-arid-cropped.jpg) no-repeat; */
+   /* -webkit-background-clip: text; */
+   /* -webkit-text-fill-color: transparent; */
 
 
   }
@@ -425,7 +429,7 @@ h3 {
   }
   .diasporahashtag-div{
     position: absolute;
-    top:70vh;
+    top:50vh;
   }
   .diaspora-foreimg-div{
     position: absolute;
@@ -591,7 +595,7 @@ h3 {
 
 
   .mashujaapic{
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.5)),url('../../img/diversity-friends-happt-1339631.jpg');
+    background:linear-gradient(rgba(0, 0, 0, 0.1), rgba(12, 12, 12, 0.5)),url('../../img/diversity-friends-happt-1339631.jpg');
     background-size: 100%; 
     /* background-position: center;  */
     background-repeat: no-repeat;
