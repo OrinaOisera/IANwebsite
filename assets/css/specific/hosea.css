@@ -311,6 +311,7 @@ h3 {
   .diasporahashtag{
     font-family: Arimo;
     font-style: normal;
+    font-size:100px;
     /* font-weight: normal;
     font-size: 144px;
     line-height: 166px;
@@ -429,7 +430,7 @@ h3 {
   }
   .diasporahashtag-div{
     position: absolute;
-    top:50vh;
+    top:40vh;
   }
   .diaspora-foreimg-div{
     position: absolute;
