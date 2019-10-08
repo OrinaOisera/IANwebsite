@@ -912,6 +912,7 @@ h3 {
     }
     .diasporadescript{
       font-size: 25px !important;
+      color:#7d142c;
     }
     .videowrapperdiapora {
       position: absolute;
@@ -1322,7 +1323,8 @@ h3 {
 .diasporadescript{
   font-size:30px;
   line-height: 40px;
-  font-weight: 500
+  font-weight: 500;
+  color:#7d142c;
   }
   .diasporavideo{
     width:1000;

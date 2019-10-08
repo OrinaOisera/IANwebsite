@@ -29,7 +29,7 @@ body {
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
-    margin-top:5px;
+    margin-top:0px;
     display: none;
     position: absolute;
     background-color: #24354b;
