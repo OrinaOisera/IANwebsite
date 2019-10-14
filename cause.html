@@ -123,8 +123,8 @@
                     </p> -->
                     <!-- <div class="col-sm-6 text-center"> -->
                             <div class="pb-3 row text-center pl-3">
-                                <a href="founderschallenge" class=" btn btn-founders support-btn">Founders Challenge</a>
-                                <a href="diasporachallenge" class="btn btn-success support-btn ml-2 ">Diaspora Challenge</a>
+                                <a href="founderschallenge" class=" btn btn-founders support-btn btn-cause btn-cause-founder">Founders Challenge</a>
+                                <a href="diasporachallenge" class="btn btn-success support-btn ml-2 btn-cause btn-cause-diaspora ">Diaspora Challenge</a>
                                 <!-- <a href="founderschallenge" target="blank" class="btn btn-fundraise support-btn ">Fundraise with us »</a> -->
                             </div>
                             
@@ -132,8 +132,27 @@
                                 <a href="#" target="blank" class="btn btn-success support-btn ">Diaspora Campaign »</a>
                             </div>  -->
                             <div class="pb-5 pl-4 col-8 text-center">
-                                <a href="https://donorbox.org/changingtheafricannarrative-644" class="btn btn-involved support-btn ">Make an Impact</a>
+                                <a href="https://donorbox.org/changingtheafricannarrative-644" class="btn btn-cause-impact btn-involved support-btn btn-cause">Make an Impact</a>
                             </div>
+
+                            <style>
+                                .btn-cause:hover{
+                                   background:none !important;
+                                   /* color:black !important;  */
+                                }
+                                .btn-cause-founder:hover{
+                                    color:#fbbc12 !important;
+                                }
+                                
+                                .btn-cause-impact:hover{
+                                    color:#5781c2 !important;
+                                }
+                                .btn-cause-diaspora:hover{
+                                    color:#28a745 !important;
+                                }
+
+
+                            </style>
                             
                             
                     <!-- </div> -->
@@ -181,7 +200,7 @@
                         <h5 class="card-title-impact">100 Founders Challenge</h5>
                         <div class="card-body">
                             <p class="card-text">Are you a successful founder? Your expertise is needed.</p>
-                            <a href="founderschallenge" class="btn btn-warning support-btn" style="color:aliceblue">Join Now</a>
+                            <a href="founderschallenge" class="btn btn-warning support-btn btn-cause-founder btn-cause" style="color:aliceblue">Join Now</a>
                         </div>
                     </div>
                 </div>
@@ -191,7 +210,7 @@
                         <h5 class="card-title-impact">The Diaspora Challenge</h5>
                         <div class="card-body">
                             <p class="card-text">A meaningful way for Africans to give back</p>
-                            <a href="#" class="btn btn-success support-btn">Join Now</a>
+                            <a href="diasporachallenge" class="btn btn-success support-btn btn-cause btn-cause-diaspora">Join Now</a>
                         </div>
                     </div>
                 </div>
@@ -201,7 +220,7 @@
                         <h5 class="card-title-impact">Start your own campaign</h5>
                         <div class="card-body">
                             <p class="card-text">Do even more by becoming an ambassador.</p>
-                            <a href="#" class="btn btn-primary support-btn">Get Started</a>
+                            <a href="#" class="btn btn-primary support-btn btn-cause btn-cause-impact">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -209,12 +228,6 @@
             <div class="col-12 text-center">
                     <a href="https://donorbox.org/friendsforafrica" class="btn btn-success btn-donate support-btn btn-xlarge" style="border-color:#118a2c !important;background:#118a2c!important">Make a Donation</a>
             </div>
-            <style>
-                 .btn-success:hover{
-                                background:none !important;
-                            }
-    
-            </style>
         </div>
     </section>
     
