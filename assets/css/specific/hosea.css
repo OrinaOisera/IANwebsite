@@ -1812,3 +1812,16 @@ html { scroll-behavior: smooth; }
     background: rgba(241, 245, 21, 0.2);
   }
 }
+.diaspora-video-div{
+  background: white;
+}
+.diaspora-text-1{
+  color: white;
+    font-size: 2em;
+}
+.missionheading{
+  font-family: 'Roboto';
+  opacity: .9;
+  font-size: 2.5rem;
+  color: #707070;
+}
