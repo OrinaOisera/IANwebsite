@@ -1,0 +1,38 @@
+@media (min-width: 992px) {
+  #africa-loggo {
+    /*width:100px;*/
+    /*height:150px;*/
+    padding-top:100px;
+  }
+}
+
+@media (max-width: 575px) {
+  .first-heading {
+    font-size:30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .youtube_video {
+    height:450px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .youtube_video {
+    height:450px;
+  }
+}
+
+@media (max-width: 575px) {
+  .youtube_video {
+    height:100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .youtube_video {
+    height:100%;
+  }
+}
+
