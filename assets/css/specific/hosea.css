@@ -883,7 +883,7 @@ h3 {
   .championsname{
     /* font-family: Lato; */
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     /* font-size: 36px;
     line-height: 43px; */
     text-align: center;
@@ -1476,7 +1476,7 @@ h3 {
 .founders-company-name{
   /* font-family: Lato; */
   font-style: normal;
-  font-weight: lighter;
+  font-weight: bolder;
   font-size: 15px;
   line-height: 10px;
   text-align: center;
