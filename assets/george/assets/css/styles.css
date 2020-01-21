@@ -36,3 +36,54 @@
   }
 }
 
+@media (max-width: 767px) {
+  .percentage_width {
+    /*width:80%;*/
+    /*margin-left:10%;*/
+    /*margin-right:10%;*/
+  }
+}
+
+#divWithPrice {
+  /*width:60%;*/
+  border-color:yellow;
+  border:3px solid yellow;
+}
+
+#location {
+  background-color:orange;
+  margin-top:0%;
+  margin-bottom:0%;
+}
+
+#date {
+  margin-bottom:0%;
+}
+
+#price {
+  width:20%;
+  /*float:left;*/
+  color:yellow;
+}
+
+.objectiveAndSpeakers {
+  /*width:45%;*/
+  background-color:orange;
+  border-radius:5%;
+  text-align:center;
+}
+
+.objectiveAndSpeakersContainingDiv {
+  width:50%;
+  /*text-align:center;*/
+  margin-left:20%;
+}
+
+.title {
+  color:orange;
+}
+
+.objectives {
+  margin-bottom:10%;
+}
+

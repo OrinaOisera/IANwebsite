@@ -10,12 +10,11 @@
 }
 
 .card-section-imagia > h2 {
-  font-size:45px;
+  font-size:24px;
   text-align:center;
-  margin:0x;
-  padding:0;
-  
-  
+  margin:0 0 60px;
+  color:#aaaaaa;
+  text-transform:uppercase;
 }
 
 .card-container-imagia {
