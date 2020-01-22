@@ -51,7 +51,7 @@
 }
 
 #location {
-  background-color:orange;
+  background-color:#fcbc12;
   margin-top:0%;
   margin-bottom:0%;
 }
@@ -68,7 +68,7 @@
 
 .objectiveAndSpeakers {
   /*width:45%;*/
-  background-color:orange;
+  background-color:#fcbc12;
   border-radius:5%;
   text-align:center;
 }
@@ -80,7 +80,7 @@
 }
 
 .title {
-  color:orange;
+  color:#fcbc12;
 }
 
 .objectives {
@@ -94,7 +94,7 @@
 }
 
 #givenDate {
-  color:orange;
+  color:#fcbc12;
 }
 
 #locationOfTalk {
@@ -111,7 +111,7 @@
 }
 
 .nameOfSpeaker {
-  color:orange;
+  color:#fcbc12;
 }
 
 .titleofSpeaker {
@@ -122,15 +122,15 @@
 }
 
 #speakersHeading {
-  color:orange;
+  color:#fcbc12;
 }
 
 #topicsHeading {
-  color:orange;
+  color:#fcbc12;
 }
 
 .topicsForDiscussion {
-  color:orange;
+  color:#fcbc12;
 }
 
 .topicsDeepDive {
