@@ -29,9 +29,7 @@
     height:100%;
   }
 }
-.holder{
-	margin-top: 5%;
-}
+
 @media (max-width: 767px) {
   .youtube_video {
     height:100%;
@@ -87,5 +85,60 @@
 
 .objectives {
   margin-bottom:10%;
+}
+
+#content-col {
+  padding-left:10%;
+  padding-top:10%;
+  font-family:Tahoma;
+}
+
+#givenDate {
+  color:orange;
+}
+
+#locationOfTalk {
+  color:white;
+}
+
+#registerButton {
+  width:100%;
+  margin-top:15%;
+}
+
+#image {
+  /*height:100%;*/
+}
+
+.nameOfSpeaker {
+  color:orange;
+}
+
+.titleofSpeaker {
+  color:white;
+}
+
+.divContainingSpeakers {
+}
+
+#speakersHeading {
+  color:orange;
+}
+
+#topicsHeading {
+  color:orange;
+}
+
+.topicsForDiscussion {
+  color:orange;
+}
+
+.topicsDeepDive {
+  color:white;
+}
+
+.mainHead {
+  margin-bottom:5%;
+  margin-top:5%;
 }
 
