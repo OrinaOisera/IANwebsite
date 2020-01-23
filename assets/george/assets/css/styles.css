@@ -1,7 +1,3 @@
-
-body, div, form, p, h1, h2, h3, h4, h5 {
-  font-family:'Montserrat' !important;
-}
 @media (min-width: 992px) {
   #africa-loggo {
     /*width:100px;*/
@@ -55,7 +51,7 @@ body, div, form, p, h1, h2, h3, h4, h5 {
 }
 
 #location {
-  background-color:#fcbc12;
+  background-color:orange;
   margin-top:0%;
   margin-bottom:0%;
 }
@@ -72,7 +68,7 @@ body, div, form, p, h1, h2, h3, h4, h5 {
 
 .objectiveAndSpeakers {
   /*width:45%;*/
-  background-color:#fcbc12;
+  background-color:orange;
   border-radius:5%;
   text-align:center;
 }
@@ -84,8 +80,7 @@ body, div, form, p, h1, h2, h3, h4, h5 {
 }
 
 .title {
-  color:#fcbc12;
-  font-family:'Montserrat';
+  color:orange;
 }
 
 .objectives {
@@ -95,13 +90,11 @@ body, div, form, p, h1, h2, h3, h4, h5 {
 #content-col {
   padding-left:10%;
   padding-top:10%;
-  font-family:'Montserrat';
+  font-family:Tahoma;
 }
 
 #givenDate {
-  color:#fcbc12;
-  font-family:'Montserrat';
-
+  color:orange;
 }
 
 #locationOfTalk {
@@ -118,8 +111,7 @@ body, div, form, p, h1, h2, h3, h4, h5 {
 }
 
 .nameOfSpeaker {
-  color:#fcbc12;
-  font-family:'Montserrat';
+  color:orange;
 }
 
 .titleofSpeaker {
@@ -130,26 +122,68 @@ body, div, form, p, h1, h2, h3, h4, h5 {
 }
 
 #speakersHeading {
-  color:#fcbc12;
-  font-family:'Montserrat';
+  color:orange;
 }
 
 #topicsHeading {
-  color:#fcbc12;
-  font-family:'Montserrat';
+  color:orange;
 }
 
 .topicsForDiscussion {
-  color:#fcbc12;
-  font-family:'Montserrat';
+  color:orange;
 }
 
 .topicsDeepDive {
   color:white;
-}nameOfSpeaker
+}
 
 .mainHead {
   margin-bottom:5%;
   margin-top:5%;
+}
+
+@media (max-width: 767px) {
+  #bridgeToTheFuture {
+    font-size:32px;
+    text-align:center;
+  }
+}
+
+#youngTalent {
+  text-align:center;
+}
+
+#conversationsHeading {
+  font-size:18px;
+  text-align:center;
+}
+
+@media (max-width: 767px) {
+  #givenDate {
+    text-align:center;
+  }
+}
+
+@media (max-width: 767px) {
+  #locationOfTalk {
+    text-align:center;
+  }
+}
+
+@media (max-width: 767px) {
+  #columnToRemove {
+    width:0px;
+    height:0px;
+  }
+}
+
+.reducewidth {
+  text-align:center;
+}
+
+@media (max-width: 767px) {
+  .col-text-align-center {
+    text-align:center;
+  }
 }
 
