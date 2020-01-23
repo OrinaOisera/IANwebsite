@@ -1,3 +1,8 @@
+body , h1 , h2 , h3, div {
+  font-family: 'Montserrat';
+}
+
+
 @media (min-width: 992px) {
   #africa-loggo {
     /*width:100px;*/
