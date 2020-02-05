@@ -28,7 +28,23 @@
     <link rel="stylesheet" href="assets/css/specific/hosea.min.css">
     <link rel="stylesheet" href="assets/css/style.min.css">
     <script src="https://kit.fontawesome.com/91d89cba61.js"></script>
-
+    <style>
+        .line {
+            height: 1px;
+            clear: both;
+            border-top: 1px dotted rgba(105, 105, 105, 0.55);
+            border-radius: 0;
+            opacity: 1;
+            padding: 40px;
+            background-color: transparent;
+        }
+        @media only screen and (max-width: 600px) {
+            .line{
+            padding-top:20px !important;
+                padding-bottom:20px !important;
+            }
+        }
+    </style>
 </head>
 
 <body id="why-africa">
@@ -78,7 +94,7 @@
     </nav>
 
     <!-- Page Content -->
-    <section class="why-africa-bigpicture-section" id="bigpicture">
+    <section class="why-africa-bigpicture-section why-africa-bigpicture-section1" id="bigpicture">
         <div class="container">
             <div class="col-md-12" >
                 <h2>
@@ -120,6 +136,13 @@
         </div>
         
     </section>
+    <!-- Separator section-->
+    <section>
+        <div class="container">
+            <div class="line"></div>
+
+        </div>
+    </section>
     <section class="why-africa-bigpicture-section" id="problem">
         <div class="container">
             <h2>
@@ -157,6 +180,13 @@
                     </p>
                 </div>
             </div>
+        </div>
+    </section>
+    <!-- Separator section-->
+    <section>
+        <div class="container">
+            <div class="line"></div>
+
         </div>
     </section>
     <section class="why-africa-bigpicture-section" id="solution">
