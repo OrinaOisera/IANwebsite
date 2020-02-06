@@ -49,6 +49,73 @@
                 text-decoration: none !important;
 
             }
+            .iarrow {
+                color: blue;
+                margin-left: 20px;
+                }
+
+                .arrow1 {
+                animation: slide1 1s ease-in-out infinite;
+                margin-left: 9px;
+                }
+
+                .arrow2 {
+                animation: slide2 1s ease-in-out infinite;
+                }
+
+                .arrow3 {
+                transform-origin: 0% 50%;
+                animation: slide3 1s ease-in-out infinite;
+                }
+
+                .arrow4 {
+                transform-origin: 0% 50%;
+                animation: slide4 4s linear infinite;
+                }
+
+                @keyframes slide1 {
+                0%,
+                100% {
+                    transform: translate(0, 0);
+                }
+
+                50% {
+                    transform: translate(10px, 0);
+                }
+                }
+
+                @keyframes slide2 {
+                0%,
+                100% {
+                    transform: translate(0, 0) rotate(45deg);
+                }
+
+                50% {
+                    transform: translate(10px, 10px) rotate(45deg);
+                }
+                }
+
+                @keyframes slide3 {
+                0%,
+                100% {
+                    transform: rotate(-45deg);
+                }
+
+                50% {
+                    transform: rotate(45deg);
+                }
+                }
+
+                @keyframes slide4 {
+                0% {
+                    transform: rotate(0);
+                }
+
+                100% {
+                    transform: rotate(360deg);
+                }
+                }
+
         </style>
          <script>
             jQuery(document).ready(function( $ ) {
@@ -129,6 +196,11 @@
                 <h5 id="Heading5" class="justify-content-cente lead" style="font-weight:500">Startup studio in Nairobi on a mission to ensure
                     young innovators can access Africa's digital transformation opportunity as <span style="font-weight:bolder; color: aliceblue">creators</span> and <span style="font-weight:bolder; color: aliceblue">owners</span>
                 </h5>
+            </div>
+            <div class="col-md-9 pt-3">
+                <p>
+                    Upcoming events <i class="iarrow fa fa-long-arrow-right fa-lg arrow1" aria-hidden="true"></i><span><a style="color: #edad3c;" href="/bridge-to-the-future"> &nbsp Bridge to the future</a></span>
+                </p>
             </div>
         </div>
         
