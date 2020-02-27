@@ -79,6 +79,10 @@ function ClearAll() {
 function addbadge(x){
 	if(x>0){
 		document.getElementById('carditems').innerHTML = x;
+		document.getElementById('cartitems2').innerHTML = x;
+		total = x*1000;
+		total = "Ksh" + total;
+		document.getElementById('total').innerHTML = total;
 	}
 	else if(x<=0){
 		document.getElementById('carditems').innerHTML = "";
