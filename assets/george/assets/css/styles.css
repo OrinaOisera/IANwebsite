@@ -1,0 +1,194 @@
+body , h1 , h2 , h3, div {
+  font-family: 'Montserrat';
+}
+
+
+@media (min-width: 992px) {
+  #africa-loggo {
+    /*width:100px;*/
+    /*height:150px;*/
+    padding-top:100px;
+  }
+}
+
+@media (max-width: 575px) {
+  .first-heading {
+    font-size:30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .youtube_video {
+    height:450px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .youtube_video {
+    height:450px;
+  }
+}
+
+@media (max-width: 575px) {
+  .youtube_video {
+    height:100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .youtube_video {
+    height:100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .percentage_width {
+    /*width:80%;*/
+    /*margin-left:10%;*/
+    /*margin-right:10%;*/
+  }
+}
+
+#divWithPrice {
+  /*width:60%;*/
+  border-color:yellow;
+  border:3px solid yellow;
+}
+
+#location {
+  background-color:orange;
+  margin-top:0%;
+  margin-bottom:0%;
+}
+
+#date {
+  margin-bottom:0%;
+}
+
+#price {
+  width:20%;
+  /*float:left;*/
+  color:yellow;
+}
+
+.objectiveAndSpeakers {
+  /*width:45%;*/
+  background-color:orange;
+  border-radius:5%;
+  text-align:center;
+}
+
+.objectiveAndSpeakersContainingDiv {
+  width:50%;
+  /*text-align:center;*/
+  margin-left:20%;
+}
+
+.title {
+  color:orange;
+}
+
+.objectives {
+  margin-bottom:10%;
+}
+
+#content-col {
+  padding-left:10%;
+  padding-top:10%;
+  font-family:Tahoma;
+}
+
+#givenDate {
+  color:orange;
+}
+
+#locationOfTalk {
+  color:white;
+}
+
+#registerButton {
+  width:100%;
+  margin-top:15%;
+}
+
+#image {
+  /*height:100%;*/
+}
+
+.nameOfSpeaker {
+  color:orange;
+}
+
+.titleofSpeaker {
+  color:white;
+}
+
+.divContainingSpeakers {
+}
+
+#speakersHeading {
+  color:orange;
+}
+
+#topicsHeading {
+  color:orange;
+}
+
+.topicsForDiscussion {
+  color:orange;
+}
+
+.topicsDeepDive {
+  color:white;
+}
+
+.mainHead {
+  margin-bottom:5%;
+  margin-top:5%;
+}
+
+@media (max-width: 767px) {
+  #bridgeToTheFuture {
+    font-size:32px;
+    text-align:center;
+  }
+}
+
+#youngTalent {
+  text-align:center;
+}
+
+#conversationsHeading {
+  font-size:18px;
+  text-align:center;
+}
+
+@media (max-width: 767px) {
+  #givenDate {
+    text-align:center;
+  }
+}
+
+@media (max-width: 767px) {
+  #locationOfTalk {
+    text-align:center;
+  }
+}
+
+@media (max-width: 767px) {
+  #columnToRemove {
+    width:0px;
+    height:0px;
+  }
+}
+
+.reducewidth {
+  text-align:center;
+}
+
+@media (max-width: 767px) {
+  .col-text-align-center {
+    text-align:center;
+  }
+}
+
