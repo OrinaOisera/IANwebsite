@@ -22,9 +22,11 @@ nav ul li {
     font-size: 18px;
 }
 
+
 /* On hover button on navbar css */
- /* Dropdown Button */
- 
+
+
+/* Dropdown Button */
 
 .support-btn {
     font-weight: 600;
@@ -43,19 +45,20 @@ nav ul li {
 }
 
 body {
-    
     background: #122742;
 }
 
+
 /* Align Suppport the cause button to the right */
+
+
 /* .supportcausebtnright{
     padding-left: 20vw;
 } */
 
 #ForeContent {
     background: #122742;
-    color:white;
-    
+    color: white;
 }
 
 #ForeImg {
@@ -71,14 +74,14 @@ body {
 
 #Heading5 {
     font-size: 1.5em;
-    color: hsla(0,0%,100%,.75);
+    color: hsla(0, 0%, 100%, .75);
 }
 
 #Heading2 {
     font-weight: bolder;
     font-size: 38px;
     color: white !important;
-    padding-top:70px!important;
+    padding-top: 70px!important;
 }
 
 #subheading2 {
@@ -91,52 +94,57 @@ body {
     padding-top: 80px;
     padding-bottom: 35px;
 }
-#about-text{
-    padding-top: 65px; 
-}
-.about-icon{
-    width:100px;
-    height:auto;
-}
-.link-white{
-    color:white!important;
-}
-.wherewearegoing{
-    font-size: 15px !important;
-    color:whitesmoke!important;
+
+#about-text {
+    padding-top: 65px;
 }
 
+.about-icon {
+    width: 100px;
+    height: auto;
+}
+
+.link-white {
+    color: white!important;
+}
+
+.wherewearegoing {
+    font-size: 15px !important;
+    color: whitesmoke!important;
+}
+
+
 /* Some CSS for Welcome Page mobile view- Hosea*/
+
 @media only screen and (max-width: 600px) {
     body {
         padding-top: 0;
-
     }
-    .dropdown-content{
+    .dropdown-content {
         visibility: hidden;
     }
-    #about{
+    #about {
         padding-top: 30px;
         padding-bottom: 10px;
     }
-    #about-text{
-        padding-top: 2px; 
+    #about-text {
+        padding-top: 2px;
     }
-    .mobile-float{
+    .mobile-float {
         float: left;
     }
-    .textcentered{
+    .textcentered {
         text-align: center !important;
     }
-    .iconcentered{
+    .iconcentered {
         align-self: center !important;
     }
     /* /* .textjustified{
         text-align: justify;
     } */
-    .line{
-        padding-top:20px !important;
-        padding-bottom:20px !important;
+    .line {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
     }
     /* .rowcontentscenter{
         margin: auto;
@@ -147,16 +155,17 @@ body {
     .card{
         padding-top:5px !important;
     } */
-    .heading-metric-content{
-        padding-top:0px !important;
+    .heading-metric-content {
+        padding-top: 0px !important;
     }
-     
-}
-/* Welcome Page Hosea CSS */
-.iconcentered-ourwork{
-    align-self: center;
 }
 
+
+/* Welcome Page Hosea CSS */
+
+.iconcentered-ourwork {
+    align-self: center;
+}
 
 .card {
     background-color: #122742;
@@ -165,18 +174,18 @@ body {
     padding: 25px;
 }
 
-.card-cost{
+.card-cost {
     background: #afcffa;
 }
 
 .card-text {
     font-size: 17px;
-    color: hsla(0,0%,100%,.75);
+    color: hsla(0, 0%, 100%, .75);
 }
 
 .card-text-future {
     font-size: 15px;
-    color: hsla(0,0%,100%,.75);
+    color: hsla(0, 0%, 100%, .75);
     padding: 0;
 }
 
@@ -197,9 +206,8 @@ body {
 }
 
 .card-footer-future a:hover {
-    color: orangered; 
+    color: orangered;
 }
-
 
 .card-img-top {
     width: 50px;
@@ -236,24 +244,26 @@ body {
 
 .ext-link-cost {
     font-size: smaller;
-    color: green; 
+    color: green;
 }
 
 .heading-metric {
     /* color: #dd874a; */
-    color:  #FCBC12;
+    color: #FCBC12;
 }
 
 .p-metric {
     font-size: 16px;
 }
-.bynumbers{
-    color:#5781c3;
+
+.bynumbers {
+    color: #5781c3;
     margin-bottom: 0px !important;
 }
+
 @media only screen and (max-width: 600px) {
-    .bynumbers{
-        padding-left:30px;
+    .bynumbers {
+        padding-left: 30px;
     }
 }
 
@@ -292,7 +302,7 @@ body {
     border-radius: 0;
     opacity: 1;
     padding: 30px;
-    background-color: transparent; 
+    background-color: transparent;
 }
 
 .team-board {
@@ -307,41 +317,42 @@ body {
 }
 
 .card-future {
-    -webkit-filter: grayscale(90%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(90%);  
+    -webkit-filter: grayscale(90%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(90%);
     width: 90%;
 }
 
 .card-future:hover {
-    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(0%);  
+    -webkit-filter: grayscale(0%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
     border-color: #1c913b;
 }
 
 .card-hover-approach:hover {
     background: rgba(5, 21, 36, 0.2);
     border-color: #1c913b;
-
 }
 
 .card-bg-vision {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/Earth-From-Space.jpg");
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
 .card-bg-plan {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/five.jpg");
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
 .card-bg-launchpad {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/event-space.jpg");
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -360,7 +371,7 @@ body {
 }
 
 .card-twitter:hover {
-    background: rgba(83, 83, 161, .5) 
+    background: rgba(83, 83, 161, .5)
 }
 
 .card-linkedin:hover {
@@ -395,9 +406,8 @@ body {
 
 #link-products {
     color: #f7a66e;
-    font-size: 15px; 
+    font-size: 15px;
 }
-
 
 .approach-span {
     font-size: x-large;
@@ -422,6 +432,7 @@ body {
 
 
 /* footer css */
+
 .list-footer {
     list-style-type: none;
 }
@@ -432,7 +443,7 @@ body {
 }
 
 .list-footer a:hover {
-    color:orange;
+    color: orange;
 }
 
 .heading-footer {
@@ -487,12 +498,12 @@ body {
 }
 
 #See_latest {
-    opacity: .8; 
-    color:#f7a66e;
+    opacity: .8;
+    color: #f7a66e;
 }
 
 #See_latest:hover {
-    color:orange;
+    color: orange;
 }
 
 .work-tag {
@@ -513,21 +524,21 @@ body {
 }
 
 
-
-/* css for intern program */
+/* css for Innovation Felowship */
 
 #section-intern-fore {
     background: #eff3f9;
     color: rgb(49, 47, 47);
     height: 100vh;
 }
+
 @media only screen and (max-width: 600px) {
     #section-intern-fore {
         background: #eff3f9;
         color: rgb(49, 47, 47);
         height: 100vh;
         padding-top: 150px;
-    } 
+    }
 }
 
 .section-intern-about {
@@ -537,7 +548,7 @@ body {
 }
 
 .img-intern {
-    box-shadow:rgb(175, 191, 199) 3px 3px 5px 4px
+    box-shadow: rgb(175, 191, 199) 3px 3px 5px 4px
 }
 
 .btn-apply {
@@ -551,14 +562,14 @@ body {
 }
 
 .card-intern {
-    background: whitesmoke ;
+    background: whitesmoke;
     color: #010c16;
     padding: 20px;
     font-size: 15px;
 }
 
 .card-intern h5 {
-    font-weight: bold; 
+    font-weight: bold;
     font-size: 1.2em;
     color: rgb(49, 47, 47);
 }
@@ -600,7 +611,7 @@ body {
     border-radius: 0;
     opacity: 1;
     padding: 20px 30px;
-    background-color: transparent; 
+    background-color: transparent;
 }
 
 .line-interns {
@@ -610,7 +621,7 @@ body {
     border-radius: 10px;
     opacity: 1;
     padding: 20px 30px;
-    background-color: transparent; 
+    background-color: transparent;
     margin-left: 30px;
     margin-right: 30px;
 }
@@ -656,9 +667,9 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     opacity: 1;
-  }
+}
 
-.img-interns:hover .imghvr{
+.img-interns:hover .imghvr {
     opacity: 1;
 }
 
@@ -667,13 +678,12 @@ body {
 }
 
 
-
 /* css for power speaker series */
 
 .bg-image-fore {
-    background: linear-gradient(rgba(0, 113, 165,0.5), rgba(216, 37, 94,0.75)),url("../../img/sideview.jpeg");
-    background-size: cover; 
-    background-position: center; 
+    background: linear-gradient(rgba(0, 113, 165, 0.5), rgba(216, 37, 94, 0.75)), url("../../img/sideview.jpeg");
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 70vh;
     width: 100%
@@ -702,7 +712,7 @@ body {
     font-size: .85em;
 }
 
-.gallery{
+.gallery {
     background: #122742;
     height: auto;
 }
@@ -710,10 +720,10 @@ body {
 .img-chacon {
     height: 160px;
     width: 302px;
-    object-fit: contain;    
+    object-fit: contain;
 }
 
-.row-gallery{
+.row-gallery {
     display: none;
 }
 
@@ -728,12 +738,12 @@ body {
     color: rgb(49, 47, 47);
 }
 
-.img-sameer-evt{
+.img-sameer-evt {
     height: 306px;
     object-fit: contain;
 }
 
-.row-gallery2{
+.row-gallery2 {
     display: none;
 }
 
@@ -750,17 +760,18 @@ body {
 
 .power-subscribe {
     background: #eff3f9;
-    color: rgb(49, 47, 47); 
+    color: rgb(49, 47, 47);
     height: 40vh;
 }
 
 
 /* css for product catalogue */
+
 .bg-product-fore {
     /* background: linear-gradient(rgba(0, 113, 165,0.5), rgba(216, 37, 94,0.75)),url("../../img/ProductDev.jpg"); */
     background: url("../../img/ProductDev.jpg");
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 70vh;
     width: 100%;
@@ -782,19 +793,19 @@ body {
     height: 100%;
 }
 
-#prod-desc{
+#prod-desc {
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     font-weight: 100;
 }
 
 .beta-header {
-    background:#32af54;
+    background: #32af54;
 }
 
 .beta-desc {
     font-family: 'Lato', sans-serif;
-    color:whitesmoke;
+    color: whitesmoke;
     font-weight: bold;
     font-size: 17px;
 }
@@ -804,12 +815,12 @@ body {
 }
 
 .alpha-header {
-    background:#e8443b;
+    background: #e8443b;
 }
 
 .alpha-desc {
     font-family: 'Lato', sans-serif;
-    color:whitesmoke;
+    color: whitesmoke;
     font-weight: bold;
     font-size: 17px;
 }
@@ -825,13 +836,14 @@ body {
     border-top: 2px solid green;
     opacity: 1;
     padding: 5px;
-    background-color: transparent; 
+    background-color: transparent;
 }
 
 #subheading-projects {
     font-size: 30px;
     font-weight: bold;
 }
+
 .btn-resources {
     color: black;
     border-radius: 0;
@@ -856,8 +868,8 @@ body {
 
 .bg-vision-fore {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/Earth-From-Space.jpg");
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
@@ -881,13 +893,12 @@ body {
     color: orangered;
 }
 
-
 .future-section {
     /* background: #eff3f9; */
-    background:  linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%);
+    background: linear-gradient(to bottom, rgba(22, 22, 22, .1) 0, rgba(22, 22, 22, .5) 75%, #161616 100%);
     background: rgb(226, 217, 217);
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     object-fit: contain;
     color: #3a3a3a;
@@ -909,10 +920,11 @@ body {
 
 
 /* five year plan css */
+
 .bg-plan-fore {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/five.jpg");
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 65vh;
     width: 100%;
@@ -930,37 +942,41 @@ body {
 
 
 /* launchpad css */
+
 .bg-launchpad-fore1 {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(12, 12, 12, 0.6)), url("../../img/OfficeIAN-min.JPG");
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 45vh;
     width: 100%;
     object-fit: contain;
 }
+
 .bg-launchpad-fore2 {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(12, 12, 12, 0.6)), url("../../img/Events.jpg");
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 45vh;
     width: 100%;
     object-fit: contain;
 }
+
 .bg-launchpad-fore3 {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(12, 12, 12, 0.6)), url("../../img/Office_classes.JPG");
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 45vh;
     width: 100%;
     object-fit: contain;
 }
+
 .bg-launchpad-fore4 {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(12, 12, 12, 0.6)), url("../../img/beautiful-black.jpg");
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 45vh;
     width: 100%;
@@ -968,24 +984,26 @@ body {
 }
 
 .launchpad-content {
-    height:auto;
-    background-color:#DADEDF;
+    height: auto;
+    background-color: #DADEDF;
     color: rgb(36, 34, 34);
 }
+
 @media only screen and (max-width: 600px) {
-.launchpad-content {
-    height:auto;
-    background-color:#DADEDF;
-    color: rgb(36, 34, 34);
-}
+    .launchpad-content {
+        height: auto;
+        background-color: #DADEDF;
+        color: rgb(36, 34, 34);
+    }
 }
 
 
 /* Ecosystem catalyst css */
+
 .bg-catalyst-fore {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/Ecosystem.jpg");
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 75vh;
     width: 100%;
@@ -994,10 +1012,11 @@ body {
 
 
 /* Donation page css */
+
 .bg-donation-fore {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(12, 12, 12, 0.9)), url("../../img/interns-roundtable.JPG");
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 70vh;
     width: 100%;
@@ -1008,7 +1027,7 @@ body {
     font-size: 45px;
 }
 
-.donate-btn{
+.donate-btn {
     background: #fcd15b;
     border-radius: 50px;
     border: #fcd15b;
@@ -1061,13 +1080,13 @@ body {
 
 
 /* sticky Left headings css */
+
 .sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    padding-top:50px;
+    padding-top: 50px;
 }
-
 
 
 /* media query css */
@@ -1077,62 +1096,46 @@ body {
         font-size: 28px;
         text-align: left;
     }
-
     #Heading5 {
         font-size: 20px;
         line-height: 1.2;
-
     }
-
     #HeadingFore {
         font-size: 30px;
     }
-
     #Heading2 {
         font-size: 27px;
-        padding-top:0px !important;
-
+        padding-top: 0px !important;
     }
-
     #subheading2 {
         font-size: 21px;
     }
-
     #subheading3 {
         font-size: 21px;
         color: white !important;
     }
-
     .heading-metric {
         font-size: 23px;
     }
-
     .card-text-future1 {
         font-size: 12px !important;
     }
-
     .img-benefits {
-        height:auto;
+        height: auto;
     }
-
     #teamNames {
         font-size: 10px;
     }
-
     #teamRole {
         font-size: 10px;
     }
 }
-
 
 @media only screen and (max-width: 600px) {
     .sticky {
         position: -webkit-sticky;
         position: sticky;
         top: 0;
-        padding-top:0 !important;
+        padding-top: 0 !important;
     }
 }
-
-
-
