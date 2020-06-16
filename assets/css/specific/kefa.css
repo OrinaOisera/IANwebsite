@@ -1139,3 +1139,7 @@ body {
         padding-top: 0 !important;
     }
 }
+
+.styled-text-projects {
+    color: rgb(250, 189, 62);
+}
