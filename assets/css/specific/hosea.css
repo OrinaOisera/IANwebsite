@@ -1959,6 +1959,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 450px;
 }
 
 .diasporaimg2 {
@@ -1966,6 +1967,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 450px;
 }
 
 .diasporaimg3 {
@@ -1973,4 +1975,102 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 450px;
+}
+
+.the-solution {
+    background: rgb(250, 189, 62);
+}
+
+.diasporatxt1 {
+    background: rgb(81, 173, 85);
+    color: white;
+}
+
+.diasporatxt2 {
+    background: rgb(90, 134, 201);
+    color: white;
+}
+
+.diasporatxt3 {
+    background: rgb(235, 73, 60);
+    color: white;
+}
+
+.solntxt {
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: white;
+}
+
+.solnheader {
+    font-size: 1.75rem;
+    color: rgb(250, 189, 62);
+    font-weight: bolder;
+}
+
+.the-problem {
+    font-weight: 900;
+    font-size: 3.5rem;
+    color: black
+}
+
+.the-problem-h2 {
+    color: rgb(81, 173, 84);
+    font-size: 3rem;
+}
+
+.the-problem-h3 {
+    font-weight: 900;
+    font-size: 2rem;
+    color: black;
+    line-height: 30px;
+}
+
+.donate-txt {
+    color: white;
+    font-size: 1.5rem;
+    line-height: 25px;
+}
+
+.champion-job {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+    .mobile-only {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .desktop-only {
+        display: none !important;
+    }
+    .the-problem {
+        line-height: 3.5rem;
+        font-size: 3rem;
+    }
+    .the-problem-h2 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .diasporaimg2,
+    .diasporaimg1,
+    .diasporaimg3 {
+        height: 300px;
+    }
+    .solnheader {
+        line-height: 1.75rem;
+        font-size: 1.25rem;
+    }
+    .the-problem-h3 {
+        font-size: 1.5rem;
+    }
+    .solntxt {
+        font-size: 1rem;
+    }
 }

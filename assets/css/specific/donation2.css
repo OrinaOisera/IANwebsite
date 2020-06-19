@@ -85,12 +85,13 @@ h1 {
         right: 10% !important;
     }
     .situation {
-        font-size: 2rem !important;
+        font-size: 3rem !important;
         text-align: center !important;
         padding: 100px 0px 0px 0px;
     }
     .situationtxt {
         text-align: center !important;
+        padding-top: 20px;
     }
 }
 
@@ -115,7 +116,7 @@ h1 {
 .situation {
     color: #fabd3e;
     font-weight: bolder;
-    font-size: 3rem;
+    font-size: 3.5rem;
     display: block;
 }
 
