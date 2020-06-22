@@ -1,0 +1,167 @@
+h4 {
+    font-size: 16px !important;
+}
+
+p {
+    /*font-size: 16px !important;*/
+}
+
+h3 {
+    font-size: 1.3em !important;
+}
+
+h2 {
+    font-size: 1.69em !important;
+}
+
+h1 {
+    font-size: 2.197em !important;
+}
+
+.changewewant {
+    color: rgb(250, 189, 62);
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.solnfloatright {
+    float: right;
+}
+
+.solnfloatleft {
+    float: left;
+}
+
+.soln-img {
+    width: 100% !important;
+    height: auto;
+}
+
+.service {
+    height: 228px;
+}
+
+.clear {
+    clear: both;
+}
+
+@media screen and (max-width: 580px) {
+    .solnfloatright {
+        float: none;
+        display: block;
+    }
+    .solnfloatleft {
+        float: none;
+        display: block;
+    }
+    .soln-img {
+        width: 100% !important;
+        height: auto;
+        display: block;
+    }
+    .changewewant {
+        color: rgb(250, 189, 62);
+        ;
+        font-weight: bolder;
+        font-size: 2rem !important;
+        line-height: 35px;
+    }
+    /*.service{*/
+    /*    height: auto;*/
+    /*}*/
+    .nopadding {
+        padding: 0 !important;
+    }
+    .nopadding1 {
+        padding-top: 15px !important;
+        padding-bottom: 0px !important;
+        /*padding-left:0 !important;*/
+    }
+    .foreimage-container-2 {
+        height: 35vh !important;
+    }
+    .africangiant {
+        top: 15% !important;
+        left: 10% !important;
+        right: 10% !important;
+    }
+    .situation {
+        font-size: 3rem !important;
+        text-align: center !important;
+    }
+    .situationtxt {
+        text-align: center !important;
+        padding-top: 20px;
+    }
+}
+
+.intro-text {
+    color: black;
+    font-weight: bolder;
+}
+
+.parallax {
+    /* The image used */
+    background: linear-gradient(rgba(71, 67, 67, 0.5), rgba(12, 12, 12, 0.9)), url("../../img/Collage the situation.png");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden !important;
+}
+
+.situation {
+    color: #fabd3e;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    display: block;
+}
+
+.situationtxt {
+    color: white;
+    opacity: .8;
+    font-weight: bold;
+}
+
+.percent::after {
+    content: "%";
+}
+
+.foreimage-container-2 {
+    /* background:url("../../img/sleepinggiant.jpg"); */
+    /*background: linear-gradient(rgba(71, 67, 67, 0.5), rgba(12, 12, 12, 0.9));*/
+    background: linear-gradient(to right, #0f1722, #101722);
+    height: 100vh;
+    width: 100%;
+}
+
+.africangiant {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    z-index: 100 !important;
+}
+
+.no-js #loader {
+    display: none;
+}
+
+.js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(http://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+}

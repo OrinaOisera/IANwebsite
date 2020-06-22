@@ -1138,4 +1138,31 @@ body {
         top: 0;
         padding-top: 0 !important;
     }
+    .projects-fore-image {
+        background: url('../../img/Group\ 41.png') !important;
+    }
+}
+
+.styled-text-projects {
+    color: rgb(250, 189, 62);
+}
+
+.projects-fore-image {
+    background: url('../../img/projects/Hero Skyline.png');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.projects {
+    background: rgb(242, 242, 242);
+}
+
+.project-img {
+    width: 100%;
+}
+
+.project-txt {
+    color: black;
+    line-height: 30px;
 }
