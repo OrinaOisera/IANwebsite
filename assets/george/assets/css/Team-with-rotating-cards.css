@@ -126,6 +126,9 @@
     margin: 0;
     text-align: center !important;
     text-transform: capitalize;
+    font-weight: bold;
+    color: black;
+    opacity: .7;
 }
 
 .card-imagia .subtitle-imagia {

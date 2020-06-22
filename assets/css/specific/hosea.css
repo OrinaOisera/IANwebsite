@@ -1946,16 +1946,10 @@ html {
     .budget-card {
         background: rgba(241, 245, 21, 0.2);
     }
-    .diasporaimg2 {
-        width: 85vw !important;
-    }
-    .diasporaimg3 {
-        margin-top: 20px;
-    }
 }
 
 .diasporaimg1 {
-    background-image: url("../../img/ileaders.png");
+    background-image: url("../../img/microdonors/damaris-micodonations.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1963,7 +1957,7 @@ html {
 }
 
 .diasporaimg2 {
-    background-image: url("../../img/startups.png");
+    background-image: url("../../img/microdonors/raff-microdonations.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -2025,6 +2019,7 @@ html {
     font-size: 2rem;
     color: black;
     line-height: 30px;
+    font-family: 'Cormorant Garamond';
 }
 
 .donate-txt {
@@ -2034,10 +2029,9 @@ html {
 }
 
 .champion-job {
-    color: whitesmoke;
-    font-weight: bold;
+    color: white;
     font-size: 12px;
-    line-height: 15px;
+    line-height: 20px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -2065,12 +2059,64 @@ html {
     }
     .solnheader {
         line-height: 1.75rem;
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
     .the-problem-h3 {
         font-size: 1.5rem;
     }
     .solntxt {
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
+    .fellowcaption {
+        font-size: 1rem !important;
+        line-height: 1rem !important;
+    }
+}
+
+.champions-txt {
+    line-height: 2.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Cormorant Garamond';
+}
+
+.championame {
+    color: rgb(250, 189, 62);
+    font-weight: bold;
+}
+
+.microdonate-btn {
+    padding: 15px 80px !important;
+}
+
+.microdonate-btn-txt {
+    font-size: 1.5rem;
+    font-weight: normal;
+    border-radius: 2rem;
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    left: 0;
+    color: white;
+    padding: 20px 20px;
+    font-size: 1.25rem;
+}
+
+.Absolute-Center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fellowcaption {
+    font-family: 'Cormorant Garamond';
+    font-style: italic;
+    font-weight: 500;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
 }

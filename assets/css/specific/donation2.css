@@ -19,7 +19,7 @@ h1 {
 }
 
 .changewewant {
-    color: #5a86c9;
+    color: rgb(250, 189, 62);
     font-weight: bolder;
     font-size: 3rem;
 }
@@ -60,7 +60,8 @@ h1 {
         display: block;
     }
     .changewewant {
-        color: #5a86c9;
+        color: rgb(250, 189, 62);
+        ;
         font-weight: bolder;
         font-size: 2rem !important;
         line-height: 35px;
@@ -77,17 +78,16 @@ h1 {
         /*padding-left:0 !important;*/
     }
     .foreimage-container-2 {
-        height: 20vh !important;
+        height: 35vh !important;
     }
     .africangiant {
-        top: 10% !important;
+        top: 15% !important;
         left: 10% !important;
         right: 10% !important;
     }
     .situation {
         font-size: 3rem !important;
         text-align: center !important;
-        padding: 100px 0px 0px 0px;
     }
     .situationtxt {
         text-align: center !important;
