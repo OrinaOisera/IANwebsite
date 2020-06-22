@@ -1138,6 +1138,9 @@ body {
         top: 0;
         padding-top: 0 !important;
     }
+    .projects-fore-image {
+        background: url('../../img/Group\ 41.png') !important;
+    }
 }
 
 .styled-text-projects {
